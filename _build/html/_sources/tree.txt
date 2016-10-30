@@ -11,6 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   index
    preengagement_interactions
    intelligence_gathering
    threat_modeling
