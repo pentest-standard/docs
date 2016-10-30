@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'tree'
 
 # General information about the project.
-project = u'The Penetration Testing Execution Standard'
+project = u'pentest-standard'
 copyright = u'2016, The PTES Team'
 author = u'The PTES Team'
 

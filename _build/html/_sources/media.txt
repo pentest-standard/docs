@@ -1,3 +1,6 @@
+Media
+-----
+
 Here is some of the media releases since the birth of PTES.
 
 `Zdnet <http://www.zdnet.com.au/white-hat-standard-to-out-lazy-testers-339311763.htm>`__

@@ -1,0 +1,599 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Overview &mdash; pentest-standard 1.1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="pentest-standard 1.1 documentation" href="index.html"/>
+        <link rel="next" title="Penetration Testing Execution Standard - the FAQ" href="faq.html"/>
+        <link rel="prev" title="Purpose" href="post_exploitation.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="tree.html" class="icon icon-home"> pentest-standard
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#introduction-to-scope">Introduction to Scope</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#metrics-for-time-estimation">Metrics for Time Estimation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#scoping-meeting">Scoping Meeting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#additional-support-based-on-hourly-rate">Additional Support Based on Hourly Rate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#questionnaires">Questionnaires</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#general-questions">General Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#scope-creep">Scope Creep</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#specify-start-and-end-dates">Specify Start and End Dates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#specify-ip-ranges-and-domains">Specify IP Ranges and Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#dealing-with-third-parties">Dealing with Third Parties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#define-acceptable-social-engineering-pretexts">Define Acceptable Social Engineering Pretexts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#dos-testing">DoS Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#payment-terms">Payment Terms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#goals">Goals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#establish-lines-of-communication">Establish Lines of Communication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#emergency-contact-information">Emergency Contact Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#rules-of-engagement">Rules of Engagement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pre_engagement.html#capabilities-and-technology-in-place">Capabilities and Technology in Place</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html">General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#intelligence-gathering">Intelligence Gathering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#target-selection">Target Selection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#osint">OSINT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#covert-gathering">Covert Gathering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#footprinting">Footprinting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#identify-protection-mechanisms">Identify Protection Mechanisms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html">General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#business-asset-analysis">Business Asset Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#business-process-analysis">Business Process Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#threat-agents-community-analysis">Threat Agents/Community Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#threat-capability-analysis">Threat Capability Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#motivation-modeling">Motivation Modeling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#finding-relevant-news-of-comparable-organizations-being-compromised">Finding relevant news of comparable Organizations being compromised</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html">Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#active">Active</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#passive">Passive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#validation">Validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#research">Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html">Purpose</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html#countermeasures">Countermeasures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html#evasion">Evasion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html#precision-strike">Precision Strike</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html#customized-exploitation-avenue">Customized Exploitation Avenue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html#tailored-exploits">Tailored Exploits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html#zero-day-angle">Zero-Day Angle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html#example-avenues-of-attack">Example Avenues of Attack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html#overall-objective">Overall Objective</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html">Purpose</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#rules-of-engagement">Rules of Engagement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#infrastructure-analysis">Infrastructure Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#pillaging">Pillaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#high-value-profile-targets">High Value/Profile Targets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#data-exfiltration">Data Exfiltration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#persistence">Persistence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#further-penetration-into-infrastructure">Further Penetration Into Infrastructure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#cleanup">Cleanup</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#report-structure">Report Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#the-executive-summary">The Executive Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#technical-report">Technical Report</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Penetration Testing Execution Standard - the FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="tree.html">pentest-standard</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="tree.html">Docs</a> &raquo;</li>
+      
+    <li>Overview</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/reporting.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<p>This document is intended to define the base criteria for penetration
+testing reporting. While it is highly encouraged to use your own
+customized and branded format, the following should provide a high level
+understanding of the items required within a report as well as a
+structure for the report to provide value to the reader.</p>
+</div>
+<div class="section" id="report-structure">
+<h1>Report Structure<a class="headerlink" href="#report-structure" title="Permalink to this headline">¶</a></h1>
+<p>The report is broken down into two (2) major sections in order to
+communicate the objectives, methods, and results of the testing
+conducted to various audiences.</p>
+</div>
+<div class="section" id="the-executive-summary">
+<h1>The Executive Summary<a class="headerlink" href="#the-executive-summary" title="Permalink to this headline">¶</a></h1>
+<p>This section will communicate to the reader the specific goals of the
+Penetration Test and the high level findings of the testing exercise.
+The intended audience will be those who are in charge of the oversight
+and strategic vision of the security program as well as any members of
+the organization which may be impacted by the identified/confirmed
+threats. The executive summary should contain most if not all of the
+following sections:</p>
+<p><strong>Background:</strong></p>
+<p>The background section should explain to the reader the overall purpose
+of the test. Details on the terms identified within the Pre Engagement
+section relating to risk, countermeasures, and testing goals should be
+present to connect the reader to the overall test objectives and the
+relative results.</p>
+<p>(Example: (CLIENT) tasked with performing an internal/external
+vulnerability assessment and penetration testing of specific systems
+located in (logical area or physical location). These systems have been
+identified as (risk ranking) and contain (data classification level)
+data which, if accessed inappropriately, could cause material harm to
+(Client). In an effort to test (CLIENT’s) ability to defend against
+direct and indirect attack, executed a comprehensive network
+vulnerability scan, Vulnerability conformation( &lt;-insert attack types
+agreed upon-&gt;) exploitation of weakened services, client side attacks,
+browser side attacks (etc) The purpose of this assessment was to verify
+the effectiveness of the security controls put in place by (CLIENT) to
+secure business-critical information. This report represents the
+findings from the assessment and the associated remediation
+recommendations to help CLIENT strengthen its security posture.</p>
+<ul class="simple">
+<li>If objectives were changed during the course of the testing then all
+changes must be listed in this section of the report. Additionally,
+the letter of amendment should be included in the appendix of the
+report and linked to from this section.</li>
+</ul>
+<p><strong>Overall Posture:</strong></p>
+<p>This area will be a narrative of the overall effectiveness of the test
+and the pentesters ability to achieve the goals set forth within the pre
+engagement sessions. A brief description of the Systemic (ex. Systemic
+issue= Lacking Effective Patch Management Process vs. Symptomatic= Found
+MS08-067 missing on xyz box) issues identified through the testing
+process as well as the ability to achieve access to the goal information
+and identify a potential impact to the business.</p>
+<p><strong>Risk Ranking/Profile:</strong></p>
+<p>The overall risk ranking/profile/score will be identified and explained
+in this area. In the pre engagement section the Pentester will identify
+the scoring mechanism and the individual mechanism for tracking/grading
+risk. Various methods from FAIR, DREAD, and other custom rankings will
+be consolidated into environmental scores and defined.</p>
+<p>image:reporting-risk-scale.png</p>
+<p>The “Overall Risk Score” for the (CLIENT) is currently a Seven (7). This
+rating implies an ELEVATED risk of security controls being compromised
+with the potential for material financial losses. The consultant
+determined this risk score based on one high risk and several medium
+risk vulnerabilities, along with the success of directed attack. The
+most severe vulnerability identified was the presence of default
+passwords in the corporate public facing website which allowed access to
+a number of sensitive documents and the ability to control content on
+the device. This vulnerability could lead to theft of user accounts,
+leakage of sensitive information, or full system compromise. Several
+lesser severe vulnerabilities could lead to theft of valid account
+credentials and leakage of information.</p>
+<p><strong>General Findings:</strong></p>
+<p>The general findings will provide a synopsis of the issues found during
+the penetration test in a basic and statistical format. Graphic
+representations of the targets tested, testing results, processes,
+attack scenarios, success rates, and other trendable metrics as defined
+within the pre engagement meeting should be present. In addition, the
+cause of the issues should be presented in an easy to read format. (ex.
+A graph showing the root cause of issues exploited)</p>
+<p>image:risk-origin.png</p>
+<p>If defined within the Pre engagement exercise, this area should also
+include metrics which depict the effectiveness of the countermeasures
+within the environment. (ex.. we ran x attacks and IPS blocked y. Other
+countermeasures should also have similar metrics of design vs.
+effectiveness.)</p>
+<p><strong>Recommendation Summary:</strong></p>
+<p>The recommendation section of the report should provide the reader with
+a high level understanding of the tasks needed to resolve the risks
+identified and the general level of effort required to implement the
+resolution path suggested. This section will also identify the weighting
+mechanisms used to prioritize the order of the road map following.</p>
+<p><strong>Strategic Roadmap:</strong></p>
+<p>Roadmaps should include a prioritized plan for remediation of the
+insecure items found and should be weighed against the business
+objectives/ level of potential impact. This section should map directly
+to the goals identified as well as the threat matrix created in the
+PTES-Threat modeling section. By breaking up into predefined
+time/objective based goals, this section will create a path of action to
+follow in various increments. Example:</p>
+<p>image:roadmap1.png</p>
+<p>image:roadmap2.png</p>
+<p>image:roadmap3.png</p>
+</div>
+<div class="section" id="technical-report">
+<h1>Technical Report<a class="headerlink" href="#technical-report" title="Permalink to this headline">¶</a></h1>
+<p>This section will communicate to the reader the technical details of the
+test and all of the aspects/components agreed upon as key success
+indicators within the pre engagement exercise. The technical report
+section will describe in detail the scope, information, attack path,
+impact and remediation suggestions of the test.</p>
+<p><strong>Introduction:</strong></p>
+<p>The introduction section of the technical report is intended to be an
+initial inventory of:</p>
+<ul class="simple">
+<li>Personnel involved in the testing from both the Client and
+Penetration Testing Team</li>
+<li>Contact information</li>
+<li>Assets involved in testing</li>
+<li>Objectives of Test</li>
+<li>Scope of Test</li>
+<li>Strength of Test</li>
+<li>Approach</li>
+<li>Threat/Grading Structure</li>
+</ul>
+<p>This section should be a reference for the specific resources involved
+in the testing and the overall technical scope of the test.</p>
+<p><strong>Information Gathering:</strong></p>
+<p>Intelligence gathering and information assessment are the foundations of
+a good penetration test. The more informed the tester is about the
+environment, the better the results of the test will be. In this
+section, a number of items should be written up to show the CLIENT the
+extent of public and private information available through the execution
+of the Intelligence gathering phase of PTES. At a minimum, the results
+identified should be presented in 4 basic categories:</p>
+<p><strong>Passive Intelligence:</strong></p>
+<p>Intelligence gathered from indirect analysis such as DNS,Google dorking
+for IP/infrastructure related information. This section will focus on
+the techniques used to profile the technology in the CLIENT environment
+WITHOUT sending any traffic directly to the assets.</p>
+<p><strong>Active Intelligence:</strong></p>
+<p>This section will show the methods and results of tasks such as
+infrastructure mapping, port scanning, and architecture assessment and
+other foot printing activities. This section will focus on the
+techniques used to profile the technology in the CLIENT environment by
+sending traffic DIRECTLY to the assets.</p>
+<p><strong>Corporate Intelligence:</strong></p>
+<p>Information about the structure of the organization, business units,
+market share, vertical, and other corporate functions should be mapped
+to both business process and the previously identified physical assets
+being tested.</p>
+<p><strong>Personnel Intelligence:</strong></p>
+<p>Any and all information found during the intelligence collection phase
+which maps users to the CLIENT organization. This section should show
+the techniques used to harvest intelligence such as public/private
+employee depots, mail repositories, org charts and other items leading
+to the connection of employee/company.</p>
+<p><strong>Vulnerability Assessment:</strong></p>
+<p>Vulnerability assessment is the act of identifying the POTENTIAL
+vulnerabilities which exist in a TEST and the threat classification of
+each threat. In this section, a definition of the methods used to
+identify the vulnerability as well as the evidence/classification of the
+vulnerability should be present. In addition this section should
+include:</p>
+<ul class="simple">
+<li>Vulnerability Classification Levels</li>
+<li>Technical Vulnerabilities<ul>
+<li>OSI Layer Vulns</li>
+<li>Scanner Found</li>
+<li>Manually identified</li>
+<li>Overall Exposure</li>
+</ul>
+</li>
+<li>Logical Vulnerabilities<ul>
+<li>NON OSI Vuln</li>
+<li>Type of vuln</li>
+<li>How/Where it is found</li>
+<li>Exposure</li>
+</ul>
+</li>
+<li>Summary of Results</li>
+</ul>
+<p><strong>Exploitation/ Vulnerability Confirmation:</strong></p>
+<p>Exploitation or Vulnerability confirmation is the act of triggering the
+vulnerabilities identified in the previous sections to gain a specified
+level of access to the target asset. This section should review, in
+detail, all of the steps taken to confirm the defined vulnerability as
+well as the following:</p>
+<ul class="simple">
+<li>Exploitation Timeline</li>
+<li>Targets selected for Exploitation</li>
+<li>Exploitation Activities<ul>
+<li>Directed Attack<ul>
+<li>Target Hosts unable to be Exploited</li>
+<li>Target Hosts able to be Exploited<ul>
+<li>Individual Host Information</li>
+<li>Attacks conducted</li>
+<li>Attacks Successful</li>
+<li>Level of access Granted +escalation path</li>
+<li>Remediation<ul>
+<li>Link to Vuln section reference</li>
+<li>Additional Mitigating technique</li>
+<li>Compensating control suggestion</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Indirect Attack<ul>
+<li>Phishing<ul>
+<li>Timeline/details of attack</li>
+<li>Targets identified</li>
+<li>Success/Fail ratio</li>
+<li>Level of access granted</li>
+</ul>
+</li>
+<li>Clientside<ul>
+<li>Timeline/details of attack</li>
+<li>Targets identified</li>
+<li>Success/Fail ratio</li>
+<li>Level of access granted</li>
+</ul>
+</li>
+<li>Browser Side<ul>
+<li>Timeline/details of attack</li>
+<li>Targets identified</li>
+<li>Success/Fail ratio</li>
+<li>Level of access granted</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Post Exploitation:</strong></p>
+<p>One of the most critical items in all testing is the connection to
+ACTUAL impact on the CLIENT being tested. While the sections above relay
+the technical nature of the vulnerability and the ability to
+successfully take advantage of the flaw, the Post Exploitation section
+should tie the ability of exploitation to the actual risk to the
+business. In this area the following items should be evidenced through
+the use of screenshots, rich content retrieval, and examples of real
+world privileged user access:</p>
+<ul>
+<li><p class="first">Privilege Escalation path</p>
+<ul class="simple">
+<li>Technique used</li>
+</ul>
+</li>
+<li><p class="first">Acquisition of Critical Information Defined by client</p>
+</li>
+<li><p class="first">Value of information</p>
+</li>
+<li><p class="first">Access to core business systems</p>
+</li>
+<li><p class="first">Access to compliance protected data sets</p>
+</li>
+<li><p class="first">Additional Information/Systems Accessed</p>
+</li>
+<li><p class="first">Ability of persistence</p>
+</li>
+<li><p class="first">Ability for exfiltration</p>
+</li>
+<li><p class="first">Countermeasure Effectiveness</p>
+<blockquote>
+<div><p>This section should cover the effectiveness of countermeasures
+that are in place on the systems in scope. It should include
+sections on both active (proactive) and passive (reactive)
+countermeasures, as well as detailed information on any incident
+response activities triggered during the testing phase. A listing
+of countermeasures that were effective in resisting assessment
+activities will help the CLIENT better tune detection systems and
+processes to handle future intrusion attempts.</p>
+</div></blockquote>
+<ul class="simple">
+<li>Detection Capability<ul>
+<li>FW/WAF/IDS/IPS</li>
+<li>Human</li>
+<li>DLP</li>
+<li>Log</li>
+</ul>
+</li>
+<li>Response &amp; effectiveness</li>
+</ul>
+</li>
+</ul>
+<p><strong>Risk/Exposure:</strong></p>
+<p>Once the direct impact to the business is qualified through the evidence
+existing in the vulnerability, exploitation and post exploitation
+sections, the risk quantification can be conducted. In this section the
+results above are combined with the risk values, information
+criticality, corporate valuation, and derived business impact from the
+pre engagement section. This will give the CLIENT the ability to
+identify, visualize and monetize the vulnerabilities found throughout
+the testing and effectively weight their resolution against the CLIENTS
+business objectives. This section will cover the business risk in the
+following subsections:</p>
+<ul class="simple">
+<li>Evaluate incident frequency<ul>
+<li>probable event frequency</li>
+<li>estimate threat capability (from 3 - threat modeling)</li>
+<li>Estimate controls strength (6)</li>
+<li>Compound vulnerability (5)</li>
+<li>Level of skill required</li>
+<li>Level of access required</li>
+</ul>
+</li>
+<li>Estimate loss magnitude per incident<ul>
+<li>Primary loss</li>
+<li>Secondary loss</li>
+<li>Identify risk root cause analysis<ul>
+<li>Root Cause is never a patch</li>
+<li>Identify Failed Processes</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Derive Risk<ul>
+<li>Threat</li>
+<li>Vulnerability</li>
+<li>Overlap</li>
+</ul>
+</li>
+</ul>
+<p><strong>Conclusion:</strong></p>
+<p>Final overview of the test. It is suggested that this section echo
+portions of the overall test as well as support the growth of the CLIENT
+security posture. It should end on a positive note with the support and
+guidance to enable progress in the security program and a regimen of
+testing/security activity in the future to come.</p>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="faq.html" class="btn btn-neutral float-right" title="Penetration Testing Execution Standard - the FAQ" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="post_exploitation.html" class="btn btn-neutral" title="Purpose" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, The PTES Team.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
