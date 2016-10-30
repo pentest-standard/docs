@@ -1,3 +1,9 @@
+.. _reporting:
+
+*********
+Reporting
+*********
+
 Overview
 --------
 

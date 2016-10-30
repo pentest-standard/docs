@@ -1,5 +1,14 @@
+##########################################
+The Penetration Testing Execution Standard
+##########################################
+
+Fork Disclaimer
+---------------
+
+Note that this is an unofficial fork, the goal for which is to experiment with an alternative platform for the standard. The official PTES can be located at `<http://pentest-standard.org/>`_.
+
 High Level Organization of the Standard
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=======================================
 
 The penetration testing execution standard consists of seven (7) main
 sections. These cover everything related to a penetration test - from
@@ -29,21 +38,21 @@ gathering section.
 Following are the main sections defined by the standard as the basis for
 penetration testing execution:
 
--  `Pre-engagement Interactions <Pre-engagement>`__
--  `Intelligence Gathering <Intelligence_Gathering>`__
--  `Threat Modeling <Threat_Modeling>`__
--  `Vulnerability Analysis <Vulnerability_Analysis>`__
--  `Exploitation <exploitation>`__
--  `Post Exploitation <Post_Exploitation>`__
--  `Reporting <reporting>`__
+#. :ref:`preengagement_interactions`
+#. :ref:`intelligence_gathering`
+#. :ref:`threat_modeling`
+#. :ref:`vulnerability_analysis`
+#. :ref:`exploitation`
+#. :ref:`post_exploitation`
+#. :ref:`reporting`
 
 As the standard does not provide any technical guidelines as far as how
 to execute an actual pentest, we have also created a technical guide to
 accompany the standard itself. The technical gude can be reached via the
 link below:
 
--  `Technical Guidelines <PTES_Technical_Guidelines>`__
+* Technical Guidelines
 
 For more information on what this standard is, please visit:
 
--  `The Penetration Testing Execution Standard: FAQ <FAQ>`__
+* :ref:`faq`

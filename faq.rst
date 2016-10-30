@@ -1,5 +1,8 @@
+.. _faq:
+
+***
 FAQ
----
+***
 
 **Q**: What is this "Penetration Testing Execution Standard"?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
