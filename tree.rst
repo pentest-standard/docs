@@ -19,6 +19,7 @@ Contents:
    exploitation
    post_exploitation
    reporting
+   technical_guidelines
    faq
    media
 
