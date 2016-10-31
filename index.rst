@@ -5,14 +5,17 @@
 The Penetration Testing Execution Standard
 ##########################################
 
-Fork Disclaimer
----------------
-
-Note that this is an unofficial fork, the goal for which is to experiment with an alternative platform for the standard. The official PTES can be located at `<http://pentest-standard.org/>`_.
-
 ***************************************
 High Level Organization of the Standard
 ***************************************
+
+Fork Disclaimer
+===============
+
+Note that this is an unofficial fork, the goal for which is to experiment with an alternative platform for the standard. The official PTES can be located at `<http://pentest-standard.org/>`_.
+
+Overview
+========
 
 The penetration testing execution standard consists of seven (7) main
 sections. These cover everything related to a penetration test - from
