@@ -14,3 +14,7 @@ Hopefully the project members will like it.
 ## Original
 
 The original material comes from [pentest-standard.org](http://pentest-standard.org). It is reproduced verbatum in the [source](./source/) directory per the [GNU Free Documentation License](http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt), under which the work is licensed.
+
+## Experimental Version
+
+The RTD version can be found at [http://pentest-standard.readthedocs.io/en/latest/](http://pentest-standard.readthedocs.io/en/latest/).
