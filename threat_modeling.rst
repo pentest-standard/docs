@@ -8,7 +8,7 @@ General
 -------
 
 This section defines a threat modeling approach as required for a
-correct execution of a penetration testing. The standard does not use a
+correct execution of a penetration test. The standard does not use a
 specific model, but instead requires that the model used be consistent
 in terms of its representation of threats, their capabilities, their
 qualifications as per the organization being tested, and the ability to
