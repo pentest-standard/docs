@@ -762,8 +762,10 @@ It is not uncommon for an organization to operate in multiple locations
 and regions and a few select sites will need to be chosen for testing.
 In these situations, travel to every customer location should be
 avoided, instead, it should be determined if VPN connections to the
-sites are available for remote testing. Disclosure of Sensitive
-Information
+sites are available for remote testing.
+
+Disclosure of Sensitive Information
+-----------------------------------
 
 While one of the goals of a given engagement may be to gain access to
 sensitive information, certain information should not actually be viewed
