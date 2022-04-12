@@ -1,74 +1,37 @@
-
-
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pre-engagement Interactions &mdash; pentest-standard 1.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
-
-  
-  
-
-  
-
-  
-  
-    
-
-  
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="pentest-standard 1.1 documentation" href="index.html"/>
-        <link rel="next" title="General" href="intelligence_gathering.html"/>
-        <link rel="prev" title="Welcome to PTES’s documentation!" href="tree.html"/> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Intelligence Gathering" href="intelligence_gathering.html" />
+    <link rel="prev" title="The Penetration Testing Execution Standard" href="index.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
-
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
-          
-
-          
+        <div class="wy-side-nav-search" >
             <a href="tree.html" class="icon icon-home"> pentest-standard
-          
-
-          
           </a>
-
-          
-            
-            
               <div class="version">
                 1.1
               </div>
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -76,15 +39,9 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-                <ul class="current">
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">The Penetration Testing Execution Standard</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Pre-engagement Interactions</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#introduction-to-scope">Introduction to Scope</a></li>
@@ -111,6 +68,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#dealing-with-third-parties">Dealing with Third Parties</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#cloud-services">Cloud Services</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#isp">ISP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#web-hosting">Web Hosting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#mssps">MSSPs</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#countries-where-servers-are-hosted">Countries Where Servers are Hosted</a></li>
 </ul>
@@ -140,6 +98,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#rules-of-engagement">Rules of Engagement</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#timeline">Timeline</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#locations">Locations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#disclosure-of-sensitive-information">Disclosure of Sensitive Information</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#evidence-handling">Evidence Handling</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#regular-status-meetings">Regular Status Meetings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#time-of-the-day-to-test">Time of the Day to Test</a></li>
@@ -151,96 +110,44 @@
 <li class="toctree-l2"><a class="reference internal" href="#capabilities-and-technology-in-place">Capabilities and Technology in Place</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html">General</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#intelligence-gathering">Intelligence Gathering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#target-selection">Target Selection</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#osint">OSINT</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#covert-gathering">Covert Gathering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#footprinting">Footprinting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html#identify-protection-mechanisms">Identify Protection Mechanisms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html">General</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#business-asset-analysis">Business Asset Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#business-process-analysis">Business Process Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#threat-agents-community-analysis">Threat Agents/Community Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#threat-capability-analysis">Threat Capability Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#motivation-modeling">Motivation Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#finding-relevant-news-of-comparable-organizations-being-compromised">Finding relevant news of comparable Organizations being compromised</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html">Testing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#active">Active</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#passive">Passive</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#validation">Validation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#research">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html">Purpose</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#countermeasures">Countermeasures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#evasion">Evasion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#precision-strike">Precision Strike</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#customized-exploitation-avenue">Customized Exploitation Avenue</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#tailored-exploits">Tailored Exploits</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#zero-day-angle">Zero-Day Angle</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#example-avenues-of-attack">Example Avenues of Attack</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#overall-objective">Overall Objective</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html">Purpose</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#rules-of-engagement">Rules of Engagement</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#infrastructure-analysis">Infrastructure Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#pillaging">Pillaging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#high-value-profile-targets">High Value/Profile Targets</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#data-exfiltration">Data Exfiltration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#persistence">Persistence</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#further-penetration-into-infrastructure">Further Penetration Into Infrastructure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#cleanup">Cleanup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="reporting.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="reporting.html#report-structure">Report Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="reporting.html#the-executive-summary">The Executive Summary</a></li>
-<li class="toctree-l1"><a class="reference internal" href="reporting.html#technical-report">Technical Report</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html">Intelligence Gathering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html">Threat Modeling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html">Vulnerability Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html">Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html">Post Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporting.html">Reporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="technical_guidelines.html">PTES Technical Guidelines</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="media.html">Media</a></li>
 </ul>
 
-            
-          
         </div>
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="tree.html">pentest-standard</a>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="tree.html">pentest-standard</a>
       </nav>
 
-
-      
       <div class="wy-nav-content">
         <div class="rst-content">
-          
-
- 
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="tree.html">Docs</a> &raquo;</li>
-      
-    <li>Pre-engagement Interactions</li>
+      <li><a href="tree.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Pre-engagement Interactions</li>
       <li class="wy-breadcrumbs-aside">
-        
-          
-            <a href="_sources/preengagement_interactions.txt" rel="nofollow"> View page source</a>
-          
-        
+            <a href="_sources/preengagement_interactions.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
-  <div class="section" id="pre-engagement-interactions">
+             
+  <section id="pre-engagement-interactions">
 <span id="preengagement-interactions"></span><h1>Pre-engagement Interactions<a class="headerlink" href="#pre-engagement-interactions" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="overview">
+<section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <p>The aim of this section of the PTES is to present and explain the tools
 and techniques available which aid in a successful pre-engagement step
@@ -251,14 +158,14 @@ penetration testers in the world.</p>
 going to the General Questions section of this document. It covers the
 major questions that should be answered before a test begins. Remember,
 a penetration test should not be confrontational. It should not be an
-activity to see if the tester can &#8220;hack&#8221; you. It should be about
+activity to see if the tester can “hack” you. It should be about
 identifying the business risk associated with and attack.</p>
 <p>To get maximum value, make sure the questions in this document are
 covered. Further, as the Scoping activity progresses, a good testing
 firm will start to ask additional questions tailored to your
 organization.</p>
-</div>
-<div class="section" id="introduction-to-scope">
+</section>
+<section id="introduction-to-scope">
 <h2>Introduction to Scope<a class="headerlink" href="#introduction-to-scope" title="Permalink to this headline">¶</a></h2>
 <p>Defining scope is arguably one of the most important components of a
 penetration test, yet it is also one of the most overlooked. While many
@@ -294,8 +201,8 @@ customer. The tester must understand the difference between a test which
 focuses on a single application with severe intensity and a test where
 the client provides a wide range of IP addresses to test and the goal is
 to simply find a way in.</p>
-</div>
-<div class="section" id="metrics-for-time-estimation">
+</section>
+<section id="metrics-for-time-estimation">
 <h2>Metrics for Time Estimation<a class="headerlink" href="#metrics-for-time-estimation" title="Permalink to this headline">¶</a></h2>
 <p>Time estimations are directly tied to the experience of a tester in a
 certain area. If a tester has significant experience in a certain test,
@@ -332,8 +239,8 @@ difficult time doing this because they feel they are being too much of a
 pain when it comes to cost and hours. However, it has been the
 experience of the author that if you provide exceptional value for the
 main test the customer will not balk at paying you for additional work.</p>
-</div>
-<div class="section" id="scoping-meeting">
+</section>
+<section id="scoping-meeting">
 <h2>Scoping Meeting<a class="headerlink" href="#scoping-meeting" title="Permalink to this headline">¶</a></h2>
 <p>In many cases the scoping meeting will occur after the contract has been
 signed. Situations do occur wherein many of the scope-related topics can
@@ -370,8 +277,8 @@ instance, countries belonging to the European Union are well known to
 have very stringent laws surrounding the privacy of individuals, which
 can significantly change the manner in which a social engineering
 engagement would be executed.</p>
-</div>
-<div class="section" id="additional-support-based-on-hourly-rate">
+</section>
+<section id="additional-support-based-on-hourly-rate">
 <h2>Additional Support Based on Hourly Rate<a class="headerlink" href="#additional-support-based-on-hourly-rate" title="Permalink to this headline">¶</a></h2>
 <p>Anything that is not explicitly covered within the scope of the
 engagement should be handled very carefully. The first reason for this
@@ -390,8 +297,8 @@ We also recommend that it be clearly stated in the contract that
 additional work will be done for a flat fee per hour and explicitly
 state that additional work can not be completed until a signed and
 counter-signed SOW is in place.</p>
-</div>
-<div class="section" id="questionnaires">
+</section>
+<section id="questionnaires">
 <h2>Questionnaires<a class="headerlink" href="#questionnaires" title="Permalink to this headline">¶</a></h2>
 <p>During initial communications with the customer there are several
 questions which the client will have to answer in order for the
@@ -401,128 +308,139 @@ out of the penetration test, why the client is looking to have a
 penetration test performed against their environment, and whether or not
 they want certain types of tests performed during the penetration test.
 The following are sample questions which may be asked during this phase.</p>
-</div>
-<div class="section" id="general-questions">
+</section>
+<section id="general-questions">
 <h2>General Questions<a class="headerlink" href="#general-questions" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="network-penetration-test">
+<section id="network-penetration-test">
 <h3>Network Penetration Test<a class="headerlink" href="#network-penetration-test" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Why is the customer having the penetration test performed against
-their environment?</li>
-<li>Is the penetration test required for a specific compliance
-requirement?</li>
-<li>When does the customer want the active portions (scanning,
-enumeration, exploitation, etc...) of the penetration test conducted?<ol class="arabic">
-<li>During business hours?</li>
-<li>After business hours?</li>
-<li>On the weekends?</li>
+<li><p>Why is the customer having the penetration test performed against
+their environment?</p></li>
+<li><p>Is the penetration test required for a specific compliance
+requirement?</p></li>
+<li><p>When does the customer want the active portions (scanning,
+enumeration, exploitation, etc…) of the penetration test conducted?</p>
+<ol class="arabic simple">
+<li><p>During business hours?</p></li>
+<li><p>After business hours?</p></li>
+<li><p>On the weekends?</p></li>
 </ol>
 </li>
-<li>How many total IP addresses are being tested?<ol class="arabic">
-<li>How many internal IP addresses, if applicable?</li>
-<li>How many external IP addresses, if applicable?</li>
+<li><p>How many total IP addresses are being tested?</p>
+<ol class="arabic simple">
+<li><p>How many internal IP addresses, if applicable?</p></li>
+<li><p>How many external IP addresses, if applicable?</p></li>
 </ol>
 </li>
-<li>Are there any devices in place that may impact the results of a
+<li><p>Are there any devices in place that may impact the results of a
 penetration test such as a firewall, intrusion detection/prevention
-system, web application firewall, or load balancer?</li>
-<li>In the case that a system is penetrated, how should the testing team
-proceed?<ol class="arabic">
-<li>Perform a local vulnerability assessment on the compromised
-machine?</li>
-<li>Attempt to gain the highest privileges (root on Unix machines,
+system, web application firewall, or load balancer?</p></li>
+<li><p>In the case that a system is penetrated, how should the testing team
+proceed?</p>
+<ol class="arabic simple">
+<li><p>Perform a local vulnerability assessment on the compromised
+machine?</p></li>
+<li><p>Attempt to gain the highest privileges (root on Unix machines,
 SYSTEM or Administrator on Windows machines) on the compromised
-machine?</li>
-<li>Perform no, minimal, dictionary, or exhaustive password attacks
+machine?</p></li>
+<li><p>Perform no, minimal, dictionary, or exhaustive password attacks
 against local password hashes obtained (for example, /etc/shadow
-on Unix machines)?</li>
+on Unix machines)?</p></li>
 </ol>
 </li>
 </ol>
-</div>
-<div class="section" id="web-application-penetration-test">
+</section>
+<section id="web-application-penetration-test">
 <h3>Web Application Penetration Test<a class="headerlink" href="#web-application-penetration-test" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>How many web applications are being assessed?</li>
-<li>How many login systems are being assessed?</li>
-<li>How many static pages are being assessed? (approximate)</li>
-<li>How many dynamic pages are being assessed? (approximate)</li>
-<li>Will the source code be made readily available?</li>
-<li>Will there be any kind of documentation?<ol class="arabic">
-<li>If yes, what kind of documentation?</li>
+<li><p>How many web applications are being assessed?</p></li>
+<li><p>How many login systems are being assessed?</p></li>
+<li><p>How many static pages are being assessed? (approximate)</p></li>
+<li><p>How many dynamic pages are being assessed? (approximate)</p></li>
+<li><p>Will the source code be made readily available?</p></li>
+<li><p>Will there be any kind of documentation?</p>
+<ol class="arabic simple">
+<li><p>If yes, what kind of documentation?</p></li>
 </ol>
 </li>
-<li>Will static analysis be performed on this application?</li>
-<li>Does the client want fuzzing performed against this application?</li>
-<li>Does the client want role-based testing performed against this
-application?</li>
-<li>Does the client want credentialed scans of web applications
-performed?</li>
+<li><p>Will static analysis be performed on this application?</p></li>
+<li><p>Does the client want fuzzing performed against this application?</p></li>
+<li><p>Does the client want role-based testing performed against this
+application?</p></li>
+<li><p>Does the client want credentialed scans of web applications
+performed?</p></li>
 </ol>
-</div>
-<div class="section" id="wireless-network-penetration-test">
+</section>
+<section id="wireless-network-penetration-test">
 <h3>Wireless Network Penetration Test<a class="headerlink" href="#wireless-network-penetration-test" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>How many wireless networks are in place?</li>
-<li>Is a guest wireless network used? If so:<ol class="arabic">
-<li>Does the guest network require authentication?</li>
-<li>What type of encryption is used on the wireless networks?</li>
-<li>What is the square footage of coverage?</li>
-<li>Will enumeration of rogue devices be necessary?</li>
-<li>Will the team be assessing wireless attacks against clients?</li>
-<li>Approximately how many clients will be using the wireless network?</li>
+<li><p>How many wireless networks are in place?</p></li>
+<li><p>Is a guest wireless network used? If so:</p>
+<ol class="arabic simple">
+<li><p>Does the guest network require authentication?</p></li>
+<li><p>What type of encryption is used on the wireless networks?</p></li>
+<li><p>What is the square footage of coverage?</p></li>
+<li><p>Will enumeration of rogue devices be necessary?</p></li>
+<li><p>Will the team be assessing wireless attacks against clients?</p></li>
+<li><p>Approximately how many clients will be using the wireless network?</p></li>
 </ol>
 </li>
 </ol>
-</div>
-<div class="section" id="physical-penetration-test">
+</section>
+<section id="physical-penetration-test">
 <h3>Physical Penetration Test<a class="headerlink" href="#physical-penetration-test" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>How many locations are being assessed?</li>
-<li>Is this physical location a shared facility? If so:<ol class="arabic">
-<li>How many floors are in scope?</li>
-<li>Which floors are in scope?</li>
+<li><p>How many locations are being assessed?</p></li>
+<li><p>Is this physical location a shared facility? If so:</p>
+<ol class="arabic simple">
+<li><p>How many floors are in scope?</p></li>
+<li><p>Which floors are in scope?</p></li>
 </ol>
 </li>
-<li>Are there any security guards that will need to be bypassed? If so:<ol class="arabic">
-<li>Are the security guards employed through a 3rd party?</li>
-<li>Are they armed?</li>
-<li>Are they allowed to use force?</li>
+<li><p>Are there any security guards that will need to be bypassed? If so:</p>
+<ol class="arabic simple">
+<li><p>Are the security guards employed through a 3rd party?</p></li>
+<li><p>Are they armed?</p></li>
+<li><p>Are they allowed to use force?</p></li>
 </ol>
 </li>
-<li>How many entrances are there into the building?</li>
-<li>Is the use of lock picks or bump keys allowed? (also consider local
-laws)</li>
-<li>Is the purpose of this test to verify compliance with existing
-policies and procedures or for performing an audit?</li>
-<li>What is the square footage of the area in scope?</li>
-<li>Are all physical security measures documented?</li>
-<li>Are video cameras being used?<ol class="arabic">
-<li>Are the cameras client-owned? If so:<ol class="arabic">
-<li>Should the team attempt to gain access to where the video
-camera data is stored?</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>Is there an armed alarm system being used? If so:<ol class="arabic">
-<li>Is the alarm a silent alarm?</li>
-<li>Is the alarm triggered by motion?</li>
-<li>Is the alarm triggered by opening of doors and windows?</li>
+<li><p>How many entrances are there into the building?</p></li>
+<li><p>Is the use of lock picks or bump keys allowed? (also consider local
+laws)</p></li>
+<li><p>Is the purpose of this test to verify compliance with existing
+policies and procedures or for performing an audit?</p></li>
+<li><p>What is the square footage of the area in scope?</p></li>
+<li><p>Are all physical security measures documented?</p></li>
+<li><p>Are video cameras being used?</p>
+<ol class="arabic simple">
+<li><p>Are the cameras client-owned? If so:</p>
+<ol class="arabic simple">
+<li><p>Should the team attempt to gain access to where the video
+camera data is stored?</p></li>
 </ol>
 </li>
 </ol>
-</div>
-<div class="section" id="social-engineering">
+</li>
+<li><p>Is there an armed alarm system being used? If so:</p>
+<ol class="arabic simple">
+<li><p>Is the alarm a silent alarm?</p></li>
+<li><p>Is the alarm triggered by motion?</p></li>
+<li><p>Is the alarm triggered by opening of doors and windows?</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="social-engineering">
 <h3>Social Engineering<a class="headerlink" href="#social-engineering" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Does the client have a list of email addresses they would like a
-Social Engineering attack to be performed against?</li>
-<li>Does the client have a list of phone numbers they would like a Social
-Engineering attack to be performed against?</li>
-<li>Is Social Engineering for the purpose of gaining unauthorized
-physical access approved? If so:<ol class="arabic">
-<li>How many people will be targeted?</li>
+<li><p>Does the client have a list of email addresses they would like a
+Social Engineering attack to be performed against?</p></li>
+<li><p>Does the client have a list of phone numbers they would like a Social
+Engineering attack to be performed against?</p></li>
+<li><p>Is Social Engineering for the purpose of gaining unauthorized
+physical access approved? If so:</p>
+<ol class="arabic simple">
+<li><p>How many people will be targeted?</p></li>
 </ol>
 </li>
 </ol>
@@ -530,38 +448,38 @@ physical access approved? If so:<ol class="arabic">
 questions for Business Unit Managers, Systems Administrators, and Help
 Desk Personnel may not be required. However, in the case these questions
 are necessary, some sample questions can be found below.</p>
-</div>
-<div class="section" id="questions-for-business-unit-managers">
+</section>
+<section id="questions-for-business-unit-managers">
 <h3>Questions for Business Unit Managers<a class="headerlink" href="#questions-for-business-unit-managers" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Is the manager aware that a test is about to be performed?</li>
-<li>What is the main datum that would create the greatest risk to the
-organization if exposed, corrupted, or deleted?</li>
-<li>Are testing and validation procedures to verify that business
-applications are functioning properly in place?</li>
-<li>Will the testers have access to the Quality Assurance testing
-procedures from when the application was first developed?</li>
-<li>Are Disaster Recovery Procedures in place for the application data?</li>
+<li><p>Is the manager aware that a test is about to be performed?</p></li>
+<li><p>What is the main datum that would create the greatest risk to the
+organization if exposed, corrupted, or deleted?</p></li>
+<li><p>Are testing and validation procedures to verify that business
+applications are functioning properly in place?</p></li>
+<li><p>Will the testers have access to the Quality Assurance testing
+procedures from when the application was first developed?</p></li>
+<li><p>Are Disaster Recovery Procedures in place for the application data?</p></li>
 </ol>
-</div>
-<div class="section" id="questions-for-systems-administrators">
+</section>
+<section id="questions-for-systems-administrators">
 <h3>Questions for Systems Administrators<a class="headerlink" href="#questions-for-systems-administrators" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Are there any systems which could be characterized as fragile?
+<li><p>Are there any systems which could be characterized as fragile?
 (systems with tendencies to crash, older operating systems, or which
-are unpatched)</li>
-<li>Are there systems on the network which the client does not own, that
-may require additional approval to test?</li>
-<li>Are Change Management procedures in place?</li>
-<li>What is the mean time to repair systems outages?</li>
-<li>Is any system monitoring software in place?</li>
-<li>What are the most critical servers and applications?</li>
-<li>Are backups tested on a regular basis?</li>
-<li>When was the last time the backups were restored?</li>
+are unpatched)</p></li>
+<li><p>Are there systems on the network which the client does not own, that
+may require additional approval to test?</p></li>
+<li><p>Are Change Management procedures in place?</p></li>
+<li><p>What is the mean time to repair systems outages?</p></li>
+<li><p>Is any system monitoring software in place?</p></li>
+<li><p>What are the most critical servers and applications?</p></li>
+<li><p>Are backups tested on a regular basis?</p></li>
+<li><p>When was the last time the backups were restored?</p></li>
 </ol>
-</div>
-</div>
-<div class="section" id="scope-creep">
+</section>
+</section>
+<section id="scope-creep">
 <h2>Scope Creep<a class="headerlink" href="#scope-creep" title="Permalink to this headline">¶</a></h2>
 <p>Scope creep is one of the most efficient ways to put a penetration
 testing firm out of business. The issue is that many companies and
@@ -581,8 +499,8 @@ firm avoided the costs of acquiring the customer such as the formal RFP
 process and hunting for the customer itself. Further, the best source
 for future work is through existing customers. Treat them well and they
 will return.</p>
-</div>
-<div class="section" id="specify-start-and-end-dates">
+</section>
+<section id="specify-start-and-end-dates">
 <h2>Specify Start and End Dates<a class="headerlink" href="#specify-start-and-end-dates" title="Permalink to this headline">¶</a></h2>
 <p>Another key component defeating scope creep is explicitly stating start
 and end dates. This allows the project to have definite end. One of the
@@ -600,8 +518,8 @@ an extension, always allow this with the condition that payment be
 fulfilled at the originally specified date. Finally, and most
 importantly, perform a quality retest. Remember, the best source for
 future work is your existing customer base.</p>
-</div>
-<div class="section" id="specify-ip-ranges-and-domains">
+</section>
+<section id="specify-ip-ranges-and-domains">
 <h2>Specify IP Ranges and Domains<a class="headerlink" href="#specify-ip-ranges-and-domains" title="Permalink to this headline">¶</a></h2>
 <p>Before starting a penetration test, all targets must be identified.
 These targets should be obtained from the customer during the initial
@@ -614,7 +532,7 @@ IDS/IPS or networking equipment that are between the tester and the
 final target are also part of the scope. Additional elements such as
 upstream providers, and other 3rd party providers should be identified
 and defined whether they are in scope or not.</p>
-<div class="section" id="validate-ranges">
+<section id="validate-ranges">
 <h3>Validate Ranges<a class="headerlink" href="#validate-ranges" title="Permalink to this headline">¶</a></h3>
 <p>It is imperative that before you start to attack the targets you
 validate that they are in fact owned by the customer you are performing
@@ -622,9 +540,9 @@ the test against. Think of the legal consequences you may run into if
 you start attacking a machine and successfully penetrate it only to find
 out later down the line that the machine actually belongs to another
 organization (such as a hospital or government agency).</p>
-</div>
-</div>
-<div class="section" id="dealing-with-third-parties">
+</section>
+</section>
+<section id="dealing-with-third-parties">
 <h2>Dealing with Third Parties<a class="headerlink" href="#dealing-with-third-parties" title="Permalink to this headline">¶</a></h2>
 <p>There are a number of situations where an engagement will include
 testing a service or an application that is being hosted by a third
@@ -635,7 +553,7 @@ not speak for their third party providers. Thus, permission must be
 obtained from them as well in order to test the hosted systems. Failing
 to obtain the proper permissions brings with it, as always, the
 possibility of violating the law, which can cause endless headaches.</p>
-<div class="section" id="cloud-services">
+<section id="cloud-services">
 <h3>Cloud Services<a class="headerlink" href="#cloud-services" title="Permalink to this headline">¶</a></h3>
 <p>The single biggest issue with testing cloud service is there is data
 from multiple different organizations stored on one physical medium.
@@ -649,23 +567,26 @@ impact the other cloud customers. Some cloud providers have specific
 procedures for penetration testers to follow, and may require request
 forms, scheduling or explicit permission from them before testing can
 begin.</p>
-</div>
-<div class="section" id="isp">
+</section>
+<section id="isp">
 <h3>ISP<a class="headerlink" href="#isp" title="Permalink to this headline">¶</a></h3>
 <p>Verify the ISP terms of service with the customer. In many commercial
 situations the ISP will have specific provisions for testing. Review
 these terms carefully before launching an attack. There are situations
 where ISPs will shun and block certain traffic which is considered
 malicious. The customer may approve this risk, but it must always be
-clearly communicated before beginning. Web Hosting As with all other
-third parties, the scope and timing of the test needs to be clearly
-communicated with the web hosting provider. Also, when communicating
-with the client, be sure to clearly articulate the test will only be in
-search of web vulnerabilities. The test will not uncover vulnerabilities
-in the underlying infrastructure which may still provide an avenue to
-compromise the application.</p>
-</div>
-<div class="section" id="mssps">
+clearly communicated before beginning.</p>
+</section>
+<section id="web-hosting">
+<h3>Web Hosting<a class="headerlink" href="#web-hosting" title="Permalink to this headline">¶</a></h3>
+<p>As with all other third parties, the scope and timing of the test needs
+to be clearly communicated with the web hosting provider. Also, when
+communicating with the client, be sure to clearly articulate the test
+will only be in search of web vulnerabilities. The test will not uncover
+vulnerabilities in the underlying infrastructure which may still provide
+an avenue to compromise the application.</p>
+</section>
+<section id="mssps">
 <h3>MSSPs<a class="headerlink" href="#mssps" title="Permalink to this headline">¶</a></h3>
 <p>Managed Security Service Providers also may need to be notified of
 testing. Specifically, they will need to be notified when the systems
@@ -676,8 +597,8 @@ certainly not in the best interest of the integrity of the test for the
 MSSP to be notified. As a general rule of thumb, any time a device or
 service explicitly owned by the MSSP is being tested they will need to
 be notified.</p>
-</div>
-<div class="section" id="countries-where-servers-are-hosted">
+</section>
+<section id="countries-where-servers-are-hosted">
 <h3>Countries Where Servers are Hosted<a class="headerlink" href="#countries-where-servers-are-hosted" title="Permalink to this headline">¶</a></h3>
 <p>It is also in the best interests of the tester to verify the countries
 where servers are being housed. After you have validated the country,
@@ -689,9 +610,9 @@ its testers. It is the responsibility of each tester to verify the laws
 for each region they are testing in before they begin testing because it
 will be the tester who ultimately will have to answer for any
 transgressions.</p>
-</div>
-</div>
-<div class="section" id="define-acceptable-social-engineering-pretexts">
+</section>
+</section>
+<section id="define-acceptable-social-engineering-pretexts">
 <h2>Define Acceptable Social Engineering Pretexts<a class="headerlink" href="#define-acceptable-social-engineering-pretexts" title="Permalink to this headline">¶</a></h2>
 <p>Many organizations will want their security posture tested in a way
 which is aligned with current attacks. Social engineering and
@@ -701,8 +622,8 @@ drugs, and rock and roll (porn, Viagra, and free iPods respectively)
 some of these pretexts may not be acceptable in a corporate environment.
 Be sure that any pretexts chosen for the test are approved in writing
 before testing is to begin.</p>
-</div>
-<div class="section" id="dos-testing">
+</section>
+<section id="dos-testing">
 <h2>DoS Testing<a class="headerlink" href="#dos-testing" title="Permalink to this headline">¶</a></h2>
 <p>Stress testing or Denial of Service testing should be discussed before
 the engagement begins. It can be a topic that many organizations are
@@ -713,8 +634,8 @@ if the organization is also worried about the availability of their
 services, then the stress testing should be conducted in a
 non-production environment which is identical to the production
 environment.</p>
-</div>
-<div class="section" id="payment-terms">
+</section>
+<section id="payment-terms">
 <h2>Payment Terms<a class="headerlink" href="#payment-terms" title="Permalink to this headline">¶</a></h2>
 <p>Another aspect of preparing for a test that many testers completely
 forget about is how they should be paid. Just like contract dates there
@@ -725,34 +646,34 @@ definitely recommended that each organization create and tweak their own
 pricing structure to more aptly suit the needs of their clients and
 themselves. The important thing is that some sort of structure be in
 place before testing begins.</p>
-<div class="section" id="net-30">
+<section id="net-30">
 <h3>Net 30<a class="headerlink" href="#net-30" title="Permalink to this headline">¶</a></h3>
 <p>The total amount is due within 30 days of the delivery of the final
 report. This is usually associated with a per month percentage penalty
 for non-payment. This can be any number of days you wish to grant your
 customers (i.e. 45, or 60).</p>
-</div>
-<div class="section" id="half-upfront">
+</section>
+<section id="half-upfront">
 <h3>Half Upfront<a class="headerlink" href="#half-upfront" title="Permalink to this headline">¶</a></h3>
 <p>It is not uncommon to require half of the total bill upfront before
 testing begins. This is very common for longer-term engagements.</p>
-</div>
-<div class="section" id="recurring">
+</section>
+<section id="recurring">
 <h3>Recurring<a class="headerlink" href="#recurring" title="Permalink to this headline">¶</a></h3>
 <p>A recurring payment schedule is more commonly used for long-term
 engagements. For example, some engagements may span as far as a year or
 two. It is not at all uncommon to have the customer pay in regular
 installments throughout the year.</p>
-</div>
-</div>
-<div class="section" id="goals">
+</section>
+</section>
+<section id="goals">
 <h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
 <p>Every penetration test should be goal-oriented. This is to say that the
 purpose of the test is to identify specific vulnerabilities that lead to
 a compromise of the business or mission objectives of the customer. It
 is not about finding un-patched systems. It is about identifying risk
 that will adversely impact the organization.</p>
-<div class="section" id="primary">
+<section id="primary">
 <h3>Primary<a class="headerlink" href="#primary" title="Permalink to this headline">¶</a></h3>
 <p>The primary goal of a test should not be driven by compliance. There are
 a number of different justifications for this reasoning. First,
@@ -766,8 +687,8 @@ in a competitive market will have the greatest impact if compromised.
 Credit card systems being compromised would certainly be a serious
 issue, but credit cards numbers, along with all of the associated
 customer data being leaked would be catastrophic.</p>
-</div>
-<div class="section" id="secondary">
+</section>
+<section id="secondary">
 <h3>Secondary<a class="headerlink" href="#secondary" title="Permalink to this headline">¶</a></h3>
 <p>The secondary goals are directly related to compliance. It is not
 uncommon for primary and secondary goals to be very closely related. For
@@ -776,8 +697,8 @@ cards is the secondary goal. Tying that breach of data to the business
 or mission drivers of the organization is the primary goal. Secondary
 goals mean something for compliance and/or IT. Primary goals get the
 attention of upper management.</p>
-</div>
-<div class="section" id="business-analysis">
+</section>
+<section id="business-analysis">
 <h3>Business Analysis<a class="headerlink" href="#business-analysis" title="Permalink to this headline">¶</a></h3>
 <p>Before performing a penetration test it is beneficial to determine the
 maturity level of the client’s security posture. There are a number of
@@ -797,10 +718,10 @@ information about vulnerabilities which are already documented. This
 will save the testers time and save the client money by not overlapping
 testing discoveries with known issues. Likewise, a full or partial
 white-box test may bring the customer more value than a black-box test,
-if it isn&#8217;t absolutely required by compliance.</p>
-</div>
-</div>
-<div class="section" id="establish-lines-of-communication">
+if it isn’t absolutely required by compliance.</p>
+</section>
+</section>
+<section id="establish-lines-of-communication">
 <h2>Establish Lines of Communication<a class="headerlink" href="#establish-lines-of-communication" title="Permalink to this headline">¶</a></h2>
 <p>One of the most important aspects of any penetration test is
 communication with the customer. How often you interact with the
@@ -808,8 +729,8 @@ customer, and the manner in which you approach them, can make a huge
 difference in their feeling of satisfaction. Below is a communication
 framework that will aid in making the customer feel comfortable about
 the test activities.</p>
-</div>
-<div class="section" id="emergency-contact-information">
+</section>
+<section id="emergency-contact-information">
 <h2>Emergency Contact Information<a class="headerlink" href="#emergency-contact-information" title="Permalink to this headline">¶</a></h2>
 <p>Obviously, being able to get in touch with the customer or target
 organization in an emergency is vital. Emergencies may arise, and a
@@ -820,14 +741,14 @@ emergency contact list should be shared with all those on the list. Keep
 in mind, the target organization may not be the customer.</p>
 <p>Gather the following information about each emergency contact:</p>
 <ol class="arabic simple">
-<li>Full name</li>
-<li>Title and operational responsibility</li>
-<li>Authorization to discuss details of the testing activities, if not
-already specified</li>
-<li>Two forms of 24/7 immediate contact, such as cell phone, pager, or
-home phone, if possible</li>
-<li>One form of secure bulk data transfer, such as SFTP or encrypted
-email</li>
+<li><p>Full name</p></li>
+<li><p>Title and operational responsibility</p></li>
+<li><p>Authorization to discuss details of the testing activities, if not
+already specified</p></li>
+<li><p>Two forms of 24/7 immediate contact, such as cell phone, pager, or
+home phone, if possible</p></li>
+<li><p>One form of secure bulk data transfer, such as SFTP or encrypted
+email</p></li>
 </ol>
 <p>Note: The number for a group such as the help desk or operations center
 can replace one emergency contact, but only if it is staffed 24/7. The
@@ -837,11 +758,11 @@ customer and targets need to be made available, but they may also need
 to contact the testers in an emergency. The list should preferably
 include the following people:</p>
 <ol class="arabic simple">
-<li>All penetration testers in the test group for the engagement</li>
-<li>The manager of the test group</li>
-<li>Two technical contacts at each target organization</li>
-<li>Two technical contacts at the customer</li>
-<li>One upper management or business contact at the customer</li>
+<li><p>All penetration testers in the test group for the engagement</p></li>
+<li><p>The manager of the test group</p></li>
+<li><p>Two technical contacts at each target organization</p></li>
+<li><p>Two technical contacts at the customer</p></li>
+<li><p>One upper management or business contact at the customer</p></li>
 </ol>
 <p>It is possible that there will be some overlap in the above list. For
 instance, the target organization may be the customer, the test group’s
@@ -849,7 +770,7 @@ manager may also be performing the penetration test, or a customer’s
 technical contact may be in upper management. It is also recommended to
 define a single contact person per involved party who leads it and takes
 responsibility on behalf of it.</p>
-<div class="section" id="incident-reporting-process">
+<section id="incident-reporting-process">
 <h3>Incident Reporting Process<a class="headerlink" href="#incident-reporting-process" title="Permalink to this headline">¶</a></h3>
 <p>Discussing the organization’s current incident response capabilities is
 important to do before an engagement for several reasons. Part of a
@@ -862,8 +783,8 @@ someone at the target organization is aware of when the tests are being
 conducted so the incident response team does not start to call every
 member of upper management in the middle of the night because they
 thought they were under attack or compromised.</p>
-</div>
-<div class="section" id="incident-definition">
+</section>
+<section id="incident-definition">
 <h3>Incident Definition<a class="headerlink" href="#incident-definition" title="Permalink to this headline">¶</a></h3>
 <p>The National Institute of Standards and Technology (NIST) defines an
 incident as follows: “a violation or imminent threat of violation of
@@ -873,8 +794,8 @@ Special Publication 800-61 Rev 1). An incident can also occur on a
 physical level, wherein a person gain unauthorized physical access to an
 area by any means. The target organization should have different
 categories and levels for different types of incidents.</p>
-</div>
-<div class="section" id="status-report-frequency">
+</section>
+<section id="status-report-frequency">
 <h3>Status Report Frequency<a class="headerlink" href="#status-report-frequency" title="Permalink to this headline">¶</a></h3>
 <p>The frequency of status reporting can vary widely. Some factors which
 influence the reporting schedule include the overall length of the test,
@@ -886,8 +807,8 @@ fulfilled. Postponing or delaying a status report may be necessary, but
 it should not become chronic. The client may be asked to agree to a new
 schedule if necessary. Skipping a status report altogether is
 unprofessional and should be avoided if at all possible.</p>
-</div>
-<div class="section" id="pgp-and-other-alternatives">
+</section>
+<section id="pgp-and-other-alternatives">
 <h3>PGP and Other Alternatives<a class="headerlink" href="#pgp-and-other-alternatives" title="Permalink to this headline">¶</a></h3>
 <p>Encryption is not optional. Communication with the customer is an
 absolutely necessary part of any penetration testing engagement and due
@@ -896,28 +817,28 @@ information must be encrypted, especially the final report. Before the
 testing begins, a means of secure communication must be established with
 the client. Several common means of encryption are as follows:</p>
 <ol class="arabic simple">
-<li>PGP/GPG can be used to both communicate over e-mail and to encrypt
+<li><p>PGP/GPG can be used to both communicate over e-mail and to encrypt
 the final report (remember that subject lines are passed through in
-plaintext)</li>
-<li>A secure mailbox hosted on the customer’s network</li>
-<li>Telephone</li>
-<li>Face to face meetings</li>
-<li>To deliver the final report, you can also store the report in an AES
+plaintext)</p></li>
+<li><p>A secure mailbox hosted on the customer’s network</p></li>
+<li><p>Telephone</p></li>
+<li><p>Face to face meetings</p></li>
+<li><p>To deliver the final report, you can also store the report in an AES
 encrypted archive file, but make sure that your archive utility
-supports AES encryption using CBC.</li>
+supports AES encryption using CBC.</p></li>
 </ol>
 <p>Also ask what kinds of information can be put in writing and which
 should be communicated only verbally. Some organizations have very good
 reasons for limiting what security information is transmitted to them in
 writing.</p>
-</div>
-</div>
-<div class="section" id="rules-of-engagement">
+</section>
+</section>
+<section id="rules-of-engagement">
 <h2>Rules of Engagement<a class="headerlink" href="#rules-of-engagement" title="Permalink to this headline">¶</a></h2>
 <p>While the scope defines what will be tested, the rules of engagement
 defines how that testing is to occur. These are two different aspects
 which need to be handled independently from each other.</p>
-<div class="section" id="timeline">
+<section id="timeline">
 <h3>Timeline<a class="headerlink" href="#timeline" title="Permalink to this headline">¶</a></h3>
 <p>A clear timeline should be established for the engagement. While scope
 defines the start and the end of an engagement, the rules of engagement
@@ -936,8 +857,8 @@ many be encountered during testing.</p>
 Many mangers identify closely with these tools. Because of this, they
 are an excellent medium for communicating with the upper management of a
 target organization.</p>
-</div>
-<div class="section" id="locations">
+</section>
+<section id="locations">
 <h3>Locations<a class="headerlink" href="#locations" title="Permalink to this headline">¶</a></h3>
 <p>Another parameter of any given engagement which is important to
 establish with the customer ahead of time is any destinations to which
@@ -948,8 +869,10 @@ laws of a specific target country.</p>
 and regions and a few select sites will need to be chosen for testing.
 In these situations, travel to every customer location should be
 avoided, instead, it should be determined if VPN connections to the
-sites are available for remote testing. Disclosure of Sensitive
-Information</p>
+sites are available for remote testing.</p>
+</section>
+<section id="disclosure-of-sensitive-information">
+<h3>Disclosure of Sensitive Information<a class="headerlink" href="#disclosure-of-sensitive-information" title="Permalink to this headline">¶</a></h3>
 <p>While one of the goals of a given engagement may be to gain access to
 sensitive information, certain information should not actually be viewed
 or downloaded. This seems odd to newer testers, however, there are a
@@ -977,18 +900,18 @@ sufficiently scrubbed following each engagement. As a special side note,
 if illegal data (i.e. child pornography) is discovered by the testers,
 proper law enforcement officials should be notified immediately,
 followed by the customer. Do not take direction from the customer.</p>
-</div>
-<div class="section" id="evidence-handling">
+</section>
+<section id="evidence-handling">
 <h3>Evidence Handling<a class="headerlink" href="#evidence-handling" title="Permalink to this headline">¶</a></h3>
 <p>When handling evidence of a test and the differing stages of the report
 it is incredibly important to take extreme care with the data. Always
 use encryption and sanitize your test machine between tests. Never hand
 out USB sticks with test reports out at security conferences. And
-whatever you do, don&#8217;t re-use a report from another customer engagement
-as a template! It&#8217;s very unprofessional to leave references to another
+whatever you do, don’t re-use a report from another customer engagement
+as a template! It’s very unprofessional to leave references to another
 organization in your document.</p>
-</div>
-<div class="section" id="regular-status-meetings">
+</section>
+<section id="regular-status-meetings">
 <h3>Regular Status Meetings<a class="headerlink" href="#regular-status-meetings" title="Permalink to this headline">¶</a></h3>
 <p>Throughout the testing process it is critical to have regular meetings
 with the customer informing them of the overall progress of the test.
@@ -999,26 +922,26 @@ major unscheduled change or an outage. Progress is simply an update to
 the customer on what has been completed so far. Problems should also be
 discussed in this meeting, but in the interest of brevity, conversations
 concerning solutions should almost always be taken offline.</p>
-</div>
-<div class="section" id="time-of-the-day-to-test">
+</section>
+<section id="time-of-the-day-to-test">
 <h3>Time of the Day to Test<a class="headerlink" href="#time-of-the-day-to-test" title="Permalink to this headline">¶</a></h3>
 <p>Certain customers require all testing to be done outside of business
 hours. This can mean late nights for most testers. The time of day
 requirements should be well established with the customer before testing
 begins.</p>
-</div>
-<div class="section" id="dealing-with-shunning">
+</section>
+<section id="dealing-with-shunning">
 <h3>Dealing with Shunning<a class="headerlink" href="#dealing-with-shunning" title="Permalink to this headline">¶</a></h3>
 <p>There are times where shunning is perfectly acceptable and there are
 times where it may not fit the spirit of the test. For example, if your
 test is to be a full black-box test where you are testing not only the
 technology, but the capabilities of the target organization’s security
 team, shunning would be perfectly fine. However, when you are testing a
-large number of systems in coordination with the target organization&#8217;s
+large number of systems in coordination with the target organization’s
 security team it may not be in the best interests of the test to shun
 your attacks.</p>
-</div>
-<div class="section" id="permission-to-test">
+</section>
+<section id="permission-to-test">
 <h3>Permission to Test<a class="headerlink" href="#permission-to-test" title="Permalink to this headline">¶</a></h3>
 <p>One of the most important documents which need to be obtained for a
 penetration test is the Permission to Test document. This document
@@ -1034,101 +957,64 @@ separate permission prior to testing their systems. For example, Amazon
 has an online request form that must be completed, and the request must
 be approved before scanning any hosts on their cloud. If this is
 required, it should be part of the document.</p>
-</div>
-<div class="section" id="legal-considerations">
+</section>
+<section id="legal-considerations">
 <h3>Legal Considerations<a class="headerlink" href="#legal-considerations" title="Permalink to this headline">¶</a></h3>
 <p>Some activities common in penetration tests may violate local laws. For
 this reason, it is advised to check the legality of common pentest tasks
 in the location where the work is to be performed. For example,any VOIP
 calls captured in the course of the penetration test may be considered
 wiretapping in some areas.</p>
-</div>
-</div>
-<div class="section" id="capabilities-and-technology-in-place">
+</section>
+</section>
+<section id="capabilities-and-technology-in-place">
 <h2>Capabilities and Technology in Place<a class="headerlink" href="#capabilities-and-technology-in-place" title="Permalink to this headline">¶</a></h2>
 <p>Good penetration tests do not simply check for un-patched systems. They
 also test the capabilities of the target organization. To that end,
 below is a list of things that you can benchmark while testing.</p>
 <ol class="arabic simple">
-<li>Ability to detect and respond to information gathering</li>
-<li>Ability to detect and respond to foot printing</li>
-<li>Ability to detect and respond to scanning and vuln analysis</li>
-<li>Ability to detect and respond to infiltration (attacks)</li>
-<li>Ability to detect and respond to data aggregation</li>
-<li>Ability to detect and respond to data ex-filtration</li>
+<li><p>Ability to detect and respond to information gathering</p></li>
+<li><p>Ability to detect and respond to foot printing</p></li>
+<li><p>Ability to detect and respond to scanning and vuln analysis</p></li>
+<li><p>Ability to detect and respond to infiltration (attacks)</p></li>
+<li><p>Ability to detect and respond to data aggregation</p></li>
+<li><p>Ability to detect and respond to data ex-filtration</p></li>
 </ol>
 <p>When tracking this information be sure to collect time information. For
 example, if a scan is detected you should be notified and note what
 level of scan you were preforming at the time.</p>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="intelligence_gathering.html" class="btn btn-neutral float-right" title="General" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="tree.html" class="btn btn-neutral" title="Welcome to PTES’s documentation!" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="The Penetration Testing Execution Standard" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="intelligence_gathering.html" class="btn btn-neutral float-right" title="Intelligence Gathering" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        &copy; Copyright 2016, The PTES Team.
-
-    </p>
+    <p>&#169; Copyright 2016, The PTES Team.</p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'1.1',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>
