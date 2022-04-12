@@ -390,7 +390,7 @@ property then they may be limited in what they can physically do to
 enhance or improve the physical location.
 
 Land/tax records
-                
+
 
 Tax records:
 
@@ -510,19 +510,19 @@ a job search engine can provide valuable insight into the internal
 workings of a target.
 
 Marketing
-         
+
 
 Marketing communications are often used to make corporate announcements
 regarding currently, or future product releases, and partnerships.
 
 Lawsuits
-        
+
 
 Communications regarding the targets involvement in litigation can
 provide insight into potential threat agent or data of interest.
 
 Transactions
-            
+
 
 Communications involving corporate transactions may be indirect response
 to a marketing announcement or lawsuit.
@@ -602,7 +602,7 @@ Individuals
 ~~~~~~~~~~~
 
 Social Networking Profile
-                         
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The numbers of active Social Networking websites as well as the number
 of users make this a prime location to identify employee's friendships,
@@ -611,7 +611,7 @@ relationships, or beliefs. It is even possible to determine an
 employee's corporate knowledge or prestige.
 
 Social Networking Websites
-                          
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 +-----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | \ **Name**\                 | \ **URL**\                                                                                 | \ **Description/Focus**\                                                                                                                                                                                                                    |
@@ -1054,7 +1054,7 @@ just as simple as reading a post that indicates exactly where they're
 located.
 
 Cree.py
-'''''''
+^^^^^^^
 
 Cree.py is Beta tool that is used to automate the task of information
 gathering from Twitter as well as FourSquare. In addition, Cree.py can
@@ -1213,26 +1213,26 @@ stage.
     *Coded by Christian Martorella      *
     *Edge-Security Research             *
     *cmartorella@edge-security.com      *
-    ************************************* 
+    *************************************
 
-    Searching for client.com in google : 
+    Searching for client.com in google :
 
-    ====================================== 
+    ======================================
 
 
-    Limit: 500 
-    Searching results: 0 
-    Searching results: 100 
-    Searching results: 200 
-    Searching results: 300 
-    Searching results: 400 
+    Limit: 500
+    Searching results: 0
+    Searching results: 100
+    Searching results: 200
+    Searching results: 300
+    Searching results: 400
 
-    Accounts found: 
-    ==================== 
-    admin@client.com 
-    nick@client.com 
-    jane@client.com 
-    sarah@client.com 
+    Accounts found:
+    ====================
+    admin@client.com
+    nick@client.com
+    jane@client.com
+    sarah@client.com
 
 NetGlub
 '''''''
@@ -1253,14 +1253,14 @@ accomplished by running the following:
     tar -xzvf simplejson-2.1.5.tar.gz
     cd simplejson-2.1.5
     python2.7 setup.py build
-    python2.7 setup.py install 
+    python2.7 setup.py install
     cd ..
     wget http://sourceforge.net/projects/pyxml/files/pyxml/0.8.4/PyXML-0.8.4.tar.gz
     tar -xvzf PyXML-0.8.4.tar.gz
     cd PyXML-0.8.4
     wget http://launchpadlibrarian.net/31786748/0001-Patch-for-Python-2.6.patch
     patch -p1 < 0001-Patch-for-Python-2.6.patch
-    python setup.py install 
+    python setup.py install
     cd /pentest/enumeration
 
 At this point we're going to use a GUI installation of the QT-SDK. The
@@ -1284,9 +1284,9 @@ libSM-dev libxrender-dev libfontconfig1-dev libxext-dev".
     ./configure
     make
     make install
-    cd /pentest/enumeration 
+    cd /pentest/enumeration
     wget http://redmine.lab.diateam.net/attachments/download/1/netglub-1.0.tar.gz
-    tar -xzvf netglub-1.0.tar.gz 
+    tar -xzvf netglub-1.0.tar.gz
     mv netglub-1.0 netglub
     cd /pentest/enumeration/netglub/qng/
     /opt/qtsdk/qt/bin/qmake
@@ -1296,7 +1296,7 @@ Now we need to start MySQL and create the netglub database
 
 ::
 
-    start mysql 
+    start mysql
     mysql -u root -ptoor
 
     create database netglub;
@@ -1306,7 +1306,7 @@ Now we need to start MySQL and create the netglub database
     GRANT ALL ON netglub.* TO "netglub"@"localhost";
     quit
 
-    mysql -u root -ptoor netglub < /pentest/enumeration/netglub/master/tools/sql/netglub.sql  
+    mysql -u root -ptoor netglub < /pentest/enumeration/netglub/master/tools/sql/netglub.sql
 
     cd /opt/qtsdk/qt/src/plugins/sqldrivers/mysql/
     /opt/qtsdk/qt/bin/qmake INCLUDEPATH+=/usr/include/mysql/
@@ -1326,7 +1326,7 @@ Now we need to start MySQL and create the netglub database
     tar -zxvf xmlrpc-c-1.16.34.tgz
     cd xmlrpc-c-1.16.34
     ./configure
-    make 
+    make
     make install
 
 Once you have installed NetGlub, you'll probably be interested in
@@ -1557,7 +1557,7 @@ In addition to search engines, several tools exist to collect files and
 gather information from various documents.
 
 FOCA (Windows)
-              
+
 
 FOCA is a tool that reads metadata from a wide range of document and
 media formats. FOCA pulls the relevant usernames, paths, software
@@ -1565,7 +1565,7 @@ versions, printer details, and email addresses. This can all be
 performed without the need to individually download files.
 
 Foundstone SiteDigger (Windows)
-                               
+
 
 | Foundstone has a tool, named SiteDigger, which allows us to search a
   domain using specially strings from both the Google Hacking Database
@@ -1579,7 +1579,7 @@ shown. To access the results of a query, simply double-click on the link
 provided to open in a browser.
 
 Metagoofil (Linux/Windows)
-                          
+
 
 Metagoofil is a Linux based information gathering tool designed for
 extracting metadata of public documents (.pdf, .doc, .xls, .ppt, .odp,
@@ -1602,7 +1602,7 @@ The command to run ''metagoofil ''is as follows:
     metagoofil.py -d <nowiki><</nowiki>client domain<nowiki>></nowiki> -l 100 -f all -o <nowiki><</nowiki>client domain<nowiki>></nowiki>.html -t micro-files
 
 Exif Reader (Windows)
-                     
+
 
 Exif Reader is image file analysis software for Windows. It analyzes and
 displays the shutter speed, flash condition, focal length, and other
@@ -1614,7 +1614,7 @@ can be downloaded from
 `http://www.takenet.or.jp/\ ~ryuuji/minisoft/exifread/english <http://www.takenet.or.jp/~ryuuji/minisoft/exifread/english>`__.
 
 ExifTool (Windows/ OS X)
-                        
+
 
 Exif Tool is a Windows and OS X tool for reading Meta information.
 ExifTool supports a wide range of file formats. ExifTool can be
@@ -1622,7 +1622,7 @@ downloaded from
 `http://www.sno.phy.queensu.ca/\ ~phil/exiftool <http://www.sno.phy.queensu.ca/~phil/exiftool>`__.
 
 Image Search
-            
+
 
 While not directly related to metadata, Tineye is also useful:
 http://www.tineye.com/ If a profile is found that includes a picture,
@@ -1660,7 +1660,7 @@ used to protect from possible threats. A physical security inspection
 should include, but is not limited to the following:
 
 Security guards
-               
+
 
 Observing security guards (or security officer) is often the first step
 in assessing the most visible deterrence. Security guards are uniformed
@@ -1679,7 +1679,7 @@ are observed, ensure that precaution is taken not to take any further
 action unless specifically authorized and trained to do so.
 
 Badge Usage
-           
+
 
 Badge usage refers to a physical security method that involves the use
 of identification badges as a form of access control. Badging systems
@@ -1692,7 +1692,7 @@ to gain physical access to the property or facility. Badge usage should
 be documented and if possible, include observed validation procedures.
 
 Locking devices
-               
+
 
 A locking device is a mechanical or electronic mechanism often
 implemented to prevent unauthorized ingress or egress. These can be as
@@ -1704,7 +1704,7 @@ protecting. All observations should be documented prior, and if possible
 photographs taken.
 
 Intrusion detection systems (IDS)/Alarms
-                                        
+
 
 Observing security guards (or security officer) is often the first step
 in assessing the most visible deterrence. Security guards are uniformed
@@ -1723,7 +1723,7 @@ are observed, ensure that precaution is taken not to take any further
 action unless specifically authorized and trained to do so.
 
 Security lighting
-                 
+
 
 Security lighting is often used as a preventative and corrective measure
 on a physical piece of property. Security lighting may aid in the
@@ -1759,7 +1759,7 @@ supply for their security lighting. Observe and document the type,
 number, and locations of security lighting in use.
 
 Surveillance /CCTV systems
-                          
+
 
 Surveillance/CCTV systems may be used to observe activities in and
 around a facility from a centralized area. Surveillance/CCTV systems may
@@ -1789,7 +1789,7 @@ broadcasting a signal at the same frequency as the wireless equipment
 could make it subject to jamming.
 
 Access control devices
-                      
+
 
 Access control devices enable access control to areas and/or resources
 in a given facility. Access control refers to the practice of
@@ -1825,7 +1825,7 @@ card read/write support. Observe and document the type, number, and
 locations of access control devices in use.
 
 Environmental Design
-                    
+
 
 Environmental design involves the surrounding environmental of a
 building, or facility. In the scope of Physical security, environmental
@@ -2066,7 +2066,7 @@ this we can use lsusb, to list the currently detected USB devices.
 
 `Screenshot Here <:File:Penetration_Testing_Execution_15.png>`__
 
-| 
+|
 | As the figure illustrates, our distribution has detected not only the
   Prolific PL2303 Serial Port, where we have our USB GPS connected, but
   also the Realtek RTL8187 Wireless Adapter. Now that we have determined
@@ -2252,7 +2252,7 @@ interface may have a completely different name.
 
 `Screenshot Here <:File:Penetration_Testing_Execution_27.png>`__
 
-| 
+|
 | When Kismet server and client are running properly then wireless
   networks should start to show up. We have highlighted a WEP enabled
   network. There are numerous sorting options that you can choose from.
@@ -2323,7 +2323,7 @@ route paths are advertised throughout the world we can find these by
 using a BGP4 and BGP6 looking glass.
 
 -  BGP4 -
-   `http <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `:// <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `www <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `. <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `bgp <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `4. <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `as <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `/ <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `looking <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `- <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `glasses <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ 
+   `http <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `:// <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `www <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `. <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `bgp <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `4. <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `as <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `/ <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `looking <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `- <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\ `glasses <http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&sa=D&sntz=1&usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg>`__\
 -  BPG6 - `http://lg.he.net/ <http://lg.he.net/>`__
 
 Active Reconnaissance
@@ -2356,14 +2356,14 @@ to test the ability to perform a DNS zone transfer. Tools commonly used
 to perform zone transfers are host, dig, and nmap.
 
 Host
-    
+
 
 ::
 
     host <nowiki><</nowiki>domain<nowiki>></nowiki> <nowiki><</nowiki>DNS server<nowiki>></nowiki>
 
 Dig
-   
+
 
 ::
 
@@ -2393,7 +2393,7 @@ check for the ability to perform zone transfers, but to potentially
 discover additional host names that are not commonly known.
 
 Fierce2 (Linux)
-               
+
 
 For DNS enumeration, there are two tools that are utilized to provide
 the desired results. The first that we will focus on is named Fierce2.
@@ -2418,7 +2418,7 @@ be found at the following URL:
     https://address-unknown/
 
 DNSEnum (Linux)
-               
+
 
 An alternative to Fierce2 for DNS enumeration is DNSEnum. As you can
 probably guess, this is very similar to Fierce2. DNSEnum offers the
@@ -2443,7 +2443,7 @@ the following URL:
     https://address-unknown/
 
 Dnsdict6 (Linux)
-                
+
 
 Dnsdict6, which is part of the THC IPv6 Attack Toolkit, is an IPv6 DNS
 dictionary brute forcer. The options are relatively simple, but simply
@@ -2455,7 +2455,7 @@ Port Scanning
 '''''''''''''
 
 Nmap (Windows/Linux)
-                    
+
 
 Nmap ("Network Mapper") is the de facto standard for network
 auditing/scanning. Nmap runs on both Linux and Windows. Nmap is
@@ -2675,7 +2675,7 @@ probed IP address can mean either of the following:
 -  the response datagram has not yet arrived
 
 SNMPEnum (Linux)
-                
+
 
 SNMPEnum is a perl script that sends SNMP requests to a single host,
 then waits for the response to come back and logs them.
@@ -2707,7 +2707,7 @@ Banner grabbing is usually performed on Hyper Text Transfer Protocol
 perform banner grabbing are Telnet, nmap, and Netcat.
 
 HTTP
-    
+
 
 ::
 
@@ -2741,7 +2741,7 @@ is usually performed by conducting a Ping sweep to determine which hosts
 respond.
 
 Nmap (Windows/Linux)
-                    
+
 
 Nmap ("Network Mapper") is the de facto standard for network
 auditing/scanning. Nmap runs on both Linux and Windows. Nmap is
@@ -2871,7 +2871,7 @@ the options.
 
 ::
 
-    nmap -sn <nowiki><</nowiki>client ip range<nowiki>></nowiki>/<nowiki><</nowiki>CIDR<nowiki>></nowiki> or <nowiki><</nowiki>Mask<nowiki>></nowiki> 
+    nmap -sn <nowiki><</nowiki>client ip range<nowiki>></nowiki>/<nowiki><</nowiki>CIDR<nowiki>></nowiki> or <nowiki><</nowiki>Mask<nowiki>></nowiki>
 
 ::
 
@@ -2893,7 +2893,7 @@ the options.
     Nmap done: 256 IP addresses (4 hosts up) scanned in 6.19 seconds
 
 Alive6 (Linux)
-              
+
 
 | Alive6, which is part of the THC IPv6 Attack Toolkit, offers the most
   effective mechanism for detecting all IPv6 systems.
@@ -2909,7 +2909,7 @@ Port Scanning
 '''''''''''''
 
 Nmap (Windows/Linux)
-                    
+
 
 Nmap ("Network Mapper") is the de facto standard for network
 auditing/scanning. Nmap runs on both Linux and Windows. Nmap is
@@ -3129,7 +3129,7 @@ probed IP address can mean either of the following:
 -  the response datagram has not yet arrived
 
 SNMPEnum (Linux)
-                
+
 
 SNMPEnum is a perl script that sends SNMP requests to a single host,
 then waits for the response to come back and logs them.
@@ -3155,14 +3155,14 @@ to test the ability to perform a DNS zone transfer. Tools commonly used
 to perform zone transfers are host, dig and nmap.
 
 Host
-    
+
 
 ::
 
     host  <nowiki><</nowiki>domain<nowiki>></nowiki> <nowiki><</nowiki>DNS server<nowiki>></nowiki>
 
 Dig
-   
+
 
 ::
 
@@ -3203,7 +3203,7 @@ Banner grabbing is usually performed on Hyper Text Transfer Protocol
 perform banner grabbing are Telnet, nmap, netcat and netca6 (IPv6).
 
 HTTP
-    
+
 
 ::
 
@@ -3216,7 +3216,7 @@ HTTP
     HEAD / HTTP/1.0
 
 httprint
-        
+
 
 httprint is a web server fingerprinting tool. It relies on web server
 characteristics to accurately identify web servers, despite the fact
@@ -3250,7 +3250,7 @@ single host or an entire subnet.
 `Screenshot Here <:File:Penetration_Testing_Execution_48.png>`__
 
 Extensions
-          
+
 
 Extensions are any client application or device that initiates a SIP
 connection, such as an IP phone, PC softphone, PC instant messaging
@@ -3262,7 +3262,7 @@ devices. A tool that can be used to enumerate extensions is Svwar from
 the SIPVicious suite.
 
 Svwar
-     
+
 
 Svwar is also a tool from the sipvicious suite allows to enumerate
 extensions by using a range of extensions or using a dictionary file
@@ -3273,7 +3273,7 @@ usage is as follows:
 `Screenshot Here <:File:Penetration_Testing_Execution_49.png>`__
 
 enumIAX
-       
+
 
 If you've identified an Asterisk server is in use, you need to utilize a
 username guessing tool such as enumIAX to enumerate Asterisk Exchange
@@ -3288,7 +3288,7 @@ Passive Reconnaissance
 ''''''''''''''''''''''
 
 Packet Sniffing
-               
+
 
 Performing packet sniffing allows for the collection IP addresses and
 MAC addresses from systems that have packet traffic in the stream being
@@ -3413,7 +3413,7 @@ you've completed this, click Forward to continue.
 
 `Screenshot Here <:File:Penetration_Testing_Execution_60.png>`__
 
-| 
+|
 | Finally, we're at the point where we can launch our scan. Click
   Execute to start the scan.
 
@@ -3440,7 +3440,7 @@ To access Nessus simply enter in the correct URL into a web browser. If
 you are accessing from the Pentest Lab use the following URL:
 https://\ <IP ADDRESS>:8834.
 
-| 
+|
 | ''' `Screenshot Here <:File:Penetration_Testing_Execution_65.png>`__
   '''
 
@@ -3597,7 +3597,7 @@ simply browse the available templates. The scan engine drop down allows
 you to choose between the local scan engine and the Rapid 7 hosted scan
 engine.
 
-| 
+|
 |  `Screenshot Here <:File:Penetration_Testing_Execution_81.png>`__
 | There are many templates available, however be aware that if you
   modify a template, all sites that use that scan template will use
@@ -3678,7 +3678,7 @@ assets by software, and view all assets.
 
 `Screenshot Here <:File:Penetration_Testing_Execution_86.png>`__
 
-| 
+|
 | By selecting the appropriate assets view you can select the results
   that you wish to view.
 
@@ -3829,7 +3829,7 @@ IMPACT automates several difficult exploits and has a multitude of
 exploits and post exploitation capabilities.
 
 Core IMPACT Web
-               
+
 
 Core can exploit SQL injection, Remote File Inclusion and Reflected
 Cross Site Scripting flaws on vulnerable web applications.
@@ -3911,7 +3911,7 @@ Core will try to confirm vulnerabilities from IBM Rational AppScan, HP
 WebInspect, or NTOspider scans.
 
 Core IMPACT WiFi
-                
+
 
 Core Impact contains a number of modules for penetration testing an
 802.11 wireless network and/or the security of wireless clients. In
@@ -3942,7 +3942,7 @@ information about attacks while using a Fake Access Point and results of
 Man In The Middle (MiTM) attacks can be generated.
 
 Core IMPACT Client Side
-                       
+
 
 Core Impact can perform controlled and targeted social engineering
 attacks against a specified user community via email, web browsers,
@@ -3992,7 +3992,7 @@ automatically install the Core agent.
 ''' `Screenshot Here <:File:coreCSusb.jpg>`__ '''
 
 Core Web
-        
+
 
 Core can exploit SQL injection, Remote File Inclusion and Reflected
 Cross Site Scripting flaws on vulnerable web applications. '''
@@ -4009,7 +4009,7 @@ exploring the site, automatic or interactive.
 ``   With automatic crawling, select the browser agent, max pages and depth, whether it should follow links to other/or to include other domains, whether it should run test to determine the server/application framework, whether to evaluate javascript, check robots.txt for links, and how it should handle forms. For greater customization, you can also select a link parsing module and set session parameters.``
 
 coreWEBcrawl
-            
+
 
 With interactive, you set your ”browser” to use Core as a proxy and then
 navigate through the web application. Further customized discovery
@@ -4052,7 +4052,7 @@ or to install the full Core Agent.
 vulnerability and activity reports.
 
 Core Onestep Web RPTs
-                     
+
 
 Core also has two one-step rapid penetration tests 1) WebApps
 Vulnerability Test Type in the web application and Core will attempt to
@@ -4063,7 +4063,7 @@ confirm vulnerabilities from IBM Rational AppScan, HP WebInspect, or
 NTOspider scans.
 
 Core WiFi
-         
+
 
 Core Impact contains a number of modules for penetration testing an
 802.11 wireless network and/or the security of wireless clients. In
@@ -4113,7 +4113,7 @@ opens after SAINT auto updates to the following URL: http://\ :52996/
 Screenshot Here SAINT\_startup.png refers (included).
 
 SAINTscanner
-            
+
 
 Once logged in you immediately enter the SAINTscanner page with the
 Penetration Testing (SAINTXploit) tab easily available and visible. It
@@ -4143,7 +4143,7 @@ settings for Target Step 5 Select Scan Now Screenshot here
 SAINT\_scansetup2.png refers (included).
 
 SAINTexploit
-            
+
 
 Different levels of penetration tests can be carried out:
 
@@ -4207,7 +4207,7 @@ been sent, and they are exploitable, the host will appear in the
 connections tab and can then be interacted with as above.
 
 SAINTwriter
-           
+
 
 SAINTwriter is a component of SAINT that allows you to generate a
 variety of customised reports. SAINTwriter features eight pre-configured
@@ -4230,7 +4230,7 @@ General Web Application Scanners
 ''''''''''''''''''''''''''''''''
 
 WebInspect (Windows)
-                    
+
 
 HP's WebInspect application security assessment tool helps identify
 known and unknown vulnerabilities within the Web application layer.
@@ -4435,7 +4435,7 @@ associated icon.
 
 `Screenshot Here <:File:Penetration_Testing_Execution_108.png>`__
 
-| 
+|
 | When conducting or viewing a scan, the Navigation pane is on the left
   side of the WebInspect'' ''window. It includes the Site, Sequence,
   Search, and Step Mode buttons, which determines view presented.
@@ -4575,7 +4575,7 @@ be useless for our purposes. Click Export to continue. Choose the file
 location to save the exported data.
 
 IBM AppScan
-           
+
 
 IBM Rational AppScan automates application security testing by scanning
 applications, identifying vulnerabilities and generating reports with
@@ -4640,7 +4640,7 @@ ScanFull Scan on the menu bar) and AppScan will automatically scan the
 application.
 
 Web Directory Listing/Bruteforcing
-                                  
+
 
 DirBuster is a java application that is designed to brute force web
 directories and files names. DirBuster attempts to find hidden or
@@ -4651,7 +4651,7 @@ has 9 different lists.
 `Screenshot Here <:File:Penetration_Testing_Execution_117.png>`__
 
 Webserver Version/Vulnerability Identification
-                                              
+
 
 The ability to identify the Webserver version is critical to identify
 vulnerabilities specific to a particular installation. This information
@@ -4712,7 +4712,7 @@ Specialized Vulnerability Scanners
 ''''''''''''''''''''''''''''''''''
 
 Virtual Private Networking (VPN)
-                                
+
 
 Virtual Private Networking (VPN) involves "tunneling" private data
 through the Internet. The four most widely known VPN "standards" are
@@ -4741,7 +4741,7 @@ forward. Simply give it a range and it will attempt to identify
 `Screenshot Here <:File:Penetration_Testing_Execution_119.png>`__
 
 IPv6
-    
+
 
 The THC-IPV6 Attack Toolkit is a complete set of tools to scan for
 inherent protocol weaknesses of IPv6 deployments. Implementation6 which
@@ -4757,7 +4757,7 @@ for known ipv6 vulnerabilities.
 `Screenshot Here <:File:Penetration_Testing_Execution_122.png>`__
 
 War Dialing
-           
+
 
 War dialing is process of using a modem to automatically scan a list of
 telephone numbers, usually dialing every number in a local area code to
@@ -4835,7 +4835,7 @@ Automated Tools
 '''''''''''''''
 
 Traffic Monitoring
-                  
+
 
 Traffic Monitoring is a passive mechanism for gathering further
 information about the targets. This can be helpful in determining the
@@ -4889,7 +4889,7 @@ Metasploit Scanners
 '''''''''''''''''''
 
 Metasploit Unleashed
-                    
+
 
 The `Metasploit
 Unleashed <http://www.offensive-security.com/metasploit-unleashed/Vulnerability_Scanning>`__
@@ -5016,7 +5016,7 @@ Network protections
 '''''''''''''''''''
 
 "Simple" Packet Filters
-                       
+
 
 Packet filters are rules for classifying packets based on their header
 fields. Packet classification is essential to routers supporting
@@ -5024,7 +5024,7 @@ services such as quality of service (QoS), virtual private networks
 (VPNs), and firewalls.
 
 Traffic shaping devices
-                       
+
 
 Traffic shaping is the control of computer network traffic in order to
 optimize or guarantee performance, improve latency, and/or increase
@@ -5036,7 +5036,7 @@ For these reasons; traffic shaping is important to detect at the network
 edges to avoid packet dropping and packet marking.
 
 Data Loss Prevention (DLP) systems
-                                  
+
 
 Data Loss Prevention (DLP) refers to systems that identify, monitor, and
 protect data in use, data in motion, and data at rest via content
@@ -5054,7 +5054,7 @@ protections utilize one of three detection methods: signature-based,
 statistical anomaly-based and stateful protocol analysis.
 
 Stack/heap protections
-                      
+
 
 Numerous tools are available that can monitor the host to provide
 protections against buffer overflows. Microsoft's Data Execution
@@ -5062,7 +5062,7 @@ Prevention mode is an example that is designed to explicitly protect the
 pointer to the SEH Exception Handler from being overwritten.
 
 Whitelisting
-            
+
 
 Whitelisting provides a list of entities that are being provided a
 particular privilege, service, mobility, access, or recognition. An
@@ -5070,7 +5070,7 @@ emerging approach in combating attacks by viruses and malware is to
 whitelist software which is considered safe to run, blocking all others
 
 AV/Filtering/Behavioral Analysis
-                                
+
 
 Behavioral analysis works from a set of rules that define a program as
 either legitimate, or malicious. Behavioral analysis technology monitors
@@ -5172,49 +5172,49 @@ therefore making the buffer overflow ineffective.
 Every operating system calculates a different cookie.
 
 Microsoft Windows
-                 
+
 
 The cookie in Windows is added by Visual Studio. One of the options when
 compiling an application is /GS. The option is enabled by default. The
 cookie is calculated using a few process specific variables. Below is a
 representative code of how this cookie is calculated.
 
-| ````
-| ``void generate_security_cookie() {``
-| ``    int defaultval1 = 0xFFFF0000;``
-| ``    int defaultval2 = 0xBB40E64E; // Hex value of PI without comma...``
-| ````
-| ``    int result = 0;``
-| ``    int resultcomp = 0;``
-| ````
-| ``    FILETIME filetimestruct ;``
-| ``    GetSystemTimeAsFileTime(&filetimestruct);``
-| ``    LARGE_INTEGER perfcounter;``
-| ``    QueryPerformanceCounter(&perfcounter);``
-| ````
-| ``    int tickc = GetTickCount();``
-| ``    int threadid = GetCurrentThreadId();``
-| ``    int processid = GetCurrentProcessId();``
-| ````
-| ``    result = result ^ filetimestruct.dwHighDateTime;``
-| ``    result = result ^ filetimestruct.dwLowDateTime;``
-| ``    result = result ^ threadid;``
-| ``    result = result ^ processid;``
-| ``    result = result ^ tickc;``
-| ``    result = result ^ perfcounter.HighPart;``
-| ``    result = result ^ perfcounter.LowPart;``
-| ````
-| ``    if (result == defaultval2) {``
-| ``        printf("Wow, what are they odd of getting the same value as the beginning");``
-| ``        result = 0xBB40E64E;``
-| ``    } else {``
-| ``        if (!(result & defaultval1)) {``
-| ``            ``
-| ``            int temp = (result | 0x4711) << 16;``
-| ``            result |= temp;``
-| ``        }``
-| ``    }``
-| ``    resultcomp = ~result;   ``
+.. code:: c
+
+    void generate_security_cookie() {
+    int defaultval1 = 0xFFFF0000;
+    int defaultval2 = 0xBB40E64E; // Hex value of PI without comma...
+
+    int result = 0;
+    int resultcomp = 0;
+
+    FILETIME filetimestruct ;
+    GetSystemTimeAsFileTime(&filetimestruct);
+    LARGE_INTEGER perfcounter;
+    QueryPerformanceCounter(&perfcounter);
+
+    int tickc = GetTickCount();
+    int threadid = GetCurrentThreadId();
+    int processid = GetCurrentProcessId();
+
+    result = result ^ filetimestruct.dwHighDateTime;
+    result = result ^ filetimestruct.dwLowDateTime;
+    result = result ^ threadid;
+    result = result ^ processid;
+    result = result ^ tickc;
+    result = result ^ perfcounter.HighPart;
+    result = result ^ perfcounter.LowPart;
+
+    if (result == defaultval2) {
+        printf("Wow, what are they odd of getting the same value as the beginning");
+        result = 0xBB40E64E;
+    } else {
+        if (!(result & defaultval1)) {
+            int temp = (result | 0x4711) << 16;
+            result |= temp;
+        }
+    }
+    resultcomp = ~result;
 
 As you can see, some of these values are not hard to figure out. Except
 for maybe the LowDateTime and the performance counter. An excellent
@@ -5223,38 +5223,39 @@ can be found in that paper here (`Exploiting the otherwise
 non-exploitable <http://j00ru.vexillium.org/?p=690>`__)
 
 Linux
-     
+
 
 As in Windows, the somewhat default compiler, gcc, adds the code for the
 stack canarie. This code can be found in the file libssp/ssp.c
 
-| ````
-| ``static void __attribute__ ((constructor))``
-| ``__guard_setup (void)``
-| ``{``
-| ``  unsigned char *p;``
-| ``  int fd;``
-| ````
-| ``  if (__stack_chk_guard != 0)``
-| ``    return;``
-| ````
-| ``  fd = open ("/dev/urandom", O_RDONLY);``
-| ``  if (fd != -1)``
-| ``    {``
-| ``      ssize_t size = read (fd, &__stack_chk_guard,``
-| ``                           sizeof (__stack_chk_guard));``
-| ``      close (fd);``
-| ``      if (size == sizeof(__stack_chk_guard) && __stack_chk_guard != 0)``
-| ``        return;``
-| ``    }``
-| ````
-| ``  /* If a random generator can't be used, the protector switches the guard``
-| ``     to the "terminator canary".  */``
-| ``  p = (unsigned char *) &__stack_chk_guard;``
-| ``  p[sizeof(__stack_chk_guard)-1] = 255;``
-| ``  p[sizeof(__stack_chk_guard)-2] = '\n';``
-| ``  p[0] = 0;``
-| ``}``
+.. code:: c
+
+    static void __attribute__ ((constructor))
+    __guard_setup (void)
+    {
+      unsigned char *p;
+      int fd;
+
+      if (__stack_chk_guard != 0)
+        return;
+
+      fd = open ("/dev/urandom", O_RDONLY);
+      if (fd != -1)
+        {
+          ssize_t size = read (fd, &__stack_chk_guard,
+                               sizeof (__stack_chk_guard));
+          close (fd);
+          if (size == sizeof(__stack_chk_guard) && __stack_chk_guard != 0)
+            return;
+        }
+
+      /* If a random generator can't be used, the protector switches the guard
+         to the "terminator canary".  */
+      p = (unsigned char *) &__stack_chk_guard;
+      p[sizeof(__stack_chk_guard)-1] = 255;
+      p[sizeof(__stack_chk_guard)-2] = '\n';
+      p[0] = 0;
+    }
 
 It is known that some older versions of gcc do not use the urandom
 device in order to create a new cookie. They use a preset cookie value
@@ -5272,7 +5273,7 @@ on remote stack overflow
 exploitation <http://www.phrack.org/issues.html?issue=67&id=13>`__)
 
 MAC OS
-      
+
 
 Disabled by default. Contribution required.
 
@@ -5280,7 +5281,7 @@ Customized Exploitation
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Fuzzing
-'''''''
+^^^^^^^
 
 Fuzzing is the process of attempting to discover security
 vulnerabilities by sending random input to an application. If the
@@ -5291,7 +5292,7 @@ buffer overflow, DoS, SQL Injection, XSS, and Format String bugs.
 Fuzzing falls into two categories: Dumb Fuzzing and Intelligent Fuzzing.
 
 Dumb Fuzzing
-''''''''''''
+^^^^^^^^^^^^
 
 Dumb Fuzzing usually consists of simple modifications to legitimate
 data, that is then fed to the target application. In this case, the
@@ -5306,7 +5307,7 @@ file formats.
 `Screenshot Here <:File:Penetration_Testing_Execution_131.png>`__
 
 Intelligent Fuzzing
-'''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^
 
 Intelligent Fuzzers are ones that are generally aware of the protocol or
 format of the data being tested. Some protocols require that the fuzzer
@@ -5826,7 +5827,7 @@ connected to an access point in the form of a dictionary attack. Anwrap
 and asleap are other crackers capable of breaking LEAP.
 
 Asleap
-      
+
 
 Asleap is a designed specifically to recover weak LEAP (Cisco's
 Lightweight Extensible Authentication Protocol) and PPTP passwords.
@@ -5861,7 +5862,7 @@ WLAN.
   EAPOL. There are two main attacks which can be used against 802.1X:
 
 Key Distribution Attack
-                       
+
 
 The key distribution attack exploits a weakness in the RADIUS protocol.
 The key distribution attack relies on an attacker capturing the PMK
@@ -5875,7 +5876,7 @@ PMK - allowing full decryption of all traffic between the AP and
 supplicant.
 
 RADIUS Impersonation Attack
-                           
+
 
 The RADIUS impersonation attack relies on users being left with the
 decision to trust or reject certificates from the authenticator.
@@ -5900,7 +5901,7 @@ physical security, so facilities for protection of the EAP conversation
 were not provided.
 
 RADIUS Impersonation Attack
-                           
+
 
 The RADIUS impersonation attack relies on users being left with the
 decision to trust or reject certificates from the authenticator.
@@ -5914,7 +5915,7 @@ attacker to capture the MSCHAPv2 challenge/response and attempt to crack
 it offline.
 
 Authentication Attack
-                     
+
 
 | The PEAP authentication attack is a primitive means of gaining
   unauthorized access to PEAP networks. By sniffing usernames from the
@@ -6239,7 +6240,7 @@ The Rules of Engagment (ROE) should be validated to ensure this is
 in-scope before conducting any attacks against the users
 
 Karmetasploit Attacks
-'''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^
 
 Karmetasploit is a modification of the KARMA to integrate it into
 Metasploit. Karmetasploit creates a working "evil" access point working
@@ -6256,7 +6257,7 @@ functioning:
 
 ::
 
-    # aireplay-ng --test [monitor-interface] 
+    # aireplay-ng --test [monitor-interface]
 
 The output of aireplay-ng should indicate that injection is working and
 that one of the local access points could be reached. If every access
@@ -6272,7 +6273,7 @@ the package is called "dhcpd3"or on Backtrack 5, the package is called
 
 ::
 
-    apt-get install dhcp3-server 
+    apt-get install dhcp3-server
 
 Once the DHCP server has been installed, an appropriate configuration
 file needs to be created. This file is normally called "dhcpd.conf" or
@@ -6341,24 +6342,24 @@ service modules will do what they can to extract information from the
 client and exploit browser vulnerabilities.
 
 DNS Requests
-''''''''''''
+^^^^^^^^^^^^
 
 <Contribution Needed>
 
 Bluetooth
-'''''''''
+^^^^^^^^^
 
 <Contribution Needed>
 
 Personalized Rogue AP
-'''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^
 
 <Contribution Needed>
 
 -  DoS / Blackmail angle
 
 Web
-'''
+^^^
 
 A web application involves a web server that accepts input and is most
 often interfaced using http(s). The penetration tester’s goal is to
@@ -6384,7 +6385,7 @@ can sit between the client application and the web application, and a
 tool to crawl (aka spider) through page links.
 
 SQL Injection (SQLi)
-                    
+''''''''''''''''''''
 
 According to OWASP (https://www.owasp.org/index.php/SQL\_Injection) SQL
 Injection, or as it is more commonly known SQLi, consists of insertion
@@ -6456,24 +6457,24 @@ SQLi. SQLi Tools
 -  Pangolin (http://nosec.org/en/productservice/pangolin)
 
 XSS
-   
+'''
 
 <Contribution Needed>
 
 CSRF
-    
+''''
 
 <Contribution Needed>
 
 Ad-Hoc Networks
-'''''''''''''''
+^^^^^^^^^^^^^^^
 
 <Contribution Needed>
 
 -  Information Leakage
 
 Detection bypass
-''''''''''''''''
+^^^^^^^^^^^^^^^^
 
 <Contribution Needed>
 
@@ -6482,12 +6483,12 @@ Detection bypass
 -  DLP Evasion
 
 Resistance of Controls to attacks
-'''''''''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 <Contribution Needed>
 
 Type of Attack
-''''''''''''''
+^^^^^^^^^^^^^^
 
 <Contribution Needed>
 
@@ -6499,7 +6500,7 @@ Type of Attack
 -  Infrastructure analysis
 
 The Social-Engineer Toolkit
-'''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Social-Engineering Toolkit (SET) is a python-driven suite of custom
 tools which solely focuses on attacking the human element of pentesting.
@@ -6532,12 +6533,12 @@ Route detection, including static routes
 <Contribution Needed>
 
 Network Protocols in use
-''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 <Contribution Needed>
 
 Proxies in use
-''''''''''''''
+^^^^^^^^^^^^^^
 
 <Contribution Needed>
 
@@ -6545,7 +6546,7 @@ Proxies in use
 -  Application Level
 
 Network layout
-''''''''''''''
+^^^^^^^^^^^^^^
 
 <Contribution Needed>
 
@@ -6553,7 +6554,7 @@ Network layout
 -  Lateral connectivity
 
 High value/profile targets
-''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 <Contribution Needed>
 
@@ -6755,97 +6756,117 @@ Further penetration into infrastructure
 Pivoting inside
 ^^^^^^^^^^^^^^^
 
--  Linux Commands
+*Linux Commands*
 
---Show users that have used ssh to connect to this host. grep publickey
-/var/log/secure\*\|awk '{print $9"\\t"$11"\\t"$NF}'\|sort -u
+Show users that have used ssh to connect to this host.
 
-user1 ::ffff:10.0.0.1 ssh2 user2 ::ffff:10.0.0.2 ssh2 user3
-::ffff:10.0.0.3 ssh2
+.. code-block::
 
---Show users that have used sudo. grep sudo /var/log/secure\*\|awk -F:
-'{print $4}'\|sort -u
+    $ grep publickey /var/log/secure\*\|awk '{print $9"\\t"$11"\\t"$NF}'\|sort -u
 
-user1 root user2 user4
+    user1 ::ffff:10.0.0.1 ssh2 user2 ::ffff:10.0.0.2 ssh2 user3 ::ffff:10.0.0.3 ssh2
 
---Show users with active cron use. cat /var/log/cron\* \|awk '$6 !~
-/Updated/ {print $6}'\|tr -d :math:``\ \|sort -u
+Show users that have used sudo.
 
-root user5 user1 user2
+.. code-block::
 
---Look at a users password settings. passwd -S user
+    $ grep sudo /var/log/secure\*\|awk -F:'{print $4}'\|sort -u
 
-#. passwd -S appuser
+    user1 root user2 user4
 
-Password locked.
+Show users with active cron use.
 
-#. passwd -S root
+.. code-block::
 
-Password set, MD5 crypt.
+    $ cat /var/log/cron\* \|awk '$6 !~/Updated/ {print $6}'\|tr -d :math:``\ \|sort -u
 
-#. passwd -S bin
+    root user5 user1 user2
 
-Alternate authentication scheme in use.
+Look at a users password settings.
 
---Users that have connected and from where. for i in $(ls
-/var/log/wtmp\*);do last -adf ${i}\|awk '$1 !~ /wtmp/ {print
-$1,$NF}'\|sort -u; done
+.. code-block::
 
-user1 testhost.example.com root testhost2.example.com user2
-prodhost.example.com
+    $ passwd -S appuser
 
---Who is logged in right now and from where. $ who -Hu NAME LINE TIME
-IDLE PID COMMENT user1 pts/0 Jun 2 10:39 . 28001 (testhost.example.com)
+    Password locked.
 
---Pull IPv4 hosts from /etc/hosts, drop commented entries and localhost.
-egrep -v "^[ \\t]\*#\|^[ \\t]\*$\|localhost" /etc/hosts 10.0.0.1
-testhost.example.com testhost 10.0.0.2 testhost2.example.com testhost2
-10.0.0.3 testhost3.example.com testhost3
+    $ passwd -S root
 
---Pull commented IPv4 hosts from /etc/hosts egrep "^[ \\t]\*#+[
-\\t]\*([0-9]{1,3}\\.){3}[0-9]{1,3}" /etc/hosts
+    Password set, MD5 crypt.
 
-#. 10.0.0.4 testhost4.example.com testhost4
+    $ passwd -S bin
 
---Pull IPv6 hosts from /etc/hosts egrep
-"(([:xdigit:]{0,4})\\:?\\:{1}){0,7}\\:?\\:{1}([:xdigit:]{0,4})?"
-/etc/hosts
+    Alternate authentication scheme in use.
 
-        1 loopback localhost # loopback (lo0) name/address
-        1FFF ipv6test.example.com ipv6test
+Users that have connected and from where.
 
---Pull hostnames from known\_hosts files for any user home you have
-access to read. for i in $(awk -F: '{print $6}' /etc/passwd\|sort -u);
-do awk '{print $1}' ${i}/.ssh/known\_hosts 2> /dev/null;done\|tr ','
-'\\n'\|sort -u testhost testhost3 testhost4 ipv6test prodhost
+.. code-block::
 
---Show private keys and if they are encrypted for i in $(grep "PRIVATE"
-\*\|egrep -v "END"\|awk -F: '{print $1}'); do print ${i};grep ENCRYPTED
-${i};echo;done id\_dsa
+    $ for i in $(ls /var/log/wtmp\*);do last -adf ${i}\|awk '$1 !~ /wtmp/ {print $1,$NF}'\|sort -u; done
 
-id\_dsap Proc-Type: 4,ENCRYPTED
+    user1 testhost.example.com root testhost2.example.com user2
+    prodhost.example.com
 
-id\_rsa32k Proc-Type: 4,ENCRYPTED
+Who is logged in right now and from where.
 
-id\_rsa512
+.. code-block::
 
-id\_rsa512p Proc-Type: 4,ENCRYPTED
+    $ who -Hu NAME LINE TIME IDLE PID COMMENT user1 pts/0 Jun 2 10:39 . 28001 (testhost.example.com)
 
---Look at the public keys and pull their type. Numerical types are SSH
-protocol 1. for i in $(ls \*.pub);do print ${i};awk '{print $1}'
-${i};echo;done id\_dsa.pub ssh-dss
+Pull IPv4 hosts from /etc/hosts, drop commented entries and localhost.
 
-id\_dsap.pub ssh-dss
+.. code-block::
 
-id\_rsa16k.pub ssh-rsa
+    $ egrep -v "^[ \\t]\*#\|^[ \\t]\*$\|localhost" /etc/hosts 10.0.0.1 testhost.example.com testhost 10.0.0.2 testhost2.example.com testhost2 10.0.0.3 testhost3.example.com testhost3
 
-id\_rsadef.pub ssh-rsa
+Pull commented IPv4 hosts from /etc/hosts
 
-identity2048.pub 2048
+.. code-block::
 
-identity768p.pub 768
+    $ egrep "^[ \\t]\*#+[\\t]\*([0-9]{1,3}\\.){3}[0-9]{1,3}" /etc/hosts
 
-identity864.pub 864
+    10.0.0.4 testhost4.example.com testhost4
+
+Pull IPv6 hosts from /etc/hosts
+
+.. code-block::
+
+    $ egrep "(([:xdigit:]{0,4})\\:?\\:{1}){0,7}\\:?\\:{1}([:xdigit:]{0,4})?" /etc/hosts
+
+    1 loopback localhost # loopback (lo0) name/address
+    1FFF ipv6test.example.com ipv6test
+
+Pull hostnames from known\_hosts files for any user home you have acess to read.
+
+.. code-block::
+
+    $ for i in $(awk -F: '{print $6}' /etc/passwd\|sort -u); do awk '{print $1}' ${i}/.ssh/known\_hosts 2> /dev/null;done\|tr ',' '\\n'\|sort -u testhost testhost3 testhost4 ipv6test prodhost
+
+Show private keys and if they are encrypted
+
+.. code-block::
+
+    $ for i in $(grep "PRIVATE" \*\|egrep -v "END"\|awk -F: '{print $1}'); do print ${i};grep ENCRYPTED ${i};echo;done id\_dsa
+
+    id\_dsap Proc-Type: 4,ENCRYPTED
+    id\_rsa32k Proc-Type: 4,ENCRYPTED
+    id\_rsa512
+    id\_rsa512p Proc-Type: 4,ENCRYPTED
+
+Look at the public keys and pull their type. Numerical types are SSH protocol 1.
+
+.. code-block::
+
+    $ for i in $(ls \*.pub);do print ${i};awk '{print $1}'${i};echo;done id\_dsa.pub ssh-dss
+
+    id\_dsap.pub ssh-dss
+    id\_rsa16k.pub ssh-rsa
+    id\_rsadef.pub ssh-rsa
+    identity2048.pub 2048
+    identity768p.pub 768
+    identity864.pub 864
+
+< Contribution Needed >
 
 -  Windows Commands
 -  Token Stealing and Reuse
@@ -6984,64 +7005,64 @@ System
 Networking (ipconfig, netstat, net)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | align=left"\|Command                                    | Expected Output or Description                                                                                                                                                                                                        |
-+=========================================================+=======================================================================================================================================================================================================================================+====+
++=========================================================+=======================================================================================================================================================================================================================================+
 | ``ipconfig /all``                                       | Displays the full information about your NIC’s.                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``ipconfig /displaydns``                                | Displays your local DNS cache.                                                                                                                                                                                                        |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``netstat -nabo``                                       |                                                                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``<nowiki>netstat -s -p [tcp|udp|icpm|ip]</nowiki>``    |                                                                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``netstat -r``                                          |                                                                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``<nowiki>netstat -na | findstr :445</nowiki>``         |                                                                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``<nowiki>netstat -nao | findstr LISTENING</nowiki>``   | XP and up for -o flag to get PIDnet acc                                                                                                                                                                                               |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``<nowiki>netstat -nao | findstr LISTENING</nowiki>``   | XP and up for -o flag to get PID                                                                                                                                                                                                      |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``<nowiki>netstat -na | findstr LISTENING</nowiki>``    |                                                                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``netsh diag show all``                                 |                                                                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net view``                                            | Queries NBNS/SMB (SAMBA) and tries to find all hosts in your current workgroup.                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
-| | ``net view /domain``                                  |                                                                                                                                                                                                                                       |
-| | ``net view /domain:otherdomain``                      |                                                                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ``net view /domain``                                    |                                                                                                                                                                                                                                       |
+| ``net view /domain:otherdomain``                        |                                                                                                                                                                                                                                       |
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net user %USERNAME% /domain``                         | Pulls information on the current user, if they are a domain user. If you are a local user then you just drop the /domain. Important things to note are login times, last time changed password, logon scripts, and group membership   |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net user /domain``                                    | Lists all of the domain users                                                                                                                                                                                                         |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net accounts``                                        | Prints the password policy for the local system. This can be different and superseded by the domain policy.                                                                                                                           |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net accounts /domain``                                | Prints the password policy for the domain                                                                                                                                                                                             |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net localgroup administrators``                       | Prints the members of the Administrators local group                                                                                                                                                                                  |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net localgroup administrators /domain``               | As this was supposed to use localgroup & domain, this actually another way of getting \*current\* domain admins                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net group “Domain Admins” /domain``                   | Prints the members of the Domain Admins group                                                                                                                                                                                         |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net group “Enterprise Admins” /domain``               | Prints the members of the Enterprise Admins group                                                                                                                                                                                     |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net group “Domain Controllers” /domain``              | Prints the list of Domain Controllers for the current domain                                                                                                                                                                          |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``nbtstat -a [ip here]``                                |                                                                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net share``                                           | Displays your currently shared SMB entries, and what path(s) they point to                                                                                                                                                            |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``net session | find / “\\”``                           |                                                                                                                                                                                                                                       |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``arp -a``                                              | Lists all the systems currently in the machine’s ARP table.                                                                                                                                                                           |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``route print``                                         | Prints the machine’s routing table. This can be good for finding other networks and static routes that have been put in place                                                                                                         |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
-| ``browstat ``                                           | Not working on XP                                                                                                                                                                                                                     |    |
-+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ``browstat``                                            | Not working on XP                                                                                                                                                                                                                     |
++---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 http://www.securityaegis.com/ntsd-backdoor/
 
@@ -7069,66 +7090,66 @@ Configs
 Finding Important Files
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | align=left"\|Command                                        | Expected Output or Description                                                                                                                                                                                                               |
-+=============================================================+==============================================================================================================================================================================================================================================+====+
++=============================================================+==============================================================================================================================================================================================================================================+
 | ``tree C:\ /f /a > C:\output_of_tree.txt``                  | Prints a directory listing in ‘tree’ format. The /a makes the tree printed with ASCII characters instead of special ones and the /f displays file names as well as folders                                                                   |
-+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``dir /a``                                                  |                                                                                                                                                                                                                                              |
-+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``dir /b /s [Directory or Filename]``                       |                                                                                                                                                                                                                                              |
-+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``<nowiki>dir \ /s /b | find /I “searchstring”</nowiki>``   | Searches the output of dir from the root of the drive current drive (\\) and all sub drectories (/s) using the ‘base’ format (/b) so that it outputs the full path for each listing, for ‘searchstring’ anywhere in the file name or path.   |
-+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
-| ``<nowiki>command | find /c /v “”</nowiki>``                | Counts the lines of whatever you use for ‘command’                                                                                                                                                                                           |    |
-+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ``<nowiki>command | find /c /v “”</nowiki>``                | Counts the lines of whatever you use for ‘command’                                                                                                                                                                                           |
++-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Files To Pull (if possible)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | align=left"\|File location                                  | Description / Reason                                                                                                                    |
-+=============================================================+=========================================================================================================================================+====+
++=============================================================+=========================================================================================================================================+
 | ``%SYSTEMDRIVE%\pagefile.sys``                              | Large file, but contains spill over from RAM, usually lots of good information can be pulled, but should be a last resort due to size   |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\debug\NetSetup.log``                             |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\repair\sam``                                     |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\repair\system``                                  |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\repair\software``                                |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\repair\security``                                |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
-| ``%WINDIR%\iis6.log ``                                      | iis5.log, ii6.log or iis7.log                                                                                                           |    |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| ``%WINDIR%\iis6.log``                                       | iis5.log, ii6.log or iis7.log                                                                                                           |
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\system32\logfiles\httperr\httperr1.log``         | IIS 6 error log                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%SystemDrive%\inetpub\logs\LogFiles``                     | IIS 7’s logs location                                                                                                                   |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
-| ``%WINDIR%\system32\logfiles\w3svc1\exYYMMDD.log ``         | Year month day                                                                                                                          |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| ``%WINDIR%\system32\logfiles\w3svc1\exYYMMDD.log``          | Year month day                                                                                                                          |
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\system32\config\AppEvent.Evt``                   |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\system32\config\SecEvent.Evt``                   |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\system32\config\default.sav``                    |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\system32\config\security.sav``                   |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\system32\config\software.sav``                   |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\system32\config\system.sav``                     |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\system32\CCM\logs\*.log``                        |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%USERPROFILE%\ntuser.dat``                                |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%USERPROFILE%\LocalS~1\Tempor~1\Content.IE5\index.dat``   |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``%WINDIR%\System32\drivers\etc\hosts``                     |                                                                                                                                         |
-+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 
 Remote System Access
 ^^^^^^^^^^^^^^^^^^^^
@@ -7154,9 +7175,9 @@ Remote System Access
 +--------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fAllowToGetHelp /t REG_DWORD /d 1 /f``      | Enable remote assistance                                                                                                                                                                                   |
 +--------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ``net time \\computername ``                                                                                                   | Shows the time of target computer)                                                                                                                                                                         |
+| ``net time \\computername``                                                                                                    | Shows the time of target computer)                                                                                                                                                                         |
 +--------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ``dir \\computername\share_or_admin_share\   ``                                                                                | dir list a remote directory                                                                                                                                                                                |
+| ``dir \\computername\share_or_admin_share\``                                                                                   | dir list a remote directory                                                                                                                                                                                |
 +--------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``tasklist /V /S computername``                                                                                                | Lists tasks w/users running those tasks on a remote system. This will remove any IPC$ connection after it is done so if you are using another user, you need to re-initiate the IPC$ mount                 |
 +--------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -7164,7 +7185,7 @@ Remote System Access
 Auto-Start Directories
 ^^^^^^^^^^^^^^^^^^^^^^
 
-| ``ver `` Returns kernel version - like uname on \*nix)
+| ``ver`` Returns kernel version - like uname on \*nix)
 | {\| ! align=left"\|Version !Location \|- \|Windows NT 6.1, 6.0
   \|%SystemDrive%\\ProgramData\\Microsoft\\Windows\\Start
   Menu\\Programs\\Startup\\ \|- \|Windows NT 5.2, 5.1, 5,0
@@ -7188,14 +7209,14 @@ Binary Planting
 -  WMI
 
    -  ``wmic bios``
-   -  ``wmic ``
+   -  ``wmic``
    -  ``wmic qfe get hotfixid``
 
       -  This gets patches IDs
 
    -  ``wmic startup``
    -  ``wmic service``
-   -  ``wmic process ``
+   -  ``wmic process``
 
       -  Get caption,executablepath,commandline
 
@@ -7250,17 +7271,17 @@ Deleting Logs
 Uninstalling Software “AntiVirus” (Non interactive)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-| ``wmic product get name /value ``\ (this gets software names)
-| ``wmic product where name="XXX" call uninstall /nointeractive ``\ (this
+| ``wmic product get name /value``\ (this gets software names)
+| ``wmic product where name="XXX" call uninstall /nointeractive``\ (this
   uninstalls software)
 
 Other
 ^^^^^
 
 | ``pkgmgr usefull  /iu :”Package”``
-| ``pkgmgr usefull  /iu :”TelnetServer” ``\ (Install Telnet Service ...)
-| ``pkgmgr /iu:”TelnetClient” ``\ (Client )
-| ``rundll32.exe user32.dll, LockWorkStation ``\ (locks the screen
+| ``pkgmgr usefull  /iu :”TelnetServer”``\ (Install Telnet Service ...)
+| ``pkgmgr /iu:”TelnetClient”``\ (Client )
+| ``rundll32.exe user32.dll, LockWorkStation``\ (locks the screen
   -invasive-)
 | ``wscript.exe <script js/vbs>``
 | ``cscript.exe <script js/vbs/c#>``
@@ -7270,12 +7291,12 @@ Operating Specific
 ''''''''''''''''''
 
 Win2k3
-      
+
 
 ``winpop stat domainname``
 
 Vista/7
-       
+
 
 | ``winstat features``
 | ``wbadmin get status``
@@ -7284,7 +7305,7 @@ Vista/7
   <code>bcdedit /export <filename>``
 
 Vista SP1/7/2008/2008R2 (x86 & x64)
-                                   
+
 
 | Enable/Disable Windows features with Deployment Image Servicing and
   Management (DISM):
@@ -7298,10 +7319,10 @@ Vista SP1/7/2008/2008R2 (x86 & x64)
 | To list features which can be enabled/disabled:
 | ``%windir%\System32\cmd.exe /c "%SystemRoot%\system32\Dism.exe" /online /get-features``
 |  To enable a feature (TFTP client for example):
-| 
+|
   ``%windir%\System32\cmd.exe /c "%SystemRoot%\system32\Dism.exe" /online /enable-feature /featurename:TFTP``
 |  To disable a feature (again TFTP client):
-| 
+|
   ``%windir%\System32\cmd.exe /c "%SystemRoot%\system32\Dism.exe" /online /disable-feature /featurename:TFTP``
 
 Invasive or Altering Commands
@@ -7592,8 +7613,14 @@ Deliverable
 Custom tools developed
 ----------------------
 
+<Contribution Needed>
+
+Appendix
+---------
+
 Appendix A - Creating OpenVAS "Only Safe Checks" Policy
-=======================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 In order to ensure that all tests are conducted with the same criteria,
 you will need to ensure that you have the correct OpenVAS Global
@@ -7604,7 +7631,7 @@ KB. For our purposes, most of the default settings do not need to be
 modified.
 
 General
--------
+^^^^^^^
 
 The General tab is where we will set certain scan options. The actual
 settings have been defined as indicated below:
@@ -7660,7 +7687,7 @@ settings have been defined as indicated below:
 +---------------------------------------------------+---------------------+
 
 Plugins
--------
+^^^^^^^
 
 The Plugins tab, allows us to choose specific security checks by plugin
 family or individual checks that we want to enable. The easiest way to
@@ -7668,7 +7695,7 @@ set this is to select the "Enable All" button from the main Plugins tab,
 however this assumes the Safe Checks is selected from the General Tab.
 
 Credentials
------------
+^^^^^^^^^^^
 
 The Credentials tab, allows us to configure the Nessus scanner to use
 authentication credentials during scanning. For our policy we will not
@@ -7706,14 +7733,14 @@ documented to ensure completeness.
 +------------------------------------------+--------------------+
 
 Target Selection
-----------------
+^^^^^^^^^^^^^^^^
 
 The Target Selection tab, allows us to specify specific targets or to
 read them from a file. The main then to ensure that is checked is the
 Perform a DNS zone transfer.
 
 Access Rules
-------------
+^^^^^^^^^^^^
 
 The Access Selection tab, allows us to view and manage the access rules
 for our scanner. These rules determine which host you may scan. Note
@@ -7727,13 +7754,13 @@ Finally, Clientside user rules are specific to the client. They will
 affect only the scope in which they are defined.
 
 Preferences
------------
+^^^^^^^^^^^
 
 The Preferences tab allows for more granular control over scan settings.
 All items in this category should be left alone.
 
 Knowledge Base
---------------
+^^^^^^^^^^^^^^^
 
 The configuration section for the Knowledge Base (KB) allows you to
 control the management of the server-side scan results. Information
@@ -7744,7 +7771,7 @@ certain circumstances it can be quite useful to tell the server to keep
 the KBs generated during the scan and use them again at a later time.
 
 Appendix B - Creating the "Only Safe Checks" Policy
-===================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In order to ensure that all tests are conducted with the same criteria,
 you will need to ensure that you have created a policy called "Only Safe
@@ -7761,7 +7788,7 @@ Preferences. For our purposes, most of the default settings do not need
 to be modified.
 
 General
--------
+^^^^^^^
 
 The General tab is where we will name and configure scan options related
 to our policy. There are six boxes of grouped options that control
@@ -7846,7 +7873,7 @@ been defined as indicated below:
 +------------------------------------------------+---------------------------------------------------+
 
 Credentials
------------
+^^^^^^^^^^^
 
 The Credentials tab, allows us to configure the Nessus scanner to use
 authentication credentials during scanning. For our policy we will not
@@ -7940,7 +7967,7 @@ documented to ensure completeness.
 +-------------------------------------------------+--------------------+
 
 Plugins
--------
+^^^^^^^
 
 The Plugins tab, allows us to choose specific security checks by plugin
 family or individual checks that we want to enable. The easiest way to
@@ -7948,7 +7975,7 @@ set this is to select the "Enable All" button from the main Plugins tab,
 however this assumes the Safe Checks is selected from the General Tab.
 
 Preferences
------------
+^^^^^^^^^^^
 
 The Preferences tab allows for more granular control over scan settings.
 All items in this category should be. The actual settings have been
@@ -8360,7 +8387,7 @@ defined as indicated below:
 +--------------------------------------------------------------------+-------------------------------------------------------------------+
 
 Appendix C - Creating the "Only Safe Checks (Web)" Policy
-=========================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 | In order to ensure that all tests are conducted with the same
   criteria, you will need to ensure that you have created a policy
@@ -8377,7 +8404,7 @@ Preferences. For our purposes, most of the default settings do not need
 to be modified.
 
 General
--------
+^^^^^^^
 
 The General tab is where we will name and configure scan options related
 to our policy. There are six boxes of grouped options that control
@@ -8462,7 +8489,7 @@ been defined as indicated below:
 +------------------------------------------------+-----------------------------------------------------+
 
 Credentials
------------
+^^^^^^^^^^^
 
 The Credentials tab, allows us to configure the Nessus scanner to use
 authentication credentials during scanning. For our policy we will not
@@ -8556,7 +8583,7 @@ documented to ensure completeness.
 +-------------------------------------------------+--------------------+
 
 Plugins
--------
+^^^^^^^
 
 The Plugins tab, allows us to choose specific security checks by plugin
 family or individual checks that we want to enable. The easiest way to
@@ -8564,7 +8591,7 @@ set this is to select the "Enable All" button from the main Plugins tab,
 however this assumes the Safe Checks is selected from the General Tab.
 
 Preferences
------------
+^^^^^^^^^^^
 
 The Preferences tab allows for more granular control over scan settings.
 All items in this category should be. The actual settings have been
@@ -8976,24 +9003,23 @@ defined as indicated below:
 +--------------------------------------------------------------------+-------------------------------------------------------------------+
 
 Appendix D - Creating the "Validation Scan" Policy
-==================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| In order to ensure that all tests are conducted with the same
-  criteria, you will need to ensure that you have created a policy
-  called "Validation Scan." In order to do this you will need to connect
-  to the Nessus server UI, so that you can create a custom policy by
-  clicking on the "Policies" option on the bar at the top and then "+
-  Add" button on the right. The "Add Policy" screen will be displayed as
-  follows:
-|  `Screenshot Here <:File:Penetration_Testing_Execution_164.png>`__ *'
-  *'
+In order to ensure that all tests are conducted with the same
+criteria, you will need to ensure that you have created a policy
+called "Validation Scan." In order to do this you will need to connect
+to the Nessus server UI, so that you can create a custom policy by
+clicking on the "Policies" option on the bar at the top and then "+
+Add" button on the right. The "Add Policy" screen will be displayed as
+follows:
+`Screenshot Here <:File:Penetration_Testing_Execution_164.png>`__
 
 There are four configuration tabs: General, Credentials, Plugins, and
 Preferences. For our purposes, most of the default settings do not need
 to be modified.
 
 General
--------
+^^^^^^^
 
 The General tab is where we will name and configure scan options related
 to our policy. There are six boxes of grouped options that control
@@ -9078,7 +9104,7 @@ been defined as indicated below:
 +------------------------------------------------+------------------------------------------------------------------------------------------------+
 
 Credentials
------------
+^^^^^^^^^^^
 
 The Credentials tab, allows us to configure the Nessus scanner to use
 authentication credentials during scanning. For our policy we will not
@@ -9172,7 +9198,7 @@ documented to ensure completeness.
 +-------------------------------------------------+--------------------+
 
 Plugins
--------
+^^^^^^^
 
 The Plugins tab, allows us to choose specific security checks by plugin
 family or individual checks that we want to enable. The easiest way to
@@ -9180,7 +9206,7 @@ set this is to select the "Enable All" button from the main Plugins tab,
 however this assumes the Safe Checks is selected from the General Tab.
 
 Preferences
------------
+^^^^^^^^^^^
 
 The Preferences tab allows for more granular control over scan settings.
 All items in this category should be. The actual settings have been
@@ -9592,10 +9618,10 @@ defined as indicated below:
 +--------------------------------------------------------------------+-------------------------------------------------------------------+
 
 Appendix E - NeXpose Default Templates
-======================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Denial of service
------------------
+^^^^^^^^^^^^^^^^^
 
 '''Description: '''This basic audit of all network assets uses both safe
 and unsafe (denial-of-service) checks. This scan does not include
@@ -9639,7 +9665,7 @@ checks): '''None
 types
 
 Discovery scan
---------------
+^^^^^^^^^^^^^^
 
 '''Description: '''This scan locates live assets on the network and
 identifies their host names and operating systems. NeXpose does not
@@ -9687,7 +9713,7 @@ checks): '''None
 '''Specific vulnerability checks disabled: '''None
 
 Discovery scan (aggressive)
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 '''Description: '''This fast, cursory scan locates live assets on
 high-speed networks and identifies their host names and operating
@@ -9737,7 +9763,7 @@ checks): '''None
 '''Specific vulnerability checks disabled: '''None
 
 Exhaustive
-----------
+^^^^^^^^^^
 
 '''Description: '''This thorough network scan of all systems and
 services uses only safe checks, including patch/hotfix inspections,
@@ -9782,7 +9808,7 @@ checks): '''None
 '''Specific vulnerability checks disabled: '''None
 
 Full audit
-----------
+^^^^^^^^^^
 
 '''Description: '''This full network audit of all systems uses only safe
 checks, including network-based vulnerabilities, patch/hotfix checking,
@@ -9827,7 +9853,7 @@ checks): '''None
 '''Specific vulnerability checks disabled: '''Policy check type
 
 HIPAA compliance
-----------------
+^^^^^^^^^^^^^^^^
 
 '''Description: '''NeXpose uses safe checks in this audit of compliance
 with HIPAA section 164.312 ("Technical Safeguards"). The scan will flag
@@ -9872,7 +9898,7 @@ checks): '''None
 '''Specific vulnerability checks disabled: '''None
 
 Internet DMZ audit
-------------------
+^^^^^^^^^^^^^^^^^^
 
 '''Description: '''This penetration test covers all common Internet
 services, such as Web, FTP, mail (SMTP/POP/IMAP/Lotus Notes), DNS,
@@ -9916,7 +9942,7 @@ Telnet, VPN, Web check categories
 '''Specific vulnerability checks disabled: '''None
 
 Linux RPMs
-----------
+^^^^^^^^^^
 
 '''Description: '''This scan verifies proper installation of RPM patches
 on Linux systems. For optimum success, use administrative credentials.
@@ -9956,7 +9982,7 @@ checks): '''RPM check type
 '''Specific vulnerability checks disabled: '''None
 
 Microsoft hotfix
-----------------
+^^^^^^^^^^^^^^^^
 
 '''Description: '''This scan verifies proper installation of hotfixes
 and service packs on Microsoft Windows systems. For optimum success, use
@@ -9997,7 +10023,7 @@ checks): '''Microsoft hotfix check type
 '''Specific vulnerability checks disabled: '''None
 
 Payment Card Industry (PCI) audit
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 '''Description: '''This audit of Payment Card Industry (PCI) compliance
 uses only safe checks, including network-based vulnerabilities,
@@ -10040,7 +10066,7 @@ checks): '''None
 '''Specific vulnerability checks disabled: '''Policy check types
 
 Penetration test
-----------------
+^^^^^^^^^^^^^^^^
 
 '''Description: '''This in-depth scan of all systems uses only safe
 checks. Host-discovery and network penetration features allow NeXpose to
@@ -10087,7 +10113,7 @@ checks): '''None
 types
 
 Penetration test
-----------------
+^^^^^^^^^^^^^^^^
 
 '''Description: '''This in-depth scan of all systems uses only safe
 checks. Host-discovery and network penetration features allow NeXpose to
@@ -10134,7 +10160,7 @@ checks): '''None
 types
 
 Safe network audit
-------------------
+^^^^^^^^^^^^^^^^^^
 
 '''Description: '''This non-intrusive scan of all network assets uses
 only safe checks. NeXpose does not perform in-depth patch/hotfix
@@ -10176,7 +10202,7 @@ checks)**: None
 types
 
 Sarbanes-Oxley (SOX) compliance
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 '''Description: '''This is a safe-check
 
@@ -10209,7 +10235,7 @@ block timeout
 '''TCP ports to scan: '''Well known numbers + 1-1040
 
 SCADA audit
------------
+^^^^^^^^^^^
 
 '''Description: '''This is a "polite," or less aggressive, network audit
 of sensitive Supervisory Control And Data Acquisition (SCADA) systems,
@@ -10262,7 +10288,7 @@ checks): '''None
 '''Specific vulnerability checks disabled: '''None
 
 Web audit
----------
+^^^^^^^^^
 
 '''Description: '''This audit of all Web servers and Web applications is
 suitable public-facing and internal assets, including application

@@ -1,74 +1,37 @@
-
-
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Intelligence Gathering &mdash; pentest-standard 1.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
-
-  
-  
-
-  
-
-  
-  
-    
-
-  
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="pentest-standard 1.1 documentation" href="index.html"/>
-        <link rel="next" title="General" href="threat_modeling.html"/>
-        <link rel="prev" title="Pre-engagement Interactions" href="preengagement_interactions.html"/> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Threat Modeling" href="threat_modeling.html" />
+    <link rel="prev" title="Pre-engagement Interactions" href="preengagement_interactions.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
-
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
-          
-
-          
+        <div class="wy-side-nav-search" >
             <a href="tree.html" class="icon icon-home"> pentest-standard
-          
-
-          
           </a>
-
-          
-            
-            
               <div class="version">
                 1.1
               </div>
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -76,15 +39,9 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-                <ul class="current">
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">The Penetration Testing Execution Standard</a></li>
 <li class="toctree-l1"><a class="reference internal" href="preengagement_interactions.html">Pre-engagement Interactions</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Intelligence Gathering</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#general">General</a><ul>
@@ -163,89 +120,43 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html">General</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#business-asset-analysis">Business Asset Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#business-process-analysis">Business Process Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#threat-agents-community-analysis">Threat Agents/Community Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#threat-capability-analysis">Threat Capability Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#motivation-modeling">Motivation Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html#finding-relevant-news-of-comparable-organizations-being-compromised">Finding relevant news of comparable Organizations being compromised</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html">Testing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#active">Active</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#passive">Passive</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#validation">Validation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html#research">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html">Purpose</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#countermeasures">Countermeasures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#evasion">Evasion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#precision-strike">Precision Strike</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#customized-exploitation-avenue">Customized Exploitation Avenue</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#tailored-exploits">Tailored Exploits</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#zero-day-angle">Zero-Day Angle</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#example-avenues-of-attack">Example Avenues of Attack</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exploitation.html#overall-objective">Overall Objective</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html">Purpose</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#rules-of-engagement">Rules of Engagement</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#infrastructure-analysis">Infrastructure Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#pillaging">Pillaging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#high-value-profile-targets">High Value/Profile Targets</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#data-exfiltration">Data Exfiltration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#persistence">Persistence</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#further-penetration-into-infrastructure">Further Penetration Into Infrastructure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html#cleanup">Cleanup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="reporting.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="reporting.html#report-structure">Report Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="reporting.html#the-executive-summary">The Executive Summary</a></li>
-<li class="toctree-l1"><a class="reference internal" href="reporting.html#technical-report">Technical Report</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html">Threat Modeling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html">Vulnerability Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html">Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html">Post Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporting.html">Reporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="technical_guidelines.html">PTES Technical Guidelines</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="media.html">Media</a></li>
 </ul>
 
-            
-          
         </div>
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="tree.html">pentest-standard</a>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="tree.html">pentest-standard</a>
       </nav>
 
-
-      
       <div class="wy-nav-content">
         <div class="rst-content">
-          
-
- 
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="tree.html">Docs</a> &raquo;</li>
-      
-    <li>Intelligence Gathering</li>
+      <li><a href="tree.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Intelligence Gathering</li>
       <li class="wy-breadcrumbs-aside">
-        
-          
-            <a href="_sources/intelligence_gathering.txt" rel="nofollow"> View page source</a>
-          
-        
+            <a href="_sources/intelligence_gathering.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
-  <div class="section" id="intelligence-gathering">
+             
+  <section id="intelligence-gathering">
 <span id="id1"></span><h1>Intelligence Gathering<a class="headerlink" href="#intelligence-gathering" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="general">
+<section id="general">
 <h2>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h2>
 <p>This section defines the Intelligence Gathering activities of a
 penetration test. The purpose of this document is to provide a standard
@@ -254,7 +165,7 @@ against a target (typically corporate, military, or related). The
 document details the thought process and goals of pentesting
 reconnaissance, and when used properly, helps the reader to produce a
 highly strategic plan for attacking a target.</p>
-<div class="section" id="background-concepts">
+<section id="background-concepts">
 <h3>Background Concepts<a class="headerlink" href="#background-concepts" title="Permalink to this headline">¶</a></h3>
 <p>Levels are an important concept for this document and for PTES as a
 whole. It’s a maturity model of sorts for pentesting. Defining levels
@@ -267,7 +178,7 @@ intensive activity such as creating a facebook profile and analyzing the
 target’s social network is appropriate in more advanced cases, and
 should be labeled with the appropriate level. See the mindmap below for
 examples.</p>
-<div class="section" id="level-1-information-gathering">
+<section id="level-1-information-gathering">
 <h4>Level 1 Information Gathering<a class="headerlink" href="#level-1-information-gathering" title="Permalink to this headline">¶</a></h4>
 <p>(think: Compliance Driven) Mainly a click-button information gathering
 process. This level of information can be obtained almost entirely by
@@ -275,8 +186,8 @@ automated tools. Bare minimum to say you did IG for a PT.</p>
 <p>Acme Corporation is required to be compliant with PCI / FISMA / HIPAA. A
 Level 1 information gathering effort should be appropriate to meet the
 compliance requirement.</p>
-</div>
-<div class="section" id="level-2-information-gathering">
+</section>
+<section id="level-2-information-gathering">
 <h4>Level 2 Information Gathering<a class="headerlink" href="#level-2-information-gathering" title="Permalink to this headline">¶</a></h4>
 <p>(think: Best Practice) This level can be created using automated tools
 from level 1 and some manual analysis. A good understanding of the
@@ -286,8 +197,8 @@ relationships, org chart, etc.</p>
 in their long term security strategy, and is acquiring several smaller
 widget manufacturers. A Level 2 information gathering effort should be
 appropriate to meet their needs.</p>
-</div>
-<div class="section" id="level-3-information-gathering">
+</section>
+<section id="level-3-information-gathering">
 <h4>Level 3 Information Gathering<a class="headerlink" href="#level-3-information-gathering" title="Permalink to this headline">¶</a></h4>
 <p>(think: State Sponsored) More advanced pentest, Redteam, full-scope. All
 the info from level 1 and level 2 along with a lot of manual analysis.
@@ -298,12 +209,12 @@ hours to accomplish the gathering and correlation.</p>
 network in a foreign country to find weaknesses that could be exploited
 by a foreign national. A level 3 information gathering effort would be
 appropriate in this case.</p>
-</div>
-</div>
-</div>
-<div class="section" id="id2">
+</section>
+</section>
+</section>
+<section id="id2">
 <h2>Intelligence Gathering<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="what-it-is">
+<section id="what-it-is">
 <h3>What it is<a class="headerlink" href="#what-it-is" title="Permalink to this headline">¶</a></h3>
 <p>Intelligence Gathering is performing reconnaissance against a target to
 gather as much information as possible to be utilized when penetrating
@@ -315,8 +226,8 @@ management that involves finding, selecting, and acquiring information
 from publicly available sources and analyzing it to produce actionable
 intelligence.
 <a class="reference external" href="http://en.wikipedia.org/wiki/Open_source_intelligence">1</a></p>
-</div>
-<div class="section" id="why-do-it">
+</section>
+<section id="why-do-it">
 <h3>Why do it<a class="headerlink" href="#why-do-it" title="Permalink to this headline">¶</a></h3>
 <p>We perform Open Source Intelligence gathering to determine various entry
 points into an organization. These entry points can be physical,
@@ -326,19 +237,19 @@ information can be used by a determined attacker. On top of that many
 employees fail to take into account what information they place about
 themselves in public and how that information can be used to to attack
 them or their employer.</p>
-</div>
-<div class="section" id="what-is-it-not">
+</section>
+<section id="what-is-it-not">
 <h3>What is it not<a class="headerlink" href="#what-is-it-not" title="Permalink to this headline">¶</a></h3>
 <p>OSINT may not be accurate or timely. The information sources may be
 deliberately/accidentally manipulated to reflect erroneous data,
 information may become obsolete as time passes, or simply be incomplete.</p>
 <p>It does not encompass dumpster-diving or any methods of retrieving
 company information off of physical items found on-premises.</p>
-</div>
-</div>
-<div class="section" id="target-selection">
+</section>
+</section>
+<section id="target-selection">
 <h2>Target Selection<a class="headerlink" href="#target-selection" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="identification-and-naming-of-target">
+<section id="identification-and-naming-of-target">
 <h3>Identification and Naming of Target<a class="headerlink" href="#identification-and-naming-of-target" title="Permalink to this headline">¶</a></h3>
 <p>When approaching a target organization it is important to understand
 that a company may have a number of different Top Level Domains (TDLs)
@@ -353,8 +264,8 @@ the customer before testing begins. It is also not all that uncommon for
 a company to have a number of sub-companies underneath them. For example
 General Electric and Proctor and Gamble own a great deal of smaller
 companies.</p>
-</div>
-<div class="section" id="consider-any-rules-of-engagement-limitations">
+</section>
+<section id="consider-any-rules-of-engagement-limitations">
 <h3>Consider any Rules of Engagement limitations<a class="headerlink" href="#consider-any-rules-of-engagement-limitations" title="Permalink to this headline">¶</a></h3>
 <p>At this point it is a good idea to review the Rules of Engagement. It is
 common for these to get forgotten during a test. Sometimes, as testers
@@ -365,8 +276,8 @@ focused. This is not just important from a legel perspective, it is also
 important from a scope creep perspective. Every time you get sidetracked
 from the core objectives of the test it costs you time. And in the long
 run that can cost your company money.</p>
-</div>
-<div class="section" id="consider-time-length-for-test">
+</section>
+<section id="consider-time-length-for-test">
 <h3>Consider time length for test<a class="headerlink" href="#consider-time-length-for-test" title="Permalink to this headline">¶</a></h3>
 <p>The amount of time for the total test will directly impact the amount of
 Intelligence Gathering that can be done. There are some tests where the
@@ -376,25 +287,25 @@ core business units and personal of the company. However, for shorter
 crystal-box style tests the objectives may be far more tactical. For
 example, testing a specific web application may not require you to
 research the financial records of the company CEO.</p>
-</div>
-<div class="section" id="consider-end-goal-of-the-test">
+</section>
+<section id="consider-end-goal-of-the-test">
 <h3>Consider end goal of the test<a class="headerlink" href="#consider-end-goal-of-the-test" title="Permalink to this headline">¶</a></h3>
 <p>Every test has an end goal in mind - a particular asset or process that
 the organization considers critical. Having the end result in mind, the
 intelligence gathering phase should make sure to include all secondary
 and tertiary elements surrounding the end goal. Be it supporting
-technologies, 3rd parties, relevant personnel, etc... Making sure the
+technologies, 3rd parties, relevant personnel, etc… Making sure the
 focus is kept on the critical assets assures that lesser relevant
 intelligence elements are de-prioritized and categorized as such in
 order to not intervene with the analysis process.</p>
-</div>
-</div>
-<div class="section" id="osint">
+</section>
+</section>
+<section id="osint">
 <h2>OSINT<a class="headerlink" href="#osint" title="Permalink to this headline">¶</a></h2>
 <p>Open Source Intelligence (OSINT) takes three forms; Passive,
 Semi-passive, and Active.</p>
 <ul class="simple">
-<li><strong>Passive Information Gathering</strong>: Passive Information Gathering is
+<li><p><strong>Passive Information Gathering</strong>: Passive Information Gathering is
 generally only useful if there is a very clear requirement that the
 information gathering activities never be detected by the target.
 This type of profiling is technically difficult to perform as we are
@@ -402,8 +313,8 @@ never sending any traffic to the target organization neither from one
 of our hosts or “anonymous” hosts or services across the Internet.
 This means we can only use and gather archived or stored information.
 As such this information can be out of date or incorrect as we are
-limited to results gathered from a third party.</li>
-<li><strong>Semi-passive Information Gathering</strong>: The goal for semi-passive
+limited to results gathered from a third party.</p></li>
+<li><p><strong>Semi-passive Information Gathering</strong>: The goal for semi-passive
 information gathering is to profile the target with methods that
 would appear like normal Internet traffic and behavior. We query only
 the published name servers for information, we aren’t performing
@@ -414,21 +325,21 @@ metadata in published documents and files; not actively seeking
 hidden content. The key here is not to draw attention to our
 activities. Post mortem the target may be able to go back and
 discover the reconnaissance activities but they shouldn’t be able to
-attribute the activity back to anyone.</li>
-<li><strong>Active Information Gathering</strong>: Active information gathering should
+attribute the activity back to anyone.</p></li>
+<li><p><strong>Active Information Gathering</strong>: Active information gathering should
 be detected by the target and suspicious or malicious behavior.
 During this stage we are actively mapping network infrastructure
 (think full port scans nmap –p1-65535), actively enumerating and/or
 vulnerability scanning the open services, we are actively searching
 for unpublished directories, files, and servers. Most of this
 activity falls into your typically “reconnaissance” or “scanning”
-activities for your standard pentest.</li>
+activities for your standard pentest.</p></li>
 </ul>
-<div class="section" id="corporate">
+<section id="corporate">
 <h3>Corporate<a class="headerlink" href="#corporate" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="physical">
+<section id="physical">
 <h4>Physical<a class="headerlink" href="#physical" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="locations-l1">
+<section id="locations-l1">
 <h5>Locations (L1)<a class="headerlink" href="#locations-l1" title="Permalink to this headline">¶</a></h5>
 <p>Per location listing of full address, ownership, associated records
 (city, tax, legal, etc), Full listing of all physical security measures
@@ -440,22 +351,22 @@ associated assets, Full mapping of AS, peering paths, CDN provisioning,
 netblock owners (whois data), email records (MX + mail address
 structure)</p>
 <ul class="simple">
-<li>Owner (L1/L2)</li>
-<li>Land/tax records (L1/L2)</li>
-<li>Shared/individual (L1/L2)</li>
-<li>Timezones (L1/L2)</li>
-<li>Hosts / NOC</li>
+<li><p>Owner (L1/L2)</p></li>
+<li><p>Land/tax records (L1/L2)</p></li>
+<li><p>Shared/individual (L1/L2)</p></li>
+<li><p>Timezones (L1/L2)</p></li>
+<li><p>Hosts / NOC</p></li>
 </ul>
-</div>
-<div class="section" id="pervasiveness-l1">
+</section>
+<section id="pervasiveness-l1">
 <h5>Pervasiveness (L1)<a class="headerlink" href="#pervasiveness-l1" title="Permalink to this headline">¶</a></h5>
 <p>It is not uncommon for a target organization to have multiple separate
 physical locations. For example, a bank will have central offices, but
 they will also have numerous remote branches as well. While physical and
 technical security may be very good at central locations, remote
 locations often have poor security controls.</p>
-</div>
-<div class="section" id="relationships-l1">
+</section>
+<section id="relationships-l1">
 <h5>Relationships (L1)<a class="headerlink" href="#relationships-l1" title="Permalink to this headline">¶</a></h5>
 <p>Business partners, customs, suppliers, analysis via whats openly shared
 on corporate web pages, rental companies, etc. This information can be
@@ -465,47 +376,44 @@ organization?</p>
 <p>Also, this information can also be used to create successful social
 engineering scenarios.</p>
 <ul>
-<li><p class="first">Relationships (L2/L3)</p>
+<li><p>Relationships (L2/L3)</p>
 <blockquote>
 <div><p>Manual analysis to vet information from level 1, plus dig deeper
 into possible relationships.</p>
 </div></blockquote>
 </li>
-<li><p class="first">Shared office space (L2/L3)</p>
-</li>
-<li><p class="first">Shared infrastructure (L2/L3)</p>
-</li>
-<li><p class="first">Rented / Leased Equipment (L2/L3)</p>
-</li>
+<li><p>Shared office space (L2/L3)</p></li>
+<li><p>Shared infrastructure (L2/L3)</p></li>
+<li><p>Rented / Leased Equipment (L2/L3)</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="logical">
+</section>
+</section>
+<section id="logical">
 <h4>Logical<a class="headerlink" href="#logical" title="Permalink to this headline">¶</a></h4>
 <p>Accumulated information for partners, clients and competitors: For each
 one, a full listing of the business name, business address, type of
 relationship, basic financial information, basic hosts/network
 information.</p>
 <ul>
-<li><p class="first">Business Partners (L1/L2/L3)</p>
+<li><p>Business Partners (L1/L2/L3)</p>
 <blockquote>
 <div><p>Target’s advertised business partners. Sometimes advertised on
 main www.</p>
 </div></blockquote>
 </li>
-<li><p class="first">Business Clients (L1/L2/L3)</p>
+<li><p>Business Clients (L1/L2/L3)</p>
 <blockquote>
 <div><p>Target’s advertised business clients. Sometimes advertised on
 main www.</p>
 </div></blockquote>
 </li>
-<li><p class="first">Competitors (L1/L2/L3)</p>
+<li><p>Competitors (L1/L2/L3)</p>
 <blockquote>
 <div><p>Who are the target’s competitors. This may be simple, Ford vs
 Chevy, or may require much more analysis.</p>
 </div></blockquote>
 </li>
-<li><p class="first">Touchgraph (L1)</p>
+<li><p>Touchgraph (L1)</p>
 <blockquote>
 <div><p>A touchgraph (visual representation of the social connections
 between people) will assist in mapping out the possible
@@ -519,7 +427,7 @@ represents the focus on the organizational assets better, and
 make possible approach vectors clear.</p>
 </div></blockquote>
 </li>
-<li><p class="first">Hoovers profile (L1/L2)</p>
+<li><p>Hoovers profile (L1/L2)</p>
 <blockquote>
 <div><p>What: a semi-open source intelligence resource (paid
 subscriptions usually). Such sources specialize in gathering
@@ -538,35 +446,35 @@ order to cross reference them and make sure you get the most
 up-to-date information. (paid for service).</p>
 </div></blockquote>
 </li>
-<li><p class="first">Product line (L2/L3)</p>
+<li><p>Product line (L2/L3)</p>
 <blockquote>
-<div><p>Target&#8217;s product offerings which may require additional analysis
+<div><p>Target’s product offerings which may require additional analysis
 if the target does offer services as well this might require
 further analysis.</p>
 </div></blockquote>
 </li>
-<li><p class="first">Market Vertical (L1)</p>
+<li><p>Market Vertical (L1)</p>
 <blockquote>
 <div><p>Which industry the target resides in. i.e. financial, defense,
 agriculture, government, etc</p>
 </div></blockquote>
 </li>
-<li><p class="first">Marketing accounts (L2/L3)</p>
+<li><p>Marketing accounts (L2/L3)</p>
 <blockquote>
 <div><p>Marketing activities can provide a wealth of information on the
 marketing strategy of the target
-Evaluate all the social media Networks for the target&#8217;s social
+Evaluate all the social media Networks for the target’s social
 personas
-Evaluate the target&#8217;s past * marketing campaigns</p>
+Evaluate the target’s past * marketing campaigns</p>
 </div></blockquote>
 </li>
-<li><p class="first">Meetings (L2/L3)</p>
+<li><p>Meetings (L2/L3)</p>
 <blockquote>
 <div><p>Meeting Minutes published?
 Meetings open to public?</p>
 </div></blockquote>
 </li>
-<li><p class="first">Significant company dates (L1/L2/L3)</p>
+<li><p>Significant company dates (L1/L2/L3)</p>
 <blockquote>
 <div><p>Board meetings
 Holidays
@@ -574,7 +482,7 @@ Anniversaries
 Product/service launch</p>
 </div></blockquote>
 </li>
-<li><p class="first">Job openings (L1/L2)</p>
+<li><p>Job openings (L1/L2)</p>
 <blockquote>
 <div><p>By viewing a list of job openings at an organization (usually
 found in a ‘careers’ section of their website), you can determine
@@ -588,7 +496,7 @@ position may say something to the effect of ‘CCNA preferred’ or
 Cisco or Juniper technologies.</p>
 </div></blockquote>
 </li>
-<li><p class="first">Charity affiliations (L1/L2/L3)</p>
+<li><p>Charity affiliations (L1/L2/L3)</p>
 <blockquote>
 <div><p>It is very common for executive members of a target organization
 to be associated with charitable organizations. This information
@@ -596,7 +504,7 @@ can be used to develop solid social engineering scenarios for
 targeting executives.</p>
 </div></blockquote>
 </li>
-<li><p class="first">RFP, RFQ and other Public Bid Information (L1/L2)</p>
+<li><p>RFP, RFQ and other Public Bid Information (L1/L2)</p>
 <blockquote>
 <div><p>RFPs and RFQs often reveal a lot of information about the types
 of systems used by a company, and potentially even gaps or issues
@@ -606,7 +514,7 @@ systems being used or a location where company resources might be
 hosted off-site.</p>
 </div></blockquote>
 </li>
-<li><p class="first">Court records (L2/L3)</p>
+<li><p>Court records (L2/L3)</p>
 <blockquote>
 <div><p>Court records are usually available either free or sometimes at a
 fee.
@@ -617,7 +525,7 @@ Criminal records of current and past employees may provide a list
 of targets for social engineering efforts</p>
 </div></blockquote>
 </li>
-<li><p class="first">Political donations (L2/L3)</p>
+<li><p>Political donations (L2/L3)</p>
 <blockquote>
 <div><p>Mapping out political donations or other financial interests is
 important in order to identify pivotal individuals who may not be
@@ -628,7 +536,7 @@ the freedom of information, but often cases donations from other
 countries can be traced back using the data available there.</p>
 </div></blockquote>
 </li>
-<li><p class="first">Professional licenses or registries (L2/L3)</p>
+<li><p>Professional licenses or registries (L2/L3)</p>
 <blockquote>
 <div><p>Gathering a list of your targets professional licenses and
 registries may offer an insight into not only how the company
@@ -650,46 +558,49 @@ dependent on the country.</p>
 </div></blockquote>
 </li>
 </ul>
-</div>
-<div class="section" id="org-chart-l1">
+</section>
+<section id="org-chart-l1">
 <h4>Org Chart (L1)<a class="headerlink" href="#org-chart-l1" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li>Position identification<ul>
-<li>Important people in the organization</li>
-<li>Individuals to specifically target</li>
+<li><p>Position identification</p>
+<ul>
+<li><p>Important people in the organization</p></li>
+<li><p>Individuals to specifically target</p></li>
 </ul>
 </li>
-<li>Transactions<ul>
-<li>Mapping on changes within the organization (promotions, lateral
-movements)</li>
+<li><p>Transactions</p>
+<ul>
+<li><p>Mapping on changes within the organization (promotions, lateral
+movements)</p></li>
 </ul>
 </li>
-<li>Affiliates<ul>
-<li>Mapping of affiliate organizations that are tied to the business</li>
+<li><p>Affiliates</p>
+<ul>
+<li><p>Mapping of affiliate organizations that are tied to the business</p></li>
 </ul>
 </li>
 </ul>
-</div>
-<div class="section" id="electronic">
+</section>
+<section id="electronic">
 <h4>Electronic<a class="headerlink" href="#electronic" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="document-metadata-l1-l2">
+<section id="document-metadata-l1-l2">
 <h5>Document Metadata (L1/L2)<a class="headerlink" href="#document-metadata-l1-l2" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>What it is? Metadata or meta-content provides information about the
+<li><p>What it is? Metadata or meta-content provides information about the
 data/document in scope. It can have information such as
 author/creator name, time and date, standards used/referred, location
 in a computer network (printer/folder/directory path/etc. info),
 geo-tag etc. For an image its’ metadata can contain color, depth,
 resolution, camera make/type and even the co-ordinates and location
-information.</li>
-<li>Why you would do it? Metadata is important because it contains
+information.</p></li>
+<li><p>Why you would do it? Metadata is important because it contains
 information about the internal network, user-names, email addresses,
 printer locations etc. and will help to create a blueprint of the
 location. It also contains information about software used in
 creating the respective documents. This can enable an attacker to
 create a profile and/or perform targeted attacks with internal
-knowledge on the networks and users.</li>
-<li>How you would do it? There are tools available to extract the
+knowledge on the networks and users.</p></li>
+<li><p>How you would do it? There are tools available to extract the
 metadata from the file (pdf/word/image) like FOCA (GUI-based),
 metagoofil (python-based), meta-extractor, exiftool (perl-based).
 These tools are capable of extracting and displaying the results in
@@ -697,287 +608,290 @@ different formats as HTML, XML, GUI, JSON etc. The input to these
 tools is mostly a document downloaded from the public presence of the
 ‘client’ and then analyzed to know more about it. Whereas FOCA helps
 you search documents, download and analyzes all through its GUI
-interface.</li>
+interface.</p></li>
 </ul>
-</div>
-<div class="section" id="marketing-communications-l1-l2">
+</section>
+<section id="marketing-communications-l1-l2">
 <h5>Marketing Communications (L1/L2)<a class="headerlink" href="#marketing-communications-l1-l2" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Past marketing campaigns provide information for projects which might
-of been retired that might still be accessible.</li>
-<li>Current marketing communications contain design components (Colors,
+<li><p>Past marketing campaigns provide information for projects which might
+of been retired that might still be accessible.</p></li>
+<li><p>Current marketing communications contain design components (Colors,
 Fonts, Graphics etc..) which are for the most part used internally as
-well.</li>
-<li>Additional contact information including external marketing
-organizations.</li>
+well.</p></li>
+<li><p>Additional contact information including external marketing
+organizations.</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="infrastructure-assets">
+</section>
+</section>
+<section id="infrastructure-assets">
 <h4>Infrastructure Assets<a class="headerlink" href="#infrastructure-assets" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="network-blocks-owned-l1">
+<section id="network-blocks-owned-l1">
 <h5>Network blocks owned (L1)<a class="headerlink" href="#network-blocks-owned-l1" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Network Blocks owned by the organization can be passively obtained
+<li><p>Network Blocks owned by the organization can be passively obtained
 from performing whois searches. DNSStuff.com is a one stop shop for
-obtaining this type of information.</li>
-<li>Open Source searches for IP Addresses could yield information about
+obtaining this type of information.</p></li>
+<li><p>Open Source searches for IP Addresses could yield information about
 the types of infrastructure at the target. Administrators often post
 ip address information in the context of help requests on various
-support sites.</li>
+support sites.</p></li>
 </ul>
-</div>
-<div class="section" id="email-addresses-l1">
+</section>
+<section id="email-addresses-l1">
 <h5>Email addresses (L1)<a class="headerlink" href="#email-addresses-l1" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>E-mail addresses provide a potential list of valid usernames and
-domain structure</li>
-<li>E-mail addresses can be gathered from multiple sources including the
-organizations website.</li>
+<li><p>E-mail addresses provide a potential list of valid usernames and
+domain structure</p></li>
+<li><p>E-mail addresses can be gathered from multiple sources including the
+organizations website.</p></li>
 </ul>
-</div>
-<div class="section" id="external-infrastructure-profile-l1">
+</section>
+<section id="external-infrastructure-profile-l1">
 <h5>External infrastructure profile (L1)<a class="headerlink" href="#external-infrastructure-profile-l1" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>The target&#8217;s external infrastructure profile can provide immense
-information about the technologies used internally.</li>
-<li>This information can be gathered from multiple sources both passively
-and actively.</li>
-<li>The profile should be utilized in assembling an attack scenario
-against the external infrastructure.</li>
+<li><p>The target’s external infrastructure profile can provide immense
+information about the technologies used internally.</p></li>
+<li><p>This information can be gathered from multiple sources both passively
+and actively.</p></li>
+<li><p>The profile should be utilized in assembling an attack scenario
+against the external infrastructure.</p></li>
 </ul>
-</div>
-<div class="section" id="technologies-used-l1-l2">
+</section>
+<section id="technologies-used-l1-l2">
 <h5>Technologies used (L1/L2)<a class="headerlink" href="#technologies-used-l1-l2" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>OSINT searches through support forums, mailing lists and other
-resources can gather information of technologies used at the target</li>
-<li>Use of Social engineering against the identified information
-technology organization</li>
-<li>Use of social engineering against product vendors</li>
+<li><p>OSINT searches through support forums, mailing lists and other
+resources can gather information of technologies used at the target</p></li>
+<li><p>Use of Social engineering against the identified information
+technology organization</p></li>
+<li><p>Use of social engineering against product vendors</p></li>
 </ul>
-</div>
-<div class="section" id="purchase-agreements-l1-l2-l3">
+</section>
+<section id="purchase-agreements-l1-l2-l3">
 <h5>Purchase agreements (L1/L2/L3)<a class="headerlink" href="#purchase-agreements-l1-l2-l3" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Purchase agreements contain information about hardware, software,
-licenses and additional tangible asset in place at the target.</li>
+<li><p>Purchase agreements contain information about hardware, software,
+licenses and additional tangible asset in place at the target.</p></li>
 </ul>
-</div>
-<div class="section" id="remote-access-l1-l2">
+</section>
+<section id="remote-access-l1-l2">
 <h5>Remote access (L1/L2)<a class="headerlink" href="#remote-access-l1-l2" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Obtaining information on how employees and/or clients connect into
-the target for remote access provides a potential point of ingress.</li>
-<li>Often times link to remote access portal are available off of the
-target&#8217;s home page</li>
-<li>How To documents reveal applications/procedures to connect for remote
-users</li>
+<li><p>Obtaining information on how employees and/or clients connect into
+the target for remote access provides a potential point of ingress.</p></li>
+<li><p>Often times link to remote access portal are available off of the
+target’s home page</p></li>
+<li><p>How To documents reveal applications/procedures to connect for remote
+users</p></li>
 </ul>
-</div>
-<div class="section" id="application-usage-l1-l2">
+</section>
+<section id="application-usage-l1-l2">
 <h5>Application usage (L1/L2)<a class="headerlink" href="#application-usage-l1-l2" title="Permalink to this headline">¶</a></h5>
 <p>Gather a list of known application used by the target organization. This
 can often be achieved by extracting metadata from publicly accessible
 files (as discussed previously)</p>
-</div>
-<div class="section" id="defense-technologies-l1-l2-l3">
+</section>
+<section id="defense-technologies-l1-l2-l3">
 <h5>Defense technologies (L1/L2/L3)<a class="headerlink" href="#defense-technologies-l1-l2-l3" title="Permalink to this headline">¶</a></h5>
 <p>Fingerprinting defensive technologies in use can be achieved in a number
 of ways depending on the defenses in use.</p>
-<div class="section" id="passive-fingerprinting">
+<section id="passive-fingerprinting">
 <h6>Passive fingerprinting<a class="headerlink" href="#passive-fingerprinting" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
-<li>Search forums and publicly accessible information where technicians
+<li><p>Search forums and publicly accessible information where technicians
 of the target organisation may be discussing issues or asking for
-assistance on the technology in use</li>
-<li>Search marketing information for the target organisation as well as
-popular technology vendors</li>
-<li>Using Tin-eye (or another image matching tool) search for the target
+assistance on the technology in use</p></li>
+<li><p>Search marketing information for the target organisation as well as
+popular technology vendors</p></li>
+<li><p>Using Tin-eye (or another image matching tool) search for the target
 organisations logo to see if it is listed on vendor reference pages
-or marketing material</li>
+or marketing material</p></li>
 </ul>
-</div>
-<div class="section" id="active-fingerprinting">
+</section>
+<section id="active-fingerprinting">
 <h6>Active fingerprinting<a class="headerlink" href="#active-fingerprinting" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
-<li>Send appropriate probe packets to the public facing systems to test
+<li><p>Send appropriate probe packets to the public facing systems to test
 patterns in blocking. Several tools exist for fingerprinting of
-specific WAF types.</li>
-<li>Header information both in responses from the target website and
+specific WAF types.</p></li>
+<li><p>Header information both in responses from the target website and
 within emails often show information not only on the systems in use,
 but also the specific protection mechanisms enabled (e.g. Email
-gateway Anti-virus scanners)</li>
+gateway Anti-virus scanners)</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="human-capability-l1-l2-l3">
+</section>
+</section>
+<section id="human-capability-l1-l2-l3">
 <h5>Human capability (L1/L2/L3)<a class="headerlink" href="#human-capability-l1-l2-l3" title="Permalink to this headline">¶</a></h5>
 <p>Discovering the defensive human capability of a target organization can
 be difficult. There are several key pieces of information that could
 assist in judging the security of the target organization.</p>
 <ul class="simple">
-<li>Check for the presence of a company-wide CERT/CSIRT/PSRT team</li>
-<li>Check for advertised jobs to see how often a security position is
-listed</li>
-<li>Check for advertised jobs to see if security is listed as a
-requirement for non-security jobs (e.g. developers)</li>
-<li>Check for out-sourcing agreements to see if the security of the
-target has been outsourced partially or in it&#8217;s entirety</li>
-<li>Check for specific individuals working for the company that may be
-active in the security community</li>
+<li><p>Check for the presence of a company-wide CERT/CSIRT/PSRT team</p></li>
+<li><p>Check for advertised jobs to see how often a security position is
+listed</p></li>
+<li><p>Check for advertised jobs to see if security is listed as a
+requirement for non-security jobs (e.g. developers)</p></li>
+<li><p>Check for out-sourcing agreements to see if the security of the
+target has been outsourced partially or in it’s entirety</p></li>
+<li><p>Check for specific individuals working for the company that may be
+active in the security community</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="financial">
+</section>
+</section>
+<section id="financial">
 <h4>Financial<a class="headerlink" href="#financial" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="reporting-l1-l2">
+<section id="reporting-l1-l2">
 <h5>Reporting (L1/L2)<a class="headerlink" href="#reporting-l1-l2" title="Permalink to this headline">¶</a></h5>
 <p>The targets financial reporting will depend heavily on the location of
 the organization. Reporting may also be made through the organizations
 head office and not for each branch office. In 2008 the SEC issued a
 proposed roadmap for adoption of the International Financial Reporting
 Standards (IFRS) in the US.</p>
-<p>IFRS Adoption per country &#8211;&gt;
+<p>IFRS Adoption per country –&gt;
 <a class="reference external" href="http://www.iasplus.com/en/resources/use-of-ifrs">http://www.iasplus.com/en/resources/use-of-ifrs</a></p>
-</div>
-<div class="section" id="market-analysis-l1-l2-l3">
+</section>
+<section id="market-analysis-l1-l2-l3">
 <h5>Market analysis (L1/L2/L3)<a class="headerlink" href="#market-analysis-l1-l2-l3" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Obtain market analysis reports from analyst organizations (such as
-Gartner, IDC, Forrester, 541, etc...). This should include what the
+<li><p>Obtain market analysis reports from analyst organizations (such as
+Gartner, IDC, Forrester, 541, etc…). This should include what the
 market definition is, market cap, competitors, and any major changes
-to the valuation, product, or company in general.</li>
+to the valuation, product, or company in general.</p></li>
 </ul>
-<div class="section" id="trade-capital">
+<section id="trade-capital">
 <h6>Trade capital<a class="headerlink" href="#trade-capital" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
-<li>Identify is the organization is allocating any trade capital, and in
+<li><p>Identify is the organization is allocating any trade capital, and in
 what percentage of the overall valuation and free capital it has.
 This will indicate how sensitive the organization is to market
 fluctuations, and whether it depends on external investment as part
-of it&#8217;s valuation and cash flow.</li>
+of it’s valuation and cash flow.</p></li>
 </ul>
-</div>
-<div class="section" id="value-history">
+</section>
+<section id="value-history">
 <h6>Value history<a class="headerlink" href="#value-history" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
-<li>Charting of the valuation of the organization over time, in order to
+<li><p>Charting of the valuation of the organization over time, in order to
 establish correlation between external and internal events, and their
-effect on the valuation.</li>
+effect on the valuation.</p></li>
 </ul>
-</div>
-<div class="section" id="edgar-sec">
+</section>
+<section id="edgar-sec">
 <h6>EDGAR (SEC)<a class="headerlink" href="#edgar-sec" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
-<li>What is it: EDGAR (the Electronic Data Gathering, Analysis, and
+<li><p>What is it: EDGAR (the Electronic Data Gathering, Analysis, and
 Retrieval system) is a database of the U.S. Security and Exchanges
 Commission (SEC) that contains registration statements, periodic
 reports, and other information of all companies (both foreign and
-domestic) who are required by law to file.</li>
-<li>Why do it: EDGAR data is important because, in additional to
+domestic) who are required by law to file.</p></li>
+<li><p>Why do it: EDGAR data is important because, in additional to
 financial information, it identifies key personnel within a company
 that may not be otherwise notable from a company’s website or other
 public presence. It also includes statements of executive
 compensation, names and addresses of major common stock owners, a
 summary of legal proceedings against the company, economic risk
-factors, and other potentially interesting data.</li>
-<li>How to obtain: The information is available on the SEC’s EDGAR
+factors, and other potentially interesting data.</p></li>
+<li><p>How to obtain: The information is available on the SEC’s EDGAR
 website (<a class="reference external" href="http://www.sec.gov/edgar.shtml">http://www.sec.gov/edgar.shtml</a>). Reports of particular
 interest include the 10-K (annual report) and 10-Q (quarterly
-report).</li>
+report).</p></li>
 </ul>
-</div>
-</div>
-</div>
-</div>
-<div class="section" id="individual">
+</section>
+</section>
+</section>
+</section>
+<section id="individual">
 <h3>Individual<a class="headerlink" href="#individual" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="employee">
+<section id="employee">
 <h4>Employee<a class="headerlink" href="#employee" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="history">
+<section id="history">
 <h5>History<a class="headerlink" href="#history" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Court Records (L2/L3)<ul>
-<li>What is it: Court records are all the public records related to
+<li><p>Court Records (L2/L3)</p>
+<ul>
+<li><p>What is it: Court records are all the public records related to
 criminal and/or civil complaints, lawsuits, or other legal actions
-for or against a person or organization of interest.</li>
-<li>Why you would do it: Court records could potentially reveal
+for or against a person or organization of interest.</p></li>
+<li><p>Why you would do it: Court records could potentially reveal
 sensitive information related to an individual employee or the
 company as a whole. This information could be useful by itself or
 may be the driver for gaining additional information. It could
 also be used for social engineering or other purposes later on in
-the penetration test.</li>
-<li>How you would do it: Much of this information is now available on
+the penetration test.</p></li>
+<li><p>How you would do it: Much of this information is now available on
 the Internet via publicly available court websites and records
 databases. Some additional information may be available via pay
 services such as LEXIS/NEXIS. Some information may be available
-via records request or in person requests.</li>
+via records request or in person requests.</p></li>
 </ul>
 </li>
-<li>Political Donations (L2/L3)<ul>
-<li>What is it: Political donations are an individual’s personal funds
+<li><p>Political Donations (L2/L3)</p>
+<ul>
+<li><p>What is it: Political donations are an individual’s personal funds
 directed to specific political candidates, political parties, or
-special interest organizations.</li>
-<li>Why you would do it: Information about political donations could
+special interest organizations.</p></li>
+<li><p>Why you would do it: Information about political donations could
 potentially reveal useful information related to an individual.
 This information could be used as a part of social network
 analysis to help draw connections between individuals and
 politicians, political candidates, or other political
 organizations. It could also be used for social engineering or
-other purposes later on in the penetration test.</li>
-<li>How you would do it: Much of this information is now available on
+other purposes later on in the penetration test.</p></li>
+<li><p>How you would do it: Much of this information is now available on
 the Internet via publicly available websites (i.e.,
 <a class="reference external" href="http://www.opensecrets.org/">http://www.opensecrets.org/</a>) that track political donations by
 individual. Depending upon the laws of a given state, donations
-over a certain amount are usually required to be recorded.</li>
+over a certain amount are usually required to be recorded.</p></li>
 </ul>
 </li>
-<li>Professional licenses or registries (L2/L3)<ul>
-<li>What is it: Professional licenses or registries are repositories
+<li><p>Professional licenses or registries (L2/L3)</p>
+<ul>
+<li><p>What is it: Professional licenses or registries are repositories
 of information that contain lists of members and other related
 information for individuals who have attained a particular license
-or some measure of specific affiliation within a community.</li>
-<li>Why you would do it: Information about professional licenses could
+or some measure of specific affiliation within a community.</p></li>
+<li><p>Why you would do it: Information about professional licenses could
 potentially reveal useful information related to an individual.
-This information could be used to validate an individual&#8217;s
+This information could be used to validate an individual’s
 trustworthiness (do they really have a particular certification as
 they claim) or as a part of social network analysisto help draw
 connections between individuals and other organizations. It could
 also be used for social engineering or other purposes later on in
-the penetration test.</li>
-<li>How you would do it: Much of this information is now available on
+the penetration test.</p></li>
+<li><p>How you would do it: Much of this information is now available on
 the Internet via publicly available websites. Typically, each
 organization maintains their own registry of information that may
-be available online or may require additional steps to gather.</li>
+be available online or may require additional steps to gather.</p></li>
 </ul>
 </li>
 </ul>
-</div>
-<div class="section" id="social-network-socnet-profile">
+</section>
+<section id="social-network-socnet-profile">
 <h5>Social Network (SocNet) Profile<a class="headerlink" href="#social-network-socnet-profile" title="Permalink to this headline">¶</a></h5>
 <ul>
-<li><p class="first">Metadata Leakage (L2/L3)</p>
+<li><p>Metadata Leakage (L2/L3)</p>
 <ul class="simple">
-<li>Location awareness via Photo Metadata</li>
+<li><p>Location awareness via Photo Metadata</p></li>
 </ul>
 </li>
-<li><p class="first">Tone (L2/L3)</p>
+<li><p>Tone (L2/L3)</p>
 <ul class="simple">
-<li>Expected deliverable: subjective identification of the tone used
+<li><p>Expected deliverable: subjective identification of the tone used
 in communications – aggressive, passive, appealing, sales,
 praising, dissing, condescending, arrogance, elitist, underdog,
-leader, follower, mimicking, etc…</li>
+leader, follower, mimicking, etc…</p></li>
 </ul>
 </li>
-<li><p class="first">Frequency (L2/L3)</p>
+<li><p>Frequency (L2/L3)</p>
 <ul class="simple">
-<li>Expected deliverable: Identification of the frequency of
+<li><p>Expected deliverable: Identification of the frequency of
 publications (once an hour/day/week, etc…). Additionally - time of
-day/week in which communications are prone to happen.</li>
+day/week in which communications are prone to happen.</p></li>
 </ul>
 </li>
-<li><p class="first">Location awareness (L2/L3)</p>
+<li><p>Location awareness (L2/L3)</p>
 <blockquote>
 <div><p>Map location history for the person profiled from various
 sources, whether through direct interaction with applications and
@@ -985,135 +899,137 @@ social networks, or through passive participation through photo
 metadata.</p>
 </div></blockquote>
 <ul class="simple">
-<li>Bing Map Apps</li>
-<li>Foursquare</li>
-<li>Google Latitude</li>
-<li>Yelp</li>
-<li>Gowalla</li>
+<li><p>Bing Map Apps</p></li>
+<li><p>Foursquare</p></li>
+<li><p>Google Latitude</p></li>
+<li><p>Yelp</p></li>
+<li><p>Gowalla</p></li>
 </ul>
 </li>
-<li><p class="first">Social Media Presence (L1/L2/L3)</p>
+<li><p>Social Media Presence (L1/L2/L3)</p>
 <blockquote>
 <div><p>Verify target’s social media account/presence (L1). And provide
 detailed analysis (L2/L3)</p>
 </div></blockquote>
 </li>
 </ul>
-</div>
-<div class="section" id="internet-presence">
+</section>
+<section id="internet-presence">
 <h5>Internet Presence<a class="headerlink" href="#internet-presence" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Email Address (L1)<ul>
-<li>What it is? Email addresses are the public mail box ids of the
-users.</li>
-<li>Why you would do it? Email address harvesting or searching is
+<li><p>Email Address (L1)</p>
+<ul>
+<li><p>What it is? Email addresses are the public mail box ids of the
+users.</p></li>
+<li><p>Why you would do it? Email address harvesting or searching is
 important because it serves multiple purposes - provides a
 probable user-id format which can later be brute-forced for access
 but more importantly it helps sending targeted spams and even to
 automated bots. These spam emails can contain exploits, malware
 etc. and can be addressed with specific content particularly to a
-user.</li>
-<li>How you would do it? Email addresses can be searched and extracted
+user.</p></li>
+<li><p>How you would do it? Email addresses can be searched and extracted
 from various websites, groups, blogs, forums, social networking
 portals etc. These email addresses are also available from various
 tech support websites. There are harvesting and spider tools to
 perform search for email addresses mapped to a certain domain (if
-needed).</li>
+needed).</p></li>
 </ul>
 </li>
-<li>Personal Handles/Nicknames (L1)</li>
-<li>Personal Domain Names registered (L1/L2)</li>
-<li>Assigned Static IPs/Netblocks (L1/L2)</li>
+<li><p>Personal Handles/Nicknames (L1)</p></li>
+<li><p>Personal Domain Names registered (L1/L2)</p></li>
+<li><p>Assigned Static IPs/Netblocks (L1/L2)</p></li>
 </ul>
-</div>
-<div class="section" id="physical-location">
+</section>
+<section id="physical-location">
 <h5>Physical Location<a class="headerlink" href="#physical-location" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Physical Location<ul>
-<li>Can you derive the target&#8217;s physical location</li>
+<li><p>Physical Location</p>
+<ul>
+<li><p>Can you derive the target’s physical location</p></li>
 </ul>
 </li>
 </ul>
-</div>
-<div class="section" id="mobile-footprint">
+</section>
+<section id="mobile-footprint">
 <h5>Mobile Footprint<a class="headerlink" href="#mobile-footprint" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Phone number (L1/L2/L3)</li>
-<li>Device type (L1/L2/L3)</li>
-<li>Use (L1/L2/L3)</li>
-<li>Installed applications (L1/L2/L3)</li>
-<li>Owner/administrator (L1/L2/L3)</li>
+<li><p>Phone number (L1/L2/L3)</p></li>
+<li><p>Device type (L1/L2/L3)</p></li>
+<li><p>Use (L1/L2/L3)</p></li>
+<li><p>Installed applications (L1/L2/L3)</p></li>
+<li><p>Owner/administrator (L1/L2/L3)</p></li>
 </ul>
-</div>
-<div class="section" id="for-pay-information">
-<h5>&#8220;For Pay&#8221; Information<a class="headerlink" href="#for-pay-information" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="for-pay-information">
+<h5>“For Pay” Information<a class="headerlink" href="#for-pay-information" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
-<li>Background Checks</li>
-<li>For Pay Linked-In</li>
-<li>LEXIS/NEXIS</li>
+<li><p>Background Checks</p></li>
+<li><p>For Pay Linked-In</p></li>
+<li><p>LEXIS/NEXIS</p></li>
 </ul>
-</div>
-</div>
-</div>
-</div>
-<div class="section" id="covert-gathering">
+</section>
+</section>
+</section>
+</section>
+<section id="covert-gathering">
 <h2>Covert Gathering<a class="headerlink" href="#covert-gathering" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id3">
+<section id="id3">
 <h3>Corporate<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="on-location-gathering">
+<section id="on-location-gathering">
 <h4>On-Location Gathering<a class="headerlink" href="#on-location-gathering" title="Permalink to this headline">¶</a></h4>
 <p>Selecting specific locations for onsite gathering, and then performing
 reconnaissance over time (usually at least 2-3 days in order to assure
 patterns). The following elements are sought after when performing
 onsite intelligence gathering:</p>
 <ul class="simple">
-<li>Physical security inspections</li>
-<li>Wireless scanning / RF frequency scanning</li>
-<li>Employee behavior training inspection</li>
-<li>Accessible/adjacent facilities (shared spaces)</li>
-<li>Dumpster diving</li>
-<li>Types of equipment in use</li>
+<li><p>Physical security inspections</p></li>
+<li><p>Wireless scanning / RF frequency scanning</p></li>
+<li><p>Employee behavior training inspection</p></li>
+<li><p>Accessible/adjacent facilities (shared spaces)</p></li>
+<li><p>Dumpster diving</p></li>
+<li><p>Types of equipment in use</p></li>
 </ul>
-</div>
-<div class="section" id="offsite-gathering">
+</section>
+<section id="offsite-gathering">
 <h4>Offsite Gathering<a class="headerlink" href="#offsite-gathering" title="Permalink to this headline">¶</a></h4>
 <p>Identifying offsite locations and their importance/relation to the
 organization. These are both logical as well as physical locations as
 per the below:</p>
 <ul class="simple">
-<li>Data center locations</li>
-<li>Network provisioning/provider</li>
+<li><p>Data center locations</p></li>
+<li><p>Network provisioning/provider</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="humint">
+</section>
+</section>
+<section id="humint">
 <h3>HUMINT<a class="headerlink" href="#humint" title="Permalink to this headline">¶</a></h3>
 <p>Human intelligence complements the more passive gathering on the asset
 as it provides information that could not have been obtained otherwise,
 as well as add more “personal” perspectives to the intelligence picture
 (feelings, history, relationships between key individuals, “atmosphere”,
-etc...)</p>
+etc…)</p>
 <p>The methodology of obtaining human intelligence always involves direct
 interaction - whether physical, or verbal. Gathering should be done
 under an assumed identity, that would be created specifically to achieve
 optimal information exposure and cooperation from the asset in question.</p>
 <p>Additionally, intelligence gathering on more sensitive targets can be
 performed by utilizing observation only - again, either physically on
-location, or through electronic/remote means (CCTV, webcams, etc...).
+location, or through electronic/remote means (CCTV, webcams, etc…).
 This is usually done in order to establish behavioral patterns (such as
 frequency of visitations, dress code, access paths, key locations that
 may provide additional access such as coffee shops).</p>
-<div class="section" id="results">
+<section id="results">
 <h4>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li>Key Employees</li>
-<li>Partners/Suppliers</li>
-<li>Social Engineering</li>
+<li><p>Key Employees</p></li>
+<li><p>Partners/Suppliers</p></li>
+<li><p>Social Engineering</p></li>
 </ul>
-</div>
-</div>
-</div>
-<div class="section" id="footprinting">
+</section>
+</section>
+</section>
+<section id="footprinting">
 <h2>Footprinting<a class="headerlink" href="#footprinting" title="Permalink to this headline">¶</a></h2>
 <p>WHAT IT IS: External information gathering, also known as footprinting,
 is a phase of information gathering that consists of interaction with
@@ -1125,63 +1041,63 @@ can be fingerprinted, or even more simply, a banner can be procured
 which will identify the device. This step is necessary to gather more
 information about your targets. Your goal, after this section, is a
 prioritized list of targets.</p>
-<div class="section" id="external-footprinting">
+<section id="external-footprinting">
 <h3>External Footprinting<a class="headerlink" href="#external-footprinting" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="identify-customer-external-ranges">
+<section id="identify-customer-external-ranges">
 <h4>Identify Customer External Ranges<a class="headerlink" href="#identify-customer-external-ranges" title="Permalink to this headline">¶</a></h4>
 <p>One of the major goals of intelligence gathering during a penetration
 test is to determine hosts which will be in scope. There are a number of
 techniques which can be used to identify systems, including using
 reverse DNS lookups, DNS bruting, WHOIS searches on the domains and the
 ranges. These techniques and others are documented below.</p>
-</div>
-<div class="section" id="passive-reconnaissance">
+</section>
+<section id="passive-reconnaissance">
 <h4>Passive Reconnaissance<a class="headerlink" href="#passive-reconnaissance" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="whois-lookups">
+<section id="whois-lookups">
 <h5>WHOIS Lookups<a class="headerlink" href="#whois-lookups" title="Permalink to this headline">¶</a></h5>
 <p>For external footprinting, we first need to determine which one of the
-WHOIS servers contains the information we&#8217;re after. Given that we should
+WHOIS servers contains the information we’re after. Given that we should
 know the TLD for the target domain, we simply have to locate the
 Registrar that the target domain is registered with.</p>
 <p>WHOIS information is based upon a tree hierarchy. ICANN (IANA) is the
 authoritative registry for all of the TLDs and is a great starting point
 for all manual WHOIS queries.</p>
 <ul class="simple">
-<li>ICANN - <a class="reference external" href="http://www.icann.org">http://www.icann.org</a></li>
-<li>IANA - <a class="reference external" href="http://www.iana.com">http://www.iana.com</a></li>
-<li>NRO - <a class="reference external" href="http://www.nro.net">http://www.nro.net</a></li>
-<li>AFRINIC - <a class="reference external" href="http://www.afrinic.net">http://www.afrinic.net</a></li>
-<li>APNIC - <a class="reference external" href="http://www.apnic.net">http://www.apnic.net</a></li>
-<li>ARIN - <a class="reference external" href="http://ws.arin.net">http://ws.arin.net</a></li>
-<li>LACNIC - <a class="reference external" href="http://www.lacnic.net">http://www.lacnic.net</a></li>
-<li>RIPE - <a class="reference external" href="http://www.ripe.net">http://www.ripe.net</a></li>
+<li><p>ICANN - <a class="reference external" href="http://www.icann.org">http://www.icann.org</a></p></li>
+<li><p>IANA - <a class="reference external" href="http://www.iana.com">http://www.iana.com</a></p></li>
+<li><p>NRO - <a class="reference external" href="http://www.nro.net">http://www.nro.net</a></p></li>
+<li><p>AFRINIC - <a class="reference external" href="http://www.afrinic.net">http://www.afrinic.net</a></p></li>
+<li><p>APNIC - <a class="reference external" href="http://www.apnic.net">http://www.apnic.net</a></p></li>
+<li><p>ARIN - <a class="reference external" href="http://ws.arin.net">http://ws.arin.net</a></p></li>
+<li><p>LACNIC - <a class="reference external" href="http://www.lacnic.net">http://www.lacnic.net</a></p></li>
+<li><p>RIPE - <a class="reference external" href="http://www.ripe.net">http://www.ripe.net</a></p></li>
 </ul>
 <p>Once the appropriate Registrar was queried we can obtain the Registrant
 information. There are numerous sites that offer WHOIS information;
 however for accuracy in documentation, you need to use only the
 appropriate Registrar.</p>
 <ul class="simple">
-<li>InterNIC - <a class="reference external" href="http://www.internic.net/">http://www.internic.net/</a> <a class="reference external" href="http://www.internic.net">http://www.internic.net</a>]</li>
+<li><p>InterNIC - <a class="reference external" href="http://www.internic.net/">http://www.internic.net/</a> <a class="reference external" href="http://www.internic.net">http://www.internic.net</a>]</p></li>
 </ul>
 <p>Typically, a simple whois against ARIN will refer you to the correct
 registrar.</p>
-</div>
-<div class="section" id="bgp-looking-glasses">
+</section>
+<section id="bgp-looking-glasses">
 <h5>BGP looking glasses<a class="headerlink" href="#bgp-looking-glasses" title="Permalink to this headline">¶</a></h5>
 <p>It is possible to identify the Autonomous System Number (ASN) for
 networks that participate in Border Gateway Protocol (BGP). Since BGP
 route paths are advertised throughout the world we can find these by
 using a BGP4 and BGP6 looking glass.</p>
 <ul class="simple">
-<li>BGP4 -
-<a class="reference external" href="http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg">http://www.bgp4.as/looking-glasses</a></li>
-<li>BPG6 - <a class="reference external" href="http://lg.he.net/">http://lg.he.net/</a></li>
+<li><p>BGP4 -
+<a class="reference external" href="http://www.google.com/url?q=http%3A%2F%2Fwww.bgp4.as%2Flooking-glasses&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGJNLNRaL6xeGcya4mZ9NPyOFd8Tg">http://www.bgp4.as/looking-glasses</a></p></li>
+<li><p>BPG6 - <a class="reference external" href="http://lg.he.net/">http://lg.he.net/</a></p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="active-footprinting">
+</section>
+</section>
+<section id="active-footprinting">
 <h4>Active Footprinting<a class="headerlink" href="#active-footprinting" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="port-scanning">
+<section id="port-scanning">
 <h5>Port Scanning<a class="headerlink" href="#port-scanning" title="Permalink to this headline">¶</a></h5>
 <p>Port scanning techniques will vary based on the amount of time available
 for the test, and the need to be stealthy. If there is zero knowledge of
@@ -1190,7 +1106,7 @@ addition, a quick scan without ping verification (-PN in nmap) should be
 run to detect the most common ports avialable. Once this is complete, a
 more comprehensive scan can be run. Some testers check for only open TCP
 ports, make sure to check UDP as well. The <a class="reference external" href="http://nmap.org/nmap_doc.html">http://nmap.org/nmap_doc.html</a>
-document details port scan types. Nmap (&#8220;Network Mapper&#8221;) is the de
+document details port scan types. Nmap (“Network Mapper”) is the de
 facto standard for network auditing/scanning. Nmap runs on both Linux
 and Windows.</p>
 <p>You can find more information on the use of Nmap for this purpose in the
@@ -1204,8 +1120,8 @@ time that you have to perform this tasks, the less that we will
 interrogate the host. This will become evident as we continue to discuss
 the options.</p>
 <p>IPv6 should also be tested.</p>
-</div>
-<div class="section" id="banner-grabbing">
+</section>
+<section id="banner-grabbing">
 <h5>Banner Grabbing<a class="headerlink" href="#banner-grabbing" title="Permalink to this headline">¶</a></h5>
 <p>Banner Grabbing is an enumeration technique used to glean information
 about computer systems on a network and the services running its open
@@ -1215,23 +1131,23 @@ applications and operating system that the target host are running.</p>
 (HTTP), File Transfer Protocol (FTP), and Simple Mail Transfer Protocol
 (SMTP); ports 80, 21, and 25 respectively. Tools commonly used to
 perform banner grabbing are Telnet, nmap, and Netcat.</p>
-</div>
-<div class="section" id="snmp-sweeps">
+</section>
+<section id="snmp-sweeps">
 <h5>SNMP Sweeps<a class="headerlink" href="#snmp-sweeps" title="Permalink to this headline">¶</a></h5>
 <p>SNMP sweeps are performed too as they offer tons of information about a
 specific system. The SNMP protocol is a stateless, datagram oriented
-protocol. Unfortunately SNMP servers don&#8217;t respond to requests with
+protocol. Unfortunately SNMP servers don’t respond to requests with
 invalid community strings and the underlying UDP protocol does not
-reliably report closed UDP ports. This means that &#8220;no response&#8221; from a
+reliably report closed UDP ports. This means that “no response” from a
 probed IP address can mean either of the following:</p>
 <ul class="simple">
-<li>machine unreachable</li>
-<li>SNMP server not running</li>
-<li>invalid community string</li>
-<li>the response datagram has not yet arrived</li>
+<li><p>machine unreachable</p></li>
+<li><p>SNMP server not running</p></li>
+<li><p>invalid community string</p></li>
+<li><p>the response datagram has not yet arrived</p></li>
 </ul>
-</div>
-<div class="section" id="zone-transfers">
+</section>
+<section id="zone-transfers">
 <h5>Zone Transfers<a class="headerlink" href="#zone-transfers" title="Permalink to this headline">¶</a></h5>
 <p>DNS zone transfer, also known as AXFR, is a type of DNS transaction. It
 is a mechanism designed to replicate the databases containing the DNS
@@ -1239,8 +1155,8 @@ data across a set of DNS servers. Zone transfer comes in two flavors,
 full (AXFR) and incremental (IXFR). There are numerous tools available
 to test the ability to perform a DNS zone transfer. Tools commonly used
 to perform zone transfers are host, dig and nmap.</p>
-</div>
-<div class="section" id="smtp-bounce-back">
+</section>
+<section id="smtp-bounce-back">
 <h5>SMTP Bounce Back<a class="headerlink" href="#smtp-bounce-back" title="Permalink to this headline">¶</a></h5>
 <p>SMTP bounce back, also called a Non-Delivery Report/Receipt (NDR), a
 (failed) Delivery Status Notification (DSN) message, a Non-Delivery
@@ -1249,19 +1165,19 @@ message from a mail system informing the sender of another message about
 a delivery problem. This can be used to assist an attacker in
 fingerprint the SMTP server as SMTP server information, including
 software and versions, may be included in a bounce message.</p>
-<p>This can be done by simply creating a bogus address within the target&#8217;s
+<p>This can be done by simply creating a bogus address within the target’s
 domain. For instance, <a class="reference external" href="mailto:asDFADSF_garbage_address&#37;&#52;&#48;target&#46;com">asDFADSF_garbage_address<span>&#64;</span>target<span>&#46;</span>com</a> could be
 used to test target.com. Gmail provides full access to the headers,
 making it an easy choice for testers.</p>
-</div>
-<div class="section" id="dns-discovery">
+</section>
+<section id="dns-discovery">
 <h5>DNS Discovery<a class="headerlink" href="#dns-discovery" title="Permalink to this headline">¶</a></h5>
 <p>DNS discovery can be performed by looking at the WHOIS records for the
-domain&#8217;s authoritative nameserver. Additionally, variations of the main
+domain’s authoritative nameserver. Additionally, variations of the main
 domain name should be checked, and the website should be checked for
-references to other domains which could be under the target&#8217;s control.</p>
-</div>
-<div class="section" id="forward-reverse-dns">
+references to other domains which could be under the target’s control.</p>
+</section>
+<section id="forward-reverse-dns">
 <h5>Forward/Reverse DNS<a class="headerlink" href="#forward-reverse-dns" title="Permalink to this headline">¶</a></h5>
 <p>Reverse DNS can be used to obtain valid server names in use within an
 organizational. There is a caveat that it must have a PTR (reverse) DNS
@@ -1269,8 +1185,8 @@ record for it to resolve a name from a provided IP address. If it does
 resolve then the results are returned. This is usually performed by
 testing the server with various IP addresses to see if it returns any
 results.</p>
-</div>
-<div class="section" id="dns-bruteforce">
+</section>
+<section id="dns-bruteforce">
 <h5>DNS Bruteforce<a class="headerlink" href="#dns-bruteforce" title="Permalink to this headline">¶</a></h5>
 <p>After identifying all the information that is associated with the client
 domain(s), it is now time to begin to query DNS. Since DNS is used to
@@ -1281,8 +1197,8 @@ involving DNS is allowing Internet users to perform a DNS zone transfer.
 There are several tools that we can use to enumerate DNS to not only
 check for the ability to perform zone transfers, but to potentially
 discover additional host names that are not commonly known.</p>
-</div>
-<div class="section" id="web-application-discovery">
+</section>
+<section id="web-application-discovery">
 <h5>Web Application Discovery<a class="headerlink" href="#web-application-discovery" title="Permalink to this headline">¶</a></h5>
 <p>Identifying weak web applications can be a particularly fruitful
 activity during a penetration test. Things to look for include OTS
@@ -1290,27 +1206,27 @@ applications that have been misconfigured, OTS application which have
 plugin functionality (plugins often contain more vulnerable code than
 the base application), and custom applications. Web application
 fingerprinters such as WAFP can be used here to great effect.</p>
-</div>
-<div class="section" id="virtual-host-detection-enumeration">
+</section>
+<section id="virtual-host-detection-enumeration">
 <h5>Virtual Host Detection &amp; Enumeration<a class="headerlink" href="#virtual-host-detection-enumeration" title="Permalink to this headline">¶</a></h5>
-<p>Web servers often host multiple &#8220;virtual&#8221; hosts to consolidate
+<p>Web servers often host multiple “virtual” hosts to consolidate
 functionality on a single server. If multiple servers point to the same
 DNS address, they may be hosted on the same server. Tools such as MSN
 search can be used to map an ip address to a set of virtual hosts.</p>
-</div>
-</div>
-<div class="section" id="establish-external-target-list">
+</section>
+</section>
+<section id="establish-external-target-list">
 <h4>Establish External Target List<a class="headerlink" href="#establish-external-target-list" title="Permalink to this headline">¶</a></h4>
 <p>Once the activities above have been completed, a list of users, emails,
 domains, applications, hosts and services should be compiled.</p>
-<div class="section" id="mapping-versions">
+<section id="mapping-versions">
 <h5>Mapping versions<a class="headerlink" href="#mapping-versions" title="Permalink to this headline">¶</a></h5>
 <p>Version checking is a quick way to identify application information. To
 some extent, versions of services can be fingerprinted using nmap, and
 versions of web applications can often be gathered by looking at the
 source of an arbitrary page.</p>
-</div>
-<div class="section" id="identifying-patch-levels">
+</section>
+<section id="identifying-patch-levels">
 <h5>Identifying patch levels<a class="headerlink" href="#identifying-patch-levels" title="Permalink to this headline">¶</a></h5>
 <p>To identify the patch level of services internally, consider using
 software which will interrogate the system for differences between
@@ -1318,8 +1234,8 @@ versions. Credentials may be used for this phase of the penetration
 test, provided the client has acquiesced. Vulnerability scanners are
 particularly effective at identifying patch levels remotely, without
 credentials.</p>
-</div>
-<div class="section" id="looking-for-weak-web-applications">
+</section>
+<section id="looking-for-weak-web-applications">
 <h5>Looking for weak web applications<a class="headerlink" href="#looking-for-weak-web-applications" title="Permalink to this headline">¶</a></h5>
 <p>Identifying weak web applications can be a particularly fruitful
 activity during a penetration test. Things to look for include OTS
@@ -1327,8 +1243,8 @@ applications that have been misconfigured, OTS application which have
 plugin functionality (plugins often contain more vulnerable code than
 the base application), and custom applications. Web application
 fingerprinters such as WAFP can be used here to great effect.</p>
-</div>
-<div class="section" id="identify-lockout-threshold">
+</section>
+<section id="identify-lockout-threshold">
 <h5>Identify lockout threshold<a class="headerlink" href="#identify-lockout-threshold" title="Permalink to this headline">¶</a></h5>
 <p>Identifying the lockout threshold of an authentication service will
 allow you to ensure that your bruteforce attacks do not intentionally
@@ -1336,18 +1252,18 @@ lock out valid users during your testing. Identify all disparate
 authentication services in the environment, and test a single, innocuous
 account for lockout. Often 5 - 10 tries of a valid account is enough to
 determine if the service will lock users out.</p>
-</div>
-</div>
-</div>
-<div class="section" id="internal-footprinting">
+</section>
+</section>
+</section>
+<section id="internal-footprinting">
 <h3>Internal Footprinting<a class="headerlink" href="#internal-footprinting" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="id4">
+<section id="id4">
 <h4>Passive Reconnaissance<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
 <p>If the tester has access to the internal network, packet sniffing can
 provide a great deal of information. Use techniques like those
 implemented in p0f to identify systems.</p>
-</div>
-<div class="section" id="identify-customer-internal-ranges">
+</section>
+<section id="identify-customer-internal-ranges">
 <h4>Identify Customer Internal Ranges<a class="headerlink" href="#identify-customer-internal-ranges" title="Permalink to this headline">¶</a></h4>
 <p>When performing internal testing, first enumerate your local subnet, and
 you can often extrapolate from there to other subnets by modifying the
@@ -1359,149 +1275,112 @@ but also remote IP range and details of important hosts. Most DHCP
 servers will provide a local IP gateway address as well as the address
 of DNS and WINS servers. In Windows based networks, DNS servers tend to
 be Active Directory domain controllers, and thus targets of interest.</p>
-</div>
-<div class="section" id="active-reconnaissance">
+</section>
+<section id="active-reconnaissance">
 <h4>Active Reconnaissance<a class="headerlink" href="#active-reconnaissance" title="Permalink to this headline">¶</a></h4>
 <p>Internal active reconnaissance should contain all the elements of an
 external one, and in addition should focus on intranet functionality
 such as:</p>
 <ul class="simple">
-<li>Directory services (Active Directory, Novell, Sun, etc...)</li>
-<li>Intranet sites providing business functionality</li>
-<li>Enterprise applications (ERP, CRM, Accounting, etc...)</li>
-<li>Identification of sensitive network segments (accounting, R&amp;D,
-marketing, etc...)</li>
-<li>Access mapping to production networks (datacenters)</li>
-<li>VoIP infrastructure</li>
-<li>Authentication provisioning (kerberos, cookie tokens, etc...)</li>
-<li>Proxying and internet access management</li>
+<li><p>Directory services (Active Directory, Novell, Sun, etc…)</p></li>
+<li><p>Intranet sites providing business functionality</p></li>
+<li><p>Enterprise applications (ERP, CRM, Accounting, etc…)</p></li>
+<li><p>Identification of sensitive network segments (accounting, R&amp;D,
+marketing, etc…)</p></li>
+<li><p>Access mapping to production networks (datacenters)</p></li>
+<li><p>VoIP infrastructure</p></li>
+<li><p>Authentication provisioning (kerberos, cookie tokens, etc…)</p></li>
+<li><p>Proxying and internet access management</p></li>
 </ul>
-</div>
-</div>
-</div>
-<div class="section" id="identify-protection-mechanisms">
+</section>
+</section>
+</section>
+<section id="identify-protection-mechanisms">
 <h2>Identify Protection Mechanisms<a class="headerlink" href="#identify-protection-mechanisms" title="Permalink to this headline">¶</a></h2>
 <p>The following elements should be identified and mapped according to the
 relevant location/group/persons in scope. This will enable correct
 application of the vulnerability research and exploitation to be used
 when performing the actual attack - thus maximizing the efficiency of
 the attack, and minimizing the detection ratio.</p>
-<div class="section" id="network-based-protections">
+<section id="network-based-protections">
 <h3>Network Based Protections<a class="headerlink" href="#network-based-protections" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>&#8220;Simple&#8221; Packet Filters</li>
-<li>Traffic Shaping Devices</li>
-<li>DLP Systems</li>
-<li>Encryption/Tunneling</li>
+<li><p>“Simple” Packet Filters</p></li>
+<li><p>Traffic Shaping Devices</p></li>
+<li><p>DLP Systems</p></li>
+<li><p>Encryption/Tunneling</p></li>
 </ul>
-</div>
-<div class="section" id="host-based-protections">
+</section>
+<section id="host-based-protections">
 <h3>Host Based Protections<a class="headerlink" href="#host-based-protections" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Stack/Heap Protections</li>
-<li>Application Whitelisting</li>
-<li>AV/Filtering/Behavioral Analysis</li>
-<li>DLP Systems</li>
+<li><p>Stack/Heap Protections</p></li>
+<li><p>Application Whitelisting</p></li>
+<li><p>AV/Filtering/Behavioral Analysis</p></li>
+<li><p>DLP Systems</p></li>
 </ul>
-</div>
-<div class="section" id="application-level-protections">
+</section>
+<section id="application-level-protections">
 <h3>Application Level Protections<a class="headerlink" href="#application-level-protections" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Identify Application Protections</li>
-<li>Encoding Options</li>
-<li>Potential Bypass Avenues</li>
-<li>Whitelisted Pages</li>
+<li><p>Identify Application Protections</p></li>
+<li><p>Encoding Options</p></li>
+<li><p>Potential Bypass Avenues</p></li>
+<li><p>Whitelisted Pages</p></li>
 </ul>
-</div>
-<div class="section" id="storage-protections">
+</section>
+<section id="storage-protections">
 <h3>Storage Protections<a class="headerlink" href="#storage-protections" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>HBA - Host Level</li>
-<li>LUN Masking</li>
-<li>Storage Controller</li>
-<li>iSCSI CHAP Secret</li>
+<li><p>HBA - Host Level</p></li>
+<li><p>LUN Masking</p></li>
+<li><p>Storage Controller</p></li>
+<li><p>iSCSI CHAP Secret</p></li>
 </ul>
-</div>
-<div class="section" id="user-protections">
+</section>
+<section id="user-protections">
 <h3>User Protections<a class="headerlink" href="#user-protections" title="Permalink to this headline">¶</a></h3>
 <ul>
-<li><p class="first">AV/Spam Filtering Software</p>
+<li><p>AV/Spam Filtering Software</p>
 <blockquote>
 <div><p>SW Configuration which limit exploitability can be considered
 antispam / antiAV</p>
 </div></blockquote>
 </li>
 </ul>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
            </div>
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="threat_modeling.html" class="btn btn-neutral float-right" title="General" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="preengagement_interactions.html" class="btn btn-neutral" title="Pre-engagement Interactions" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="preengagement_interactions.html" class="btn btn-neutral float-left" title="Pre-engagement Interactions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="threat_modeling.html" class="btn btn-neutral float-right" title="Threat Modeling" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        &copy; Copyright 2016, The PTES Team.
-
-    </p>
+    <p>&#169; Copyright 2016, The PTES Team.</p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'1.1',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

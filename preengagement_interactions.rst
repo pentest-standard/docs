@@ -438,13 +438,17 @@ situations the ISP will have specific provisions for testing. Review
 these terms carefully before launching an attack. There are situations
 where ISPs will shun and block certain traffic which is considered
 malicious. The customer may approve this risk, but it must always be
-clearly communicated before beginning. Web Hosting As with all other
-third parties, the scope and timing of the test needs to be clearly
-communicated with the web hosting provider. Also, when communicating
-with the client, be sure to clearly articulate the test will only be in
-search of web vulnerabilities. The test will not uncover vulnerabilities
-in the underlying infrastructure which may still provide an avenue to
-compromise the application.
+clearly communicated before beginning.
+
+Web Hosting
+-----------
+
+As with all other third parties, the scope and timing of the test needs
+to be clearly communicated with the web hosting provider. Also, when
+communicating with the client, be sure to clearly articulate the test
+will only be in search of web vulnerabilities. The test will not uncover
+vulnerabilities in the underlying infrastructure which may still provide
+an avenue to compromise the application.
 
 MSSPs
 -----
@@ -758,8 +762,10 @@ It is not uncommon for an organization to operate in multiple locations
 and regions and a few select sites will need to be chosen for testing.
 In these situations, travel to every customer location should be
 avoided, instead, it should be determined if VPN connections to the
-sites are available for remote testing. Disclosure of Sensitive
-Information
+sites are available for remote testing.
+
+Disclosure of Sensitive Information
+-----------------------------------
 
 While one of the goals of a given engagement may be to gain access to
 sensitive information, certain information should not actually be viewed
